@@ -5,8 +5,12 @@ import utils
 from config import TLMANAGER_URL as URL
 
 def main():
-    root = utils.get_trusted_root()
-    trusted_global_roots = { "roots": [ root ] }
+    # get some random global roots. 
+    # Those represents the roots that the monitor has stored locally
+    root_list = get_global_roots_by_size(tree_size=[2, 4, 7, 10, 15]) 
+    latest_root = utils.get_trusted_root()
+    trusted_global_roots = { "roots": [ root_list, latest_root ] }
+    
 
     global_tree_proofs = get_all_consistency_proof("global_tree")
     result = verify_global_tree_history_consistency(global_tree_proofs, trusted_global_roots)
@@ -20,7 +24,7 @@ def main():
     tree_list = get_local_tree_list()
     for tree in tree_list:
         local_tree_proofs = get_all_consistency_proof(tree)
-        result = verify_local_tree_history_consistency(global_tree_data, local_tree_proofs, root["value"], tree)
+        result = verify_local_tree_history_consistency(global_tree_data, local_tree_proofs, latest_root["value"], tree)
         if(result["success"] == True):
             print(f"Verify consistency on {tree}: ok")
         else:
@@ -58,6 +62,15 @@ def get_local_tree_list():
     tree_list = remove_empty_trees(tree_list)
     return tree_list
 
+def get_global_roots_by_size(tree_size):
+    root_list = []
+    for size in tree_size:
+        response = requests.get(URL + "/global-tree/root", params={
+            "tree_size": size
+        })
+        root = json.loads(response.text)["root"]
+        root_list.append(root)
+    return root_list
 
 if __name__ == "__main__":
     main()
