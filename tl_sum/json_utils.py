@@ -1,5 +1,4 @@
 import ijson
-import json
 
 def get_json_data(filename):
     f = open(filename, 'rb')
