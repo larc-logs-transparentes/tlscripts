@@ -22,7 +22,7 @@ def soma_votos(bu_file, cargo=None):
                 for codigo_candidato in eleicao_type.resultados[resultado_cargo]:
                     resultado_candidato = eleicao_type.resultados[resultado_cargo][codigo_candidato]
                     
-                    if codigo_candidato not in soma_obj.soma_por_cargo[resultado_cargo]:
+                    if str(codigo_candidato) not in soma_obj.soma_por_cargo[resultado_cargo]:
                         soma_obj.soma_por_cargo[resultado_cargo][str(codigo_candidato)] = resultado_candidato
                     else:
                         soma_obj.soma_por_cargo[resultado_cargo][str(codigo_candidato)].quantidade_votos += resultado_candidato.quantidade_votos
