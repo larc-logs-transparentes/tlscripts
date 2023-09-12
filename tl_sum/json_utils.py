@@ -8,12 +8,12 @@ def get_json_data(filename):
     rows = (o for o in objects)
     return f, rows
         
-def print_dict(dict, filename=None):
+def print_dict(dict, filename=None, sort_keys=True):
     if filename is not None:
         with open(filename, 'w') as outfile:
-            json.dump(dict, outfile, indent=4, cls=_EnhancedJSONEncoder, sort_keys=True)
+            json.dump(dict, outfile, indent=4, cls=_EnhancedJSONEncoder, sort_keys=sort_keys)
     else:
-        print(json.dumps(dict, indent=4, cls=_EnhancedJSONEncoder, sort_keys=True))
+        print(json.dumps(dict, indent=4, cls=_EnhancedJSONEncoder, sort_keys=sort_keys))
         
 class _EnhancedJSONEncoder(json.JSONEncoder):
     def default(self, o):

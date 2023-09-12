@@ -10,11 +10,12 @@ class dados_secao:
 class resultado_candidato_type:
     identificacao_votavel: str
     quantidade_votos: int
+    tipo_voto: str
 
 @dataclass
 class resultado_eleicao:
     id_eleicao: str
-    resultados: dict[str, dict[int, list[resultado_candidato_type]]] 
+    resultados: dict[str, dict[int, resultado_candidato_type]] 
     
 @dataclass
 class resultado_votacao:
@@ -43,7 +44,7 @@ class BU:
                 id_eleicao=eleicao['idEleicao'],
                 resultados={}
             )
-        
+
             for resultado_votacao_eleicao in eleicao['resultadosVotacao']:
                 for resultado_cargo in resultado_votacao_eleicao['totaisVotosCargo']:
                     cargo = resultado_cargo['codigoCargo'][1] #[0] = tipo de cargo, [1] = nome do cargo
@@ -53,17 +54,19 @@ class BU:
                             votos = resultado_candidato_type(
                                 identificacao_votavel=resultado_candidato['identificacaoVotavel'],
                                 quantidade_votos=resultado_candidato['quantidadeVotos'],
+                                tipo_voto=resultado_candidato['tipoVoto']
                             )
                         except KeyError: #votos nulos e brancos não tem identificacaoVotavel
                             votos = resultado_candidato_type(
                                 identificacao_votavel={'codigo': resultado_candidato['tipoVoto']},
-                                quantidade_votos=resultado_candidato['quantidadeVotos']
+                                quantidade_votos=resultado_candidato['quantidadeVotos'],
+                                tipo_voto=resultado_candidato['tipoVoto']
                             )
                     
                         if cargo not in eleicao_obj.resultados:
                             eleicao_obj.resultados[cargo] = {}
                         eleicao_obj.resultados[cargo][votos.identificacao_votavel['codigo']] = votos
                             
-                resultado_votacao_obj.eleicoes.append(eleicao_obj)
+            resultado_votacao_obj.eleicoes.append(eleicao_obj)
 
         return resultado_votacao_obj 

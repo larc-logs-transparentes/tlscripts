@@ -5,9 +5,9 @@ from bu_functions import soma_votos
 
 parser = argparse.ArgumentParser(description='Soma os votos de um ou mais arquivos BU')
 
-parser.add_argument('bu_path', help='arquivo ou diretório de arquivos BU', type=pathlib.Path)
+parser.add_argument('bu_path', help='Arquivo ou diretório de arquivos BU', type=pathlib.Path)
 parser.add_argument('--cargo', help='Cargo que será realizado a soma dos votos', type=str, choices=['presidente', 'governador', 'senador', 'deputadoFederal', 'deputadoEstadual'])
-parser.add_argument('--output', help='arquivo de saída', type=pathlib.Path)
+parser.add_argument('--output', help='Arquivo de saída', type=pathlib.Path)
 args = parser.parse_args()
 
 if(args.bu_path.is_file()):
@@ -17,7 +17,15 @@ if(args.bu_path.is_file()):
     
 print_dict(resultado, args.output)
 
-""" TODO
+""" TODO 
 - Suporte a diretório de arquivos BU
+- Suporte a filtro por cidade (prefeito)
 - Suporte a multiplos cargos
+"""
+
+""" Checklist
+AC - OK
+AL - OK
+AP - OK
+AM - 
 """
