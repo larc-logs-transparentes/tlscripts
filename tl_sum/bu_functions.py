@@ -29,7 +29,7 @@ def soma_votos(bu_file, cargo=None):
                     if str(codigo_candidato) not in soma_obj.soma_por_cargo[resultado_cargo]:
                         soma_obj.soma_por_cargo[resultado_cargo][str(codigo_candidato)] = resultado_candidato        
                     else:
-                        soma_obj.soma_por_cargo[resultado_cargo][str(codigo_candidato)].quantidade_votos += int(resultado_candidato.quantidade_votos)
+                        soma_obj.soma_por_cargo[resultado_cargo][str(codigo_candidato)].quantidade_votos += resultado_candidato.quantidade_votos
                         
-    print("Quantidade de arquivos BU processados: " + cont)
+    print(f"Quantidade de arquivos BU processados: {cont}")
     return soma_obj 
