@@ -15,7 +15,7 @@ class resultado_candidato_type:
 @dataclass
 class resultado_eleicao:
     id_eleicao: str
-    resultados: dict[str, dict[int, resultado_candidato_type]] 
+    resultados: dict[str, dict[str, resultado_candidato_type]] 
     
 @dataclass
 class resultado_votacao:
@@ -47,7 +47,10 @@ class BU:
 
             for resultado_votacao_eleicao in eleicao['resultadosVotacao']:
                 for resultado_cargo in resultado_votacao_eleicao['totaisVotosCargo']:
-                    cargo = resultado_cargo['codigoCargo'][1] #[0] = tipo de cargo, [1] = nome do cargo
+                    if(resultado_cargo['codigoCargo'][0] == 'cargoConstitucional'):
+                        cargo = resultado_cargo['codigoCargo'][1] #[0] = tipo de cargo, [1] = nome do cargo
+                    else:
+                        cargo = f"{resultado_cargo['codigoCargo'][0]}_{resultado_cargo['codigoCargo'][1]}"
                     
                     for resultado_candidato in resultado_cargo['votosVotaveis']:
                         try:

@@ -2,11 +2,26 @@ import dataclasses
 import ijson
 import json
 
-def get_json_data(filename):
+def get_json_data_from_file(filename):
     f = open(filename, 'rb')
     objects = ijson.items(f, 'item')
     rows = (o for o in objects)
     return f, rows
+
+def get_json_data_from_dir(dir):
+    list_objects = []
+    list_files = []
+    
+    for filename in dir.iterdir():
+        if filename.suffix != '.json':
+            continue
+        f = open(filename, 'rb')
+        objects = ijson.items(f, 'item')
+        list_files.append(f)
+        list_objects.append(objects)
+    
+    rows = (o for objects in list_objects for o in objects)
+    return list_files, rows
         
 def print_dict(dict, filename=None, sort_keys=True):
     if filename is not None:
