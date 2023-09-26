@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from bu_class import BU, resultado_candidato_type
-from json_utils import print_dict
 
 @dataclass
 class soma:
