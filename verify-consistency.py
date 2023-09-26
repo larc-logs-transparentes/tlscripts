@@ -1,5 +1,5 @@
 import requests
-from tlverifier.merkle_functions.tl_functions import verify_global_tree_history_consistency, verify_local_tree_history_consistency
+from tlverifier import verify_global_tree_history_consistency, verify_local_tree_history_consistency
 import json
 import utils
 from config import TLMANAGER_URL as URL

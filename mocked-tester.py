@@ -1,10 +1,9 @@
-import requests
-from tlverifier.merkle_functions.data_access import get_proof, get_global_root, get_data     
-from tlverifier.merkle_functions.tl_functions import verify_single_data
 import tlverifier
 
-proof = get_proof()     
-trustable_global_root = get_global_root()
-data = get_data()       
-result = tlverifier.verify_single_data(proof, trustable_global_root, data)
+proof = tlverifier.get_dummie_proof()                       # get proof from the tlmanager
+global_root = tlverifier.get_dummie_trusted_global_root()   # get trustable root (e.g., from a monitor)
+data = tlverifier.get_dummie_data()                         # get data to verify (e.g., BU)
+
+result = tlverifier.verify_data_entry(proof, global_root, data)
+
 print(result)
