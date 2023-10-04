@@ -30,7 +30,7 @@ def get_global_tree_leaves_with_tree_name(tree_name):
 
 # ###  Methods to get BUs ###
 def get_leaf_index_range():
-    return {'start': 0, 'end': 255}
+    return {'start': 0, 'end': 256}
 
 
 def _get_filenames_of_bus_in_order(path):
