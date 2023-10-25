@@ -8,14 +8,14 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    if(args.bu_path.is_file()):
+    if args.bu_path.is_file():
         f, bus_json = get_json_data_from_file(args.bu_path)
-        resultado = soma_votos(bus_json, args.cargo, args.municipio)
+        resultado = soma_votos(bus_json, args.cargo, args.municipio, args.timeline_frequency)
         f.close()
         
-    if(args.bu_path.is_dir()):
+    if args.bu_path.is_dir():
         files, bus_json = get_json_data_from_dir(args.bu_path)
-        resultado = soma_votos(bus_json, args.cargo, args.municipio)
+        resultado = soma_votos(bus_json, args.cargo, args.municipio, args.timeline_frequency)
         for f in files:
             f.close()
         
