@@ -1,26 +1,27 @@
 from dataclasses import dataclass
-from bu_class import BU, resultado_candidato_type
+from model.bu_model import BU, resultado_candidato_type
+from service.map_county_code_to_state import get_state_from_code
 
 
 @dataclass
-class soma:
-    soma_por_cargo: dict[str, dict[int, resultado_candidato_type]]
+class Soma:
+    soma_por_cargo: dict[str, dict[str, resultado_candidato_type]]
 
 
-def soma_votos(bu_file, cargo_filtro=None, municipio_filtro=None, timeline_freq=None):
-    soma_obj = soma({})  # Dicionário que armazenará a soma dos votos por cargo
+def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=None, timeline_freq=None):
+    soma_obj = Soma({})  # Dicionário que armazenará a soma dos votos por cargo
     qtd_bus_somados = 0
 
     for bu in bu_file:
         resultados = BU(bu).get_resultados_por_eleicao()
-        if verificar_municipio_bu(bu, municipio_filtro) == False:
+        if not verificar_municipio_bu(bu, municipio_filtro) or not verificar_estado_bu(bu, estado_filtro):
             continue  # Município diferente do município passado como filtro, passa para o próximo BU
 
         qtd_bus_somados += 1
         for eleicao in resultados.eleicoes:
             # Para cada cargo contido nessa eleição desse BU
             for resultado_cargo in eleicao.resultados.keys():
-                if verificar_cargo_filtro(resultado_cargo, cargo_filtro) == False:
+                if not verificar_cargo_filtro(resultado_cargo, cargo_filtro):
                     continue  # Cargo diferente do cargo passado como filtro, passa para o próximo cargo
 
                 # Se o cargo ainda não foi adicionado, o adiciona no dicionário da soma, sendo a chave o nome do cargo
@@ -47,6 +48,17 @@ def soma_votos(bu_file, cargo_filtro=None, municipio_filtro=None, timeline_freq=
     return soma_obj
 
 
+def verificar_estado_bu(bu, estado):
+    """
+        Retorna True se o BU for do estado passado como parâmetro, false caso contrário.
+        Caso o parâmetro estado seja None, retorna True.
+    """
+    if estado is None:
+        return True
+
+    return get_state_from_code(BU(bu).get_dados_secao().municipio) == estado
+
+
 def verificar_municipio_bu(bu, municipio):
     """
         Retorna True se o BU for do município passado como parâmetro, false caso contrário.
@@ -61,7 +73,7 @@ def verificar_municipio_bu(bu, municipio):
 
 def verificar_cargo_filtro(resultado_cargo, cargo_filtro):
     """
-        Retorna True se o resultado do cargo for correspondente ao cargo passado como parâmetro, False caso contrário.
+        Retorna True se o resultado do cargo for correspondente ao cargo passado como parâmetro, false caso contrário.
         Caso o parâmetro cargo seja None, retorna True.
     """
     if cargo_filtro is None:
