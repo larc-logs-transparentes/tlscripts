@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from model.bu_model import BU, resultado_candidato_type
-from service.map_county_code_to_state import get_state_from_code
+from converter.map_county_code_to_state import get_state_from_code
 
 
 @dataclass
@@ -44,7 +44,7 @@ def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=
         if timeline_freq is not None and qtd_bus_somados % timeline_freq == 0:
             _concatena_no_arquivo_timeline(soma_obj, qtd_bus_somados, timeline_freq)
 
-    print(f"Quantidade de arquivos BU processados: {qtd_bus_somados}")
+    print(f"Quantidade de arquivos BU somados: {qtd_bus_somados}")
     return soma_obj
 
 

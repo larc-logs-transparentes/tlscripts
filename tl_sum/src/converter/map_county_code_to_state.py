@@ -1,6 +1,8 @@
 import json
+import os
 
-county_codes = json.load(open("/home/gfumagali/Documents/tlscripts/tl_sum/src/assets/county_codes_hash.json", "r"))
+
+county_codes = json.load(open(os.path.join(os.path.dirname(__file__), 'county_codes_hash.json'), 'r'))
 
 
 def get_state_from_code(code):
