@@ -1,4 +1,9 @@
 *venv/
 .vscode/
 __pycache__/
+<<<<<<< HEAD
 .idea/
+=======
+results/
+*.json
+>>>>>>> main
