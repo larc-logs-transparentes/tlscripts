@@ -97,16 +97,33 @@ def build_local_tree():
     # build local trees with BUs
     start_index = bus_id_start
     local_tree = None
-    for global_leave in global_tree_leaves:                         # for each leave in global/root in local
-        sub_tree_size = global_leave['value']['tree_size']          # get size S of tree
-        bus = bus_all_string[start_index:sub_tree_size]             # get the next S elements of array in order
-        local_tree = _build_tree_continuously(bus, local_tree)      # build the tree with S elements
-        local_tree_root = local_tree.root.decode('utf-8')           # get root of local_tree
-        print(len(bus), local_tree_root)
-        start_index = sub_tree_size
+    results_log = []
+    final_result = True
+    for global_leaf in global_tree_leaves:                      # for each leave in global/root in local
+        sub_tree_size = global_leaf['value']['tree_size']       # get size S of tree
+        bus = bus_all_string[start_index:sub_tree_size]         # get the next S elements of array in order
+        local_tree = _build_tree_continuously(bus, local_tree)  # build the tree with S elements
+        local_tree_root = local_tree.root.decode('utf-8')       # get root of local_tree
 
-    return 'blob'
+        partial_result = {                                      # organize partial results
+            "tree_size": sub_tree_size,
+            "local_tree_root": local_tree_root,
+            "global_tree_leaf": global_leaf['value']['value']
+        }
+        if local_tree_root == global_leaf['value']['value']:    # compare partial local root and partial global leaf
+            partial_result["validation"] = True
+            results_log.append(partial_result)  # log partial result
+        else:
+            partial_result["validation"] = False
+            results_log.append(partial_result)  # log partial result
+            final_result = False
+            break
+
+        start_index = sub_tree_size     # update start_index
+
+    return {"result": final_result, "log": results_log}
 
 
 if __name__ == '__main__':
-    print(build_local_tree())
+    m_logs = build_local_tree()
+    print(m_logs)
