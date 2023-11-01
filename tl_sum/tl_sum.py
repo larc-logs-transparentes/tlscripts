@@ -1,6 +1,6 @@
-from bu_functions import soma_votos
-from service.args_parser import parser
-from service.json_utils import get_json_data_from_file, get_json_data_from_dir, print_dict
+from src.bu_functions import soma_votos
+from src.service.args_parser import parser
+from src.service.json_utils import get_json_data_from_file, get_json_data_from_dir, print_dict
 
 from timeit import default_timer as timer
 

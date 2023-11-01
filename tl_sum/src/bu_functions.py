@@ -1,7 +1,6 @@
 from dataclasses import dataclass
-from model.bu_model import BU, resultado_candidato_type
-from converter.map_county_code_to_state import get_state_from_code
-
+from .model.bu_model import BU, resultado_candidato_type
+from .converter.map_county_code_to_state import get_state_from_code
 
 @dataclass
 class Soma:

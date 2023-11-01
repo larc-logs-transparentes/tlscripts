@@ -5,12 +5,12 @@ import os
 
 sns.set_theme(style="whitegrid")
 
-df = pd.read_csv("../../timeline.csv")
+df = pd.read_csv("timeline.csv")
 df = df[df['codigo_candidato'] != 'branco']
 df = df[df['codigo_candidato'] != 'nulo']
 
-if not os.path.exists("../../output_graphs"):
-    os.mkdir("../../output_graphs")
+if not os.path.exists("output_graphs"):
+    os.mkdir("output_graphs")
 
 
 for cargo in df['cargo'].unique():
