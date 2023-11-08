@@ -111,6 +111,6 @@ def _print_progresso(qtd_bus_somados, qtd_bus_total):
 
     if qtd_bus_somados != qtd_bus_total:  # Filtro aplicado
         print(f"Quantidade de BU somados: {qtd_bus_somados}     "
-              f"Quantidade de BU iterados: {qtd_bus_total}", end="\r")
+              f"Quantidade de BU analisados: {qtd_bus_total}", end="\r")
     else:
         print(f"Quantidade de BU somados: {qtd_bus_somados}", end="\r")
