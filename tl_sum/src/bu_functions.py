@@ -39,7 +39,7 @@ def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=
                         # contidos na chave de seu código, no campo do cargo correspondente
                         soma_obj.soma_por_cargo[resultado_cargo][
                             str(codigo_candidato)].quantidade_votos += resultado_candidato.quantidade_votos
-        print(f"Quantidade de arquivos BU processados: {qtd_bus_somados}", end='\r')
+        print(f"Quantidade de arquivos BU somados: {qtd_bus_somados}", end='\r')
         if timeline_freq is not None and qtd_bus_somados % timeline_freq == 0:
             _concatena_no_arquivo_timeline(soma_obj, qtd_bus_somados, timeline_freq)
 

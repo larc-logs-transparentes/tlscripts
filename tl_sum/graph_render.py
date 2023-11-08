@@ -26,6 +26,6 @@ for cargo in df['cargo'].unique():
 
     plt.title(f"{cargo.capitalize()}")
     plt.xlabel("Resultado parcial")
-    plt.ylabel("Quantidade de votos")
+    plt.ylabel("Porcentagem de votos")
 
     plt.savefig(f"output_graphs/{cargo}.png")
