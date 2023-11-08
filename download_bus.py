@@ -102,4 +102,3 @@ if __name__ == '__main__':
     create_all_files_from_tree('bu_tree')
     end_time = datetime.datetime.now()
     print(end_time - start_time)
-    # get_last_downloaded_bu_id()
