@@ -91,7 +91,6 @@ def build_partial_tree_from():
     count = 0
     for global_leaf in global_tree_leaves:                      # for each leave in global/root in local
         sub_tree_size = global_leaf['value']['tree_size']       # get size S of tree
-        # bus = bus_all_string[start_index:sub_tree_size]         # get the next S elements of array in order
         bus = get_bu_inteiro_list_between_ids(start_index, sub_tree_size)
         local_tree = _build_tree_continuously(bus, local_tree)  # build the tree with S elements
         local_tree_root = local_tree.root.decode('utf-8')       # get root of local_tree

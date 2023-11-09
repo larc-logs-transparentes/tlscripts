@@ -4,7 +4,7 @@ import os
 
 
 # Constants
-DIR_PATH_BUS = 'bus_raw/'
+DIR_PATH_BUS = 'bus/'
 
 
 def generic_get_request(path):
@@ -59,8 +59,7 @@ def get_bu_from_to_ids(id_start, id_end):   # Must download BUs (download_bus.py
 
 
 def _get_filenames_of_bus_in_order():
-    path = 'bus_raw/'
-    files_names = os.listdir(path)
+    files_names = os.listdir(DIR_PATH_BUS)
     files_names.sort()
     return files_names
 
@@ -76,19 +75,32 @@ def _get_bus_in_file(bu_file_name):
 
 def _get_files_containing_bu_ids(id_start, id_end):
     files_of_interest = []
+
     file_names = _get_filenames_of_bus_in_order()
-    for file in file_names:
-        bus = _get_bus_in_file(file)
-        bu_start = [bu for bu in bus if bu.get('merkletree_leaf_index') == id_start]
-        bu_end = [bu for bu in bus if bu.get('merkletree_leaf_index') == id_end]
-        if bu_start:
-            files_of_interest.append(file)
-        if bu_start == [] and bu_end == [] and len(files_of_interest) > 0:
-            files_of_interest.append(file)
-        if bu_end:
-            if file not in files_of_interest:
-                files_of_interest.append(file)
+
+    for file_name in file_names:
+        file_id_range = get_ids_start_end_of_file_name(file_name)
+        file_start_id = file_id_range.get('id_start')
+        file_end_id = file_id_range.get('id_end')
+
+        if file_start_id <= id_start <= file_end_id:
+            files_of_interest.append(file_name)
+
+        if not file_start_id <= id_start <= file_end_id and len(files_of_interest) > 0:
+            files_of_interest.append(file_name)
+
+        if file_start_id <= id_end <= file_end_id:
+            if file_name not in files_of_interest:
+                files_of_interest.append(file_name)
             return files_of_interest
+
     return None
+
+
+def get_ids_start_end_of_file_name(file_name):
+    split_dot = file_name.split('.')[0].split('_')
+    id_start = int(split_dot[1])
+    id_end = int(split_dot[2])
+    return {'id_start': id_start, 'id_end': id_end}
 
 # ###  --- end of -- Methods to get BUs ###
