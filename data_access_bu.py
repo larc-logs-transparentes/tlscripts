@@ -2,11 +2,13 @@ import json
 import requests
 import os
 
-
 # Constants
 DIR_PATH_BUS = 'bus/'
+ERROR_FILE_NAME = "results_bu_verification.json"
+RESULTS_DIR_NAME = "results"
 
 
+# ### Methods to connect to server
 def generic_get_request(path):
     url = "http://localhost:8080/" + path
     try:
@@ -17,6 +19,12 @@ def generic_get_request(path):
             print(f"Request failed with status code {response.status_code}")
     except requests.exceptions.RequestException as e:
         print(f"An error occurred: {e}")
+# ### --- end of -- Methods to connect to server
+
+
+# ### Methods to get tree data ###
+def get_local_tree_name():
+    return 'bu_tree'
 
 
 def get_tree_data(tree_name):
@@ -25,16 +33,11 @@ def get_tree_data(tree_name):
     return response
 
 
-# ### Methods to get local trees hashes in the global tree leaves ###
-def get_local_tree_name():
-    return 'bu_tree'
-
-
 def get_global_tree_leaves_list():
     path = "global_tree/all-leaf-data"
     response = generic_get_request(path)
     return response.get('leaves')
-# ###  --- end of -- Methods to get local trees hashes in the global tree leaves ###
+# ###  --- end of -- Methods to get tree data ###
 
 
 # ###  Methods to get BUs ###
@@ -46,14 +49,18 @@ def get_bu_from_to_ids(id_start, id_end):   # Must download BUs (download_bus.py
     file_names = _get_files_containing_bu_ids(id_start, id_end)
 
     if file_names is None:
-        raise Exception(f'No files with BUs within ids {id_start} and {id_end} were found')
+        exception_text = f'Not all files with BUs within ids {id_start} and {id_end} were found'
+        create_error_file(exception_text)
+        raise Exception(exception_text)
     if id_end <= id_start:
-        raise Exception(f'Starting id must be higher than ending id (id_start = {id_start} and id_end = {id_end})')
+        exception_text = f'Starting id must be higher than ending id (id_start = {id_start} and id_end = {id_end})'
+        create_error_file(exception_text)
+        raise Exception(exception_text)
 
     bus_in_range = []
     for file in file_names:
         bus = _get_bus_in_file(file)
-        bus_of_interest = [bu for bu in bus if id_start <= bu.get('merkletree_leaf_index') < id_end]
+        bus_of_interest = [bu for bu in bus if id_start <= bu.get('merkletree_leaf_index') <= id_end]
         bus_in_range += bus_of_interest
     return bus_in_range
 
@@ -104,3 +111,20 @@ def get_ids_start_end_of_file_name(file_name):
     return {'id_start': id_start, 'id_end': id_end}
 
 # ###  --- end of -- Methods to get BUs ###
+
+
+# ### methods to create files of results when data_access fails
+def create_error_file(error_msg):
+    try:
+        # Create dir to store BU files
+        if not os.path.exists(RESULTS_DIR_NAME):
+            os.makedirs(RESULTS_DIR_NAME)
+
+        error_msg_dict = {'error': error_msg}
+
+        with open(f'{RESULTS_DIR_NAME}/{ERROR_FILE_NAME}', 'w') as file:
+            json.dump(error_msg_dict, file, indent=4)  # indent=4 for pretty printing
+
+    except Exception as e:
+        raise f'Error creating results file: {e}'
+# ###  --- end of -- Methods to create error result file ###

@@ -55,9 +55,10 @@ def get_bu_inteiro_list_between_ids(id_start, id_end):
     # get all bu_string only
     bu_string_list = [bu.get('bu_inteiro') for bu in bus]
     return bu_string_list
+# ###  --- end of -- Methods to get BUs ###
 
 
-# get bus from server by chunks of size "step" and organize it in files
+# ### Methods to create results file
 def create_results_file(results):
     try:
         # Create dir to store BU files
@@ -69,16 +70,17 @@ def create_results_file(results):
 
     except Exception as e:
         raise f'Error creating results file: {e}'
+# ### --- end of -- Methods to create results file
 
 
-def build_partial_tree_from():
+#  ## Core of the verify bus script
+def build_whole_tree():
     # get tree name
     tree_name = get_local_tree_name()
 
-    # get id range of interest
+    # get starting id of BUs
     bus_index_range = get_leaf_index_range()
     bus_id_start = bus_index_range.get('start')
-    # bus_id_end = bus_index_range.get('end')
 
     # get global tree leaves (local tree roots) with name
     global_tree_leaves = get_global_tree_leaves_with_tree_name(tree_name)
@@ -89,18 +91,22 @@ def build_partial_tree_from():
     results_log = []
     results = True
     count = 0
-    for global_leaf in global_tree_leaves:                      # for each leave in global/root in local
-        sub_tree_size = global_leaf['value']['tree_size']       # get size S of tree
-        bus = get_bu_inteiro_list_between_ids(start_index, sub_tree_size)
-        local_tree = _build_tree_continuously(bus, local_tree)  # build the tree with S elements
-        local_tree_root = local_tree.root.decode('utf-8')       # get root of local_tree
+    for global_leaf in global_tree_leaves:                      # for each leaf in global/root in local
+        tree_size = global_leaf['value']['tree_size']           # get subtree size
+        end_index = tree_size - 1                               # get last index of subtree
+        bus = get_bu_inteiro_list_between_ids(start_index, end_index)   # get all strings of bus between start and end indexes
+        local_tree = _build_tree_continuously(bus, local_tree)  # build the tree with bus with indexes in [start_index:end_index]
+        local_tree_root = local_tree.root.decode('utf-8')       # calculate root of local_tree
 
-        partial_result = {                                      # organize partial results
-            "tree_length": sub_tree_size,
+        # organize partial results
+        partial_result = {
+            "tree_length": end_index,
             "local_tree_root": local_tree_root,
             "global_tree_leaf": global_leaf['value']['value']
         }
-        if local_tree_root == global_leaf['value']['value']:    # compare partial local root and partial global leaf
+
+        # compare partial local root and partial global leaf
+        if local_tree_root == global_leaf['value']['value']:
             partial_result["validation"] = True
             results_log.append(partial_result)  # log partial result
         else:
@@ -109,18 +115,18 @@ def build_partial_tree_from():
             results = False
             break
 
-        start_index = sub_tree_size     # update start_index
+        start_index = tree_size    # update start_index
         count += 1
-        print(count)
+        print(count)    # print count, so we know it is still running
 
-    final_result = {"result": results, "log": results_log}
-    create_results_file(final_result)
-    return final_result
+    final_result = {"result": results, "log": results_log}  # build final result dict
+    create_results_file(final_result)                       # write it to file as JSON
+    return final_result                                     # return dict
 
 
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
-    m_logs = build_partial_tree_from()
+    m_logs = build_whole_tree()
     print(m_logs)
     end_time = datetime.datetime.now()
     print(end_time - start_time)
