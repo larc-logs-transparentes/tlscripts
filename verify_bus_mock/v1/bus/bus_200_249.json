@@ -1,0 +1,1452 @@
+[
+  {
+    "_id": "64f8d4b263c19aea2cc951a9",
+    "id": 200,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 456,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150356\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":456}],\"carga\":{\"numeroInternoUrna\":2046671,\"numeroSerieFC\":\"47390631\",\"dataHoraCarga\":\"20220925T090400\",\"codigoCarga\":\"691668061380209489130073\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"be56b588\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2380,\"secao\":456},\"dataHoraEmissao\":\"20221030T150322\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060750\",\"dataHoraEncerramento\":\"20221030T150157\"}],\"qtdEleitoresLibCodigo\":5,\"qtdEleitoresCompBiometrico\":119,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":280,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":231,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":73,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"eb85013fd4ea276ab1b40535e2c0f6f005a94a1ecf004fb4bb556d3c7eaaab1d694b5a084b9684e554279f08b633f9633826d0e8646f48f779ee67f2dc0c3e09\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":156,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"15326a73cec604f70a0fb287e15472561a955f2709fa9c9fbc740bb9abdb477894561e7e34b692b8bf9f46a2d6d3a0c6cd57f45b5d873d819107c09f733c4f0a\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"fb9c1df3add0fd14604b8659f88f7652e505906bf86c6d8bf1124af64d1655bd44ce16d8d0ebe716f8c81c5466b1562cf5985e123d6614bb4f6b0d92c4cc8806\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":1,\"assinatura\":\"a1a56e0daedf3e693bce5902fd4171f7dd5ed06cace7d6f6629d3cb980b79cdb966db94bf1b15e40e8b093c49a423e20c4bb526fa9c2b1a3f03ba207785d1a01\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"6fe1a5d0563cd377209e6e033b3526a219e30107ffff4bfe74d0f3eec71770dd\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 73,
+        "_id": "eb85013fd4ea276ab1b40535e2c0f6f005a94a1ecf004fb4bb556d3c7eaaab1d694b5a084b9684e554279f08b633f9633826d0e8646f48f779ee67f2dc0c3e09"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 156,
+        "_id": "15326a73cec604f70a0fb287e15472561a955f2709fa9c9fbc740bb9abdb477894561e7e34b692b8bf9f46a2d6d3a0c6cd57f45b5d873d819107c09f733c4f0a"
+      }
+    ],
+    "merkletree_leaf_index": 200,
+    "merkletree_leaf": "4315e72bfde962dd2dd099b93876a7e2a0a3cdda4088c0573c23ea49e4252b40",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951ab",
+    "id": 201,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 356,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150551\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":356}],\"carga\":{\"numeroInternoUrna\":2046940,\"numeroSerieFC\":\"7776be57\",\"dataHoraCarga\":\"20220925T100900\",\"codigoCarga\":\"893688171259833012191155\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"e5924fd5\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2186,\"secao\":356},\"dataHoraEmissao\":\"20221030T150455\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150140\"}],\"qtdEleitoresLibCodigo\":9,\"qtdEleitoresCompBiometrico\":249,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":326,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":251,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":65,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"f4d3500ca7efcf4d7aab2803784c5ccac33785d05e1025da47ecba27dee6aec1a64a2ea648b22185a54cb0bf5b172e3cb7062f48e062bdd2d28d78c2c459b605\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":180,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"cafd122d996ad5d8d6a64ec448e2cdd0721d8f3297dbcad06f0cd9eea3462645ba216c002f9205fc5b4bc2afce5bf7463c382f05434ba3074462978f20edd40c\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"ba9d741253e696fe16b9fa10425b9afabd31bb73cb1aa0cf482b16b577880c24e58ef52a30775efca709b24bc375c58bf8a61ee808beeb768c20f53420744500\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"5fdcd0e2ff7e5bff371f4cb15185b7b99f85a1e19b8c88f0fe97ad03adbc6af8af592b142d3d9e673ddec5619ce643d0833e6faee02d7fc58d1aaede6cfb6a03\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"32a205692753a5e0fb024bd33fbad2b9041af04185b932edde774ea84090933f\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 65,
+        "_id": "f4d3500ca7efcf4d7aab2803784c5ccac33785d05e1025da47ecba27dee6aec1a64a2ea648b22185a54cb0bf5b172e3cb7062f48e062bdd2d28d78c2c459b605"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 180,
+        "_id": "cafd122d996ad5d8d6a64ec448e2cdd0721d8f3297dbcad06f0cd9eea3462645ba216c002f9205fc5b4bc2afce5bf7463c382f05434ba3074462978f20edd40c"
+      }
+    ],
+    "merkletree_leaf_index": 201,
+    "merkletree_leaf": "9ce6cb7f6845c858526e12c244bf281565884ba771b951f0aff39c48c3416b2f",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951ad",
+    "id": 202,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 386,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150724\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":386}],\"carga\":{\"numeroInternoUrna\":2046865,\"numeroSerieFC\":\"6fa081f3\",\"dataHoraCarga\":\"20220925T093000\",\"codigoCarga\":\"600759094302107929128461\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"90188c78\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2305,\"secao\":386},\"dataHoraEmissao\":\"20221030T150624\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060125\",\"dataHoraEncerramento\":\"20221030T150408\"}],\"qtdEleitoresLibCodigo\":4,\"qtdEleitoresCompBiometrico\":264,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":337,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":276,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":64,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"f00257fcd5af70c07ebf06fd142e29195ca7d4bd0d955fe35a4d2a0a0a3258b167a8fb970df937454f52a9e72cfaa5a5b89173fa0b64627d14a24ce078023407\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":205,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"1407103e75f2e145a951436c35a46e367512be9c8af6ca8ce7a1819532e03ce6fa6ee8f269f799b79ef0d0f401835044e45285933c3afabe91ca6c6be9a4e307\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":5,\"assinatura\":\"64da79dc49887cd2cf0ec6bcb21407250bf922273e3ae13a5f783039fa4a4f69b99da14ec332caa82fc94b0b3a9c68323f6c2027f783d10ee1978f0f4f11840c\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"1a921f517e4a24a8fee1bd8ce2869ae74c96f3006465e7a0f511640bc8cd6a891beeee14da78c47fe452832858ba1096e9d7a8d396fdfe776ae2143fc3c47c01\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"405d26f344cba9dd3840035a10e0899936d7d3f9a5256e86ce563493d2797eb6\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 64,
+        "_id": "f00257fcd5af70c07ebf06fd142e29195ca7d4bd0d955fe35a4d2a0a0a3258b167a8fb970df937454f52a9e72cfaa5a5b89173fa0b64627d14a24ce078023407"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 205,
+        "_id": "1407103e75f2e145a951436c35a46e367512be9c8af6ca8ce7a1819532e03ce6fa6ee8f269f799b79ef0d0f401835044e45285933c3afabe91ca6c6be9a4e307"
+      }
+    ],
+    "merkletree_leaf_index": 202,
+    "merkletree_leaf": "9bd0015337a50b912d34d84bfd0e956c0ac26a6fcb31c415ef457d60da06a901",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951af",
+    "id": 203,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 289,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150529\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":289}],\"carga\":{\"numeroInternoUrna\":2046084,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220925T191600\",\"codigoCarga\":\"711870441155529842463232\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c779d14f\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1724,\"secao\":289},\"dataHoraEmissao\":\"20221030T150514\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150313\"}],\"qtdEleitoresLibCodigo\":2,\"qtdEleitoresCompBiometrico\":222,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":331,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":230,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":54,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"ab812d055fc8e4814d5ffa9884e8df2b095e737537c15b2086dd0aee7ef8b4abc92b3b254436d433dac7c4dae2379de683502afdb4ec5a46eda175b095c09909\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":171,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"9d9569e74141463efe8f1c3ff5bcd236b787daad454a4ca8e4e73c0651aaff038babb4ab5d265d1178517db1e3b2d673ce6e15c37b8ec3196f8fa85c28178f01\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"be6e72f65651341908349ce3c6f6d10a4ac0aadccd6087077d7e5e73d17eebf1443a73a906cbd821fe3d6dc91f529f70da25393bed4f02720c7bb2d70dafc50a\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":3,\"assinatura\":\"c08ca91ca8ae86b8a4c4e9de8bf9560f38b1e7d8031d02f6649ed2e86085c7823ccf16fd56297882b861baa4a81dea247ee880cddff5740fa1e9f5a3799a120b\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"5d914aac55d8c777843039ed10fbbf45f00408b7a0413ef275fc680e84afff89\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 54,
+        "_id": "ab812d055fc8e4814d5ffa9884e8df2b095e737537c15b2086dd0aee7ef8b4abc92b3b254436d433dac7c4dae2379de683502afdb4ec5a46eda175b095c09909"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 171,
+        "_id": "9d9569e74141463efe8f1c3ff5bcd236b787daad454a4ca8e4e73c0651aaff038babb4ab5d265d1178517db1e3b2d673ce6e15c37b8ec3196f8fa85c28178f01"
+      }
+    ],
+    "merkletree_leaf_index": 203,
+    "merkletree_leaf": "49c6353483ec543f544d065589828f48609800e3371ae4018fdc8e81503b001d",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951b1",
+    "id": 204,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 28,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150627\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":28}],\"carga\":{\"numeroInternoUrna\":2045179,\"numeroSerieFC\":\"f2a650e9\",\"dataHoraCarga\":\"20220925T103100\",\"codigoCarga\":\"590658613158243077459978\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"b172237f\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1171,\"secao\":28},\"dataHoraEmissao\":\"20221030T150604\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150244\"}],\"qtdEleitoresLibCodigo\":2,\"qtdEleitoresCompBiometrico\":162,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":234,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":183,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":53,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"2b295331841497e49660384a259f226cef0ba01d4e46a3ef8b30e394b528a4abf36cf5cd903ff48725b851f3a16769941ce43598778dc3ee247a26a67a610302\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":121,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"0c0789e703f29380bf74952d80e123fd977bdfb4ff9ec8e8f1f08ef7ddd558be0360069cc3a3290cf7b840414ecfdff0398c9041311cdd562e9d026a5b278c01\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"69e70d52804c25b848fa8f05fe408591214f27466c537d9de01f0eda692a0ad29eff71b035840287e8a084ddf529c18a4ccd6f260faaeb81f457561d4111590b\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"38b5223e96210ef6850a6c5a2132c09f07efdc3f5fe597d0dadca06dca138e6aac9e00b3fd01f28233c5e516e2046cb2cec71e07f1850790155e37799498150b\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"8dcca969bcaec4af395122e97914bb2d383074661267b9ee1a5c9bfe6a65f83f\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 53,
+        "_id": "2b295331841497e49660384a259f226cef0ba01d4e46a3ef8b30e394b528a4abf36cf5cd903ff48725b851f3a16769941ce43598778dc3ee247a26a67a610302"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 121,
+        "_id": "0c0789e703f29380bf74952d80e123fd977bdfb4ff9ec8e8f1f08ef7ddd558be0360069cc3a3290cf7b840414ecfdff0398c9041311cdd562e9d026a5b278c01"
+      }
+    ],
+    "merkletree_leaf_index": 204,
+    "merkletree_leaf": "0ff1b908e17ddf3246db44b114ddecea2f6abe236600950f30f36538391eec32",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951b3",
+    "id": 205,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 62,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150335\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":62}],\"carga\":{\"numeroInternoUrna\":2047842,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20220925T102700\",\"codigoCarga\":\"923991563534902769352648\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"dccd1f20\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1520,\"secao\":62},\"dataHoraEmissao\":\"20221030T150312\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150151\"}],\"qtdEleitoresLibCodigo\":10,\"qtdEleitoresCompBiometrico\":233,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":324,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":241,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":55,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"cb8197a5fa4f7b9a63518ebcc6d49e91191552455d7dc1842d123b0f41c3e6376727ea0eea856d42e17b3ee0c53c5d14fc12e230bdc9af09c62b668ef5ae4707\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":178,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"9b842c56032f7c900446626965682381f609d8cf7977e4a6252ba769de6aacbd30c3ef056ec9d222eab6104922dd14a4b26ebd2e71b0383ce8aa9521382aa203\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"257da297bc0f073780ad418cc26d739508fcb582f6f97a4545dc7916db15a5268bde2127e1a1013e4b2942c90f9f57ef52d030e5c2bc580cc1e8aa340701e905\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"b0f0f7f89f3dd0450aae162d1716bbc6e3c61d324c1e45c08dab541cdcb7ad9e89c7c3c2f13875b1d8eff3fb0300c47808023f7f41d16305379f7d4d504b6506\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"ec32cb24eefa6a295c4d9868a2507974d8991a051cbe5a89ab4ad76feab01079\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 55,
+        "_id": "cb8197a5fa4f7b9a63518ebcc6d49e91191552455d7dc1842d123b0f41c3e6376727ea0eea856d42e17b3ee0c53c5d14fc12e230bdc9af09c62b668ef5ae4707"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 178,
+        "_id": "9b842c56032f7c900446626965682381f609d8cf7977e4a6252ba769de6aacbd30c3ef056ec9d222eab6104922dd14a4b26ebd2e71b0383ce8aa9521382aa203"
+      }
+    ],
+    "merkletree_leaf_index": 205,
+    "merkletree_leaf": "b0d0b3edbe018502ea28e04e57ff0e2e10af6687438a3f33c9eadfa6eb02990c",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951b5",
+    "id": 206,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 50,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150404\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":50}],\"carga\":{\"numeroInternoUrna\":2046265,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20220924T184100\",\"codigoCarga\":\"297628647071827959315331\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c8d2ec08\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1171,\"secao\":50},\"dataHoraEmissao\":\"20221030T150340\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150132\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":167,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":233,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":185,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":56,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"db35fff4374b9b3080e8a4dc27d46afef79dc47681609e10bcf61400bd579defebf03d1043022bb6b6a373af2f237021c3ae6809fa896eb28ca8dbfba1d5360c\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":128,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"0ec76c3b1ff6460d1683e36734f6f8aa22c4448fff3e25dd9b3ddd9e943db2d34d2eaff0d48f6ae9a8fd342a76338f72681367c37e3fddbd0976c88fbd963d07\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"9282b1bc03f0fe518de7c2d63d5fb2c556671b98f9356b55c9612ec69a840e681afae261695c4b53abfc4f9bd025b5abb0ccd171b3ce5631f62cea7cf1a5a50e\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"096a87cc930ed6e3975899e20745e6468fb62c7e4547490dc084e81efb034db7\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 56,
+        "_id": "db35fff4374b9b3080e8a4dc27d46afef79dc47681609e10bcf61400bd579defebf03d1043022bb6b6a373af2f237021c3ae6809fa896eb28ca8dbfba1d5360c"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 128,
+        "_id": "0ec76c3b1ff6460d1683e36734f6f8aa22c4448fff3e25dd9b3ddd9e943db2d34d2eaff0d48f6ae9a8fd342a76338f72681367c37e3fddbd0976c88fbd963d07"
+      }
+    ],
+    "merkletree_leaf_index": 206,
+    "merkletree_leaf": "0cb4285ed7bdc000625d7950b86d602f70f30a50c1ae9d9330d7d3931a329141",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951b7",
+    "id": 207,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 114,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150320\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":114}],\"carga\":{\"numeroInternoUrna\":2046267,\"numeroSerieFC\":\"f623c16b\",\"dataHoraCarga\":\"20220925T153300\",\"codigoCarga\":\"085507686754427040228382\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"42b58d98\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1015,\"secao\":114},\"dataHoraEmissao\":\"20221030T150305\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150119\"}],\"qtdEleitoresLibCodigo\":6,\"qtdEleitoresCompBiometrico\":230,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":336,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":241,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":63,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"22f72ec0dfd503fae5263bad3bf8a44049728be6439c7acfce47efa1d309853642d887704da903b0171f3b6d8c75862fb6312e170a630b3edc66e226b9a4320a\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":170,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"c6e5f01866efbf73ea4e515a15c7c2a7479a78968d4a03ad3898a64a98aeb5bb5ca87afb813143fefd1944728d0db271a66efbb4d42dd963dac0698ad6d18802\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"a58fd5f45550b1405a7ae4c9db8b5628e359610d969ff6710c0f724f7997734388fec2ca5e47f478bef83ef378ef97c69049e6c8191db22c3ac2d6143a672109\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"79ca5fca1094dd3e11a4d550a45735ee2ce3f576d0386da7bb3db058993a814c511c65243f56b5210648cf7c54b16e64f02da1e6fbffa4cc69053ae76fe88a09\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"e56b95ec965a2ed6d896985a758625b0ac6d56008264401cd797a29cb376ddf5\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 63,
+        "_id": "22f72ec0dfd503fae5263bad3bf8a44049728be6439c7acfce47efa1d309853642d887704da903b0171f3b6d8c75862fb6312e170a630b3edc66e226b9a4320a"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 170,
+        "_id": "c6e5f01866efbf73ea4e515a15c7c2a7479a78968d4a03ad3898a64a98aeb5bb5ca87afb813143fefd1944728d0db271a66efbb4d42dd963dac0698ad6d18802"
+      }
+    ],
+    "merkletree_leaf_index": 207,
+    "merkletree_leaf": "c438418f781f135640d6212a2c8d119ce88dd30d1fa260699d4dbbbdbbc28c9b",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951b9",
+    "id": 208,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 80,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150418\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":80}],\"carga\":{\"numeroInternoUrna\":2044843,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20220925T155200\",\"codigoCarga\":\"469345027188912860014527\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"870bbc87\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1287,\"secao\":80},\"dataHoraEmissao\":\"20221030T150350\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150141\"}],\"qtdEleitoresLibCodigo\":4,\"qtdEleitoresCompBiometrico\":247,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":339,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":257,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":69,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"a89016e8b00c8a4680f27a0807b7c0ca3a06cfa9445760278ad279189d0e383e1367e52ae5c821fe50a51ee46dc29630abb58a5462c8f33937768453258d0e06\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":179,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"ce60b80ea866b092965990a10dbd744e0c8e13af9eb10df318d1f4d0fb12b175fa78e7c318c6174057ece1b7180909ca7384b66e9c75bccb591cd2cce8642003\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":3,\"assinatura\":\"a6684fa35d10b3084c5dc5af24a1ae980216d7a93b90d95b1a9500e1eaaeff55dfd3b48d9d18760f868aeef7b032e6a4f3bc70109090aa43697d31b8f460910a\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"2774a766e978352d6a3329a688460f9316fbd6f139dab1259053bbf9d2b5aa10c5ec7195c9ad746d8db01b2b5af6ef4da7af8f6403f5fd80436f741ddf0fb10f\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"360b5f90cabe6770741892d9c0039b9455a53c66d199f949e31c64d0a6949f44\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 69,
+        "_id": "a89016e8b00c8a4680f27a0807b7c0ca3a06cfa9445760278ad279189d0e383e1367e52ae5c821fe50a51ee46dc29630abb58a5462c8f33937768453258d0e06"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 179,
+        "_id": "ce60b80ea866b092965990a10dbd744e0c8e13af9eb10df318d1f4d0fb12b175fa78e7c318c6174057ece1b7180909ca7384b66e9c75bccb591cd2cce8642003"
+      }
+    ],
+    "merkletree_leaf_index": 208,
+    "merkletree_leaf": "6bafee523025b1c9179cc1709ea7e2126036ef79266eac92d32ca613ccfdc308",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951bb",
+    "id": 209,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 283,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150852\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":283}],\"carga\":{\"numeroInternoUrna\":2048201,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220925T170400\",\"codigoCarga\":\"237022308007596336415502\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"1a5b833b\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1678,\"secao\":283},\"dataHoraEmissao\":\"20221030T150731\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150418\"}],\"qtdEleitoresLibCodigo\":10,\"qtdEleitoresCompBiometrico\":215,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":335,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":230,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":65,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"238353f1469fbea9f1c3ca377f3c18ca000a22ed89622fe2d6ee360d107e062bb544612c11075ec1500e74327e4aff77bcf1fd500adbdd3923006e8ca7aba506\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":159,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"c039c80146e91e83220f9f534a7774647837dcd4cb4722c95f99e8667f2e3c076344bc6c74e60ae8b3cdac16416419107058f2074c02a0ba6c58a8c6f7561506\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"9dab70da476c502e0cb4020a69ade07679d795b975d3442ce443d2c65cb2417e683ee120cdfa8abc398636e7481feb58dc2217e9fa5010864a6425b8703e9b01\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"4f7d39aa526669cae7b21ac3525bc1939847dcb6f42c0ee64fe7d53092a5bad4d9da02863e219b4c0313eae51f7fd76b6fdb5307c201d5248621e74b60965603\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"b2d9c0d7d5e54f3b8dfd5fd3403ccf30081498f003140a58ce922f29690ecdb7\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 65,
+        "_id": "238353f1469fbea9f1c3ca377f3c18ca000a22ed89622fe2d6ee360d107e062bb544612c11075ec1500e74327e4aff77bcf1fd500adbdd3923006e8ca7aba506"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 159,
+        "_id": "c039c80146e91e83220f9f534a7774647837dcd4cb4722c95f99e8667f2e3c076344bc6c74e60ae8b3cdac16416419107058f2074c02a0ba6c58a8c6f7561506"
+      }
+    ],
+    "merkletree_leaf_index": 209,
+    "merkletree_leaf": "f65496a3cb3a8bd97d98912dfbd24a55be93e08950d6a59c1a8f03f6c4f35768",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951bd",
+    "id": 210,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 180,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150425\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":180}],\"carga\":{\"numeroInternoUrna\":2044884,\"numeroSerieFC\":\"639e8ae5\",\"dataHoraCarga\":\"20220925T133100\",\"codigoCarga\":\"792678445730779576801142\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"368a35d4\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1260,\"secao\":180},\"dataHoraEmissao\":\"20221030T150308\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150115\"}],\"qtdEleitoresLibCodigo\":7,\"qtdEleitoresCompBiometrico\":265,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":339,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":276,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":72,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"e57db6a6b0e82f6202a774df622a09b0364dc6bfb7e2c2bc42f02dabe7cc659ffda66b860144022c120d496c7d53b504ea612ebca0a4c9938bc283a85de0530e\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":194,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"24759b33ef52038def40dc4db1527eeff703dafba5fcf748185571fc50084e5621212eca3392ce1184eeeaf1ae96c5ed99b082f7cab768e93c909b8b48db590d\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":5,\"assinatura\":\"4921bee416bb60f9044b852fb2feb15661f69d1a9e5fc8f5c3864d0bac6c13f9dc41c5645271f604fc95d1190b690ce7110b0e39b4c0064f200cf90ea0d62804\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"46df52caf352af2b31c851b15c7d14aec5fb7df751644ac1062fe49e7415e9b060195d75dbcc3583ba6d27338fb17cc80a667e9ffb2e5547b00bc8dc3aad0c08\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"99da3cd04411196f04c6ca4dbf823be3c1ee575c2c9639580f9e3bbe4018b431\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 72,
+        "_id": "e57db6a6b0e82f6202a774df622a09b0364dc6bfb7e2c2bc42f02dabe7cc659ffda66b860144022c120d496c7d53b504ea612ebca0a4c9938bc283a85de0530e"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 194,
+        "_id": "24759b33ef52038def40dc4db1527eeff703dafba5fcf748185571fc50084e5621212eca3392ce1184eeeaf1ae96c5ed99b082f7cab768e93c909b8b48db590d"
+      }
+    ],
+    "merkletree_leaf_index": 210,
+    "merkletree_leaf": "c69bdf1e478e8777b11a4ed140dedcf8c6a3dae2bada9a807c8915f8324badba",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951bf",
+    "id": 211,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 290,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150624\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":290}],\"carga\":{\"numeroInternoUrna\":2043705,\"numeroSerieFC\":\"afb90189\",\"dataHoraCarga\":\"20220924T175500\",\"codigoCarga\":\"822981636579616711240651\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"796e8579\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1627,\"secao\":290},\"dataHoraEmissao\":\"20221030T150535\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150314\"}],\"qtdEleitoresLibCodigo\":6,\"qtdEleitoresCompBiometrico\":210,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":334,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":228,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":50,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"618025181660b33db8d106dc13cdd5fa1340d1c08cabb8e8bd73218010bb00b21a5fbcb5e826df9cd41b1191a5ddce8f93c1cf4587dedc0b4a03bccfe18cef02\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":165,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"710f02dbdc95fc6050e98d014bbf88506251f3d3f953aab24a9b83d672dc18ecb2374f67fd45001707f292e99bdefebabcfb5cd1a6896f64fb92460984e4f409\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":7,\"assinatura\":\"bb57dfba6087c8162b16364bcb52b6c2c2295bd02a80a3017f3066bfb5159a0914fed11b22f09651ddbd1a5916510d00dddd93e4c6e3911b622987ab83739b01\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"9581ea8b13e1277ae03d788b61793e2e680cfc98da351e918fa1391feb38a170668dfb4343dbcc6ff56d27141d23cb9118528ad37b0ae052883f47cc20a56701\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"3a39bfa3b34df8c17a374d9dd977300c10cc801c1ab7bff3d3315f5e56463ad6\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 50,
+        "_id": "618025181660b33db8d106dc13cdd5fa1340d1c08cabb8e8bd73218010bb00b21a5fbcb5e826df9cd41b1191a5ddce8f93c1cf4587dedc0b4a03bccfe18cef02"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 165,
+        "_id": "710f02dbdc95fc6050e98d014bbf88506251f3d3f953aab24a9b83d672dc18ecb2374f67fd45001707f292e99bdefebabcfb5cd1a6896f64fb92460984e4f409"
+      }
+    ],
+    "merkletree_leaf_index": 211,
+    "merkletree_leaf": "1b7e3b2a2ef48273a1ff95817000b4bb1678cb42f03b45f65ef064fba1b54519",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951c1",
+    "id": 212,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 177,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150522\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":177}],\"carga\":{\"numeroInternoUrna\":2046924,\"numeroSerieFC\":\"639e8ae5\",\"dataHoraCarga\":\"20220925T123100\",\"codigoCarga\":\"156214505266029459485492\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"791cae3f\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1139,\"secao\":177},\"dataHoraEmissao\":\"20221030T150432\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150128\"}],\"qtdEleitoresLibCodigo\":9,\"qtdEleitoresCompBiometrico\":281,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":340,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":282,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":66,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"d0c0adda56d6215f2613e56f72c6b658f60fb59db25d595c1e4802f918b1b8d26e2d06a746b6cd1ccf4c1c5916c7eaf5a1cf27e409aae70a5c4bcfba0a372805\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":206,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"c429e0fbf722298eaa1b63ae0f8ca5ca8ce680d9c2dbb37b909b4dcbc45e006620563b49ce93b17c9fb229a81ea067e350defe6a1bfa4277aedac9b876100509\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":7,\"assinatura\":\"2c1c89f480e1a35598afd940efef55698c8eb8c5e7ab22df63321e9e4447dc78af03ca9f96d0ad6cb9e2adce636ddf4253c92172c3523d56369a01b2ec181d0c\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":3,\"assinatura\":\"0c91b8336f6d6e694fe3af100ad713376c16852f443efa0ce2651f1a4848c2badde2f2b0421203425affe921bbdc32aa1210252626457ba9741248e92f3fc70f\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"e4b923f81f4185560c9329f7d2c51afb877866690b1f6986f7c781157a1aa469\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 66,
+        "_id": "d0c0adda56d6215f2613e56f72c6b658f60fb59db25d595c1e4802f918b1b8d26e2d06a746b6cd1ccf4c1c5916c7eaf5a1cf27e409aae70a5c4bcfba0a372805"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 206,
+        "_id": "c429e0fbf722298eaa1b63ae0f8ca5ca8ce680d9c2dbb37b909b4dcbc45e006620563b49ce93b17c9fb229a81ea067e350defe6a1bfa4277aedac9b876100509"
+      }
+    ],
+    "merkletree_leaf_index": 212,
+    "merkletree_leaf": "d8302f20f1cf6f82c8ebf367c6b6689e1875dad3fe4c7be79075a35f7135d5b1",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951c3",
+    "id": 213,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 435,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150410\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":435}],\"carga\":{\"numeroInternoUrna\":2045046,\"numeroSerieFC\":\"47390631\",\"dataHoraCarga\":\"20220924T181700\",\"codigoCarga\":\"570456696268254028815722\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c28a2e66\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2380,\"secao\":435},\"dataHoraEmissao\":\"20221030T150331\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150129\"}],\"qtdEleitoresLibCodigo\":7,\"qtdEleitoresCompBiometrico\":148,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":331,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":240,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":71,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"921771ac4a29444217e6b82a99c4f6166ca6a07e8e9c11a73ede9b0f340b2e9f71f3fd4d57064cb55f9994887c3de900e61e17bc7620fcfc835326e7f2a47c02\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":161,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"511daa6687599d5eaba736a9487a87a46dcc2b5516c207393f8ae99d4bba63b97315b1703141aedd45eaea7d46561bb68d63f324ad5126d48996ae9fafac3f08\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":5,\"assinatura\":\"9708a1d9635638bf0a87898c00e5fbf870ffd855b978ae6e353c87a13fb8d71df6e96ac46d6aef22c80bec6e81efc87d994c1d4b39ce4af82028e7318aaf980e\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":3,\"assinatura\":\"8878b1769e2144d3f129c0e300d25e9fc47bf8066f02bd02c4c4d7184c5c06ca2aef2b466cb32be174a4f1635ceccd61e709b5c8a5cbba2bb4985924aeec800e\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"e63ce7248256b6941533990ddfca54511d964f640fdf2498d596c088d2d5a8a2\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 71,
+        "_id": "921771ac4a29444217e6b82a99c4f6166ca6a07e8e9c11a73ede9b0f340b2e9f71f3fd4d57064cb55f9994887c3de900e61e17bc7620fcfc835326e7f2a47c02"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 161,
+        "_id": "511daa6687599d5eaba736a9487a87a46dcc2b5516c207393f8ae99d4bba63b97315b1703141aedd45eaea7d46561bb68d63f324ad5126d48996ae9fafac3f08"
+      }
+    ],
+    "merkletree_leaf_index": 213,
+    "merkletree_leaf": "1891f4c255717380028a177ff44ea71c23f06ba5dd183c05b76efd1317fde376",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951c5",
+    "id": 214,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 395,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150430\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":395}],\"carga\":{\"numeroInternoUrna\":2045002,\"numeroSerieFC\":\"6fa081f3\",\"dataHoraCarga\":\"20220925T103800\",\"codigoCarga\":\"620961078704767498520237\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"20fdcab8\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2321,\"secao\":395},\"dataHoraEmissao\":\"20221030T150409\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150031\"}],\"qtdEleitoresLibCodigo\":12,\"qtdEleitoresCompBiometrico\":220,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":343,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":256,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":58,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"241ca87fc4529f67f94701ac763d7a58600f906fab31b01c1c4348d6422ba5fcd5fd38b4d2d43bb73f67e1bce412f49abd70060ce6dfbcdb9c4bbb391759160c\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":188,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"46a2c18823e87dbf3e73ded72bbca7aef3d1b29c66cb633c4439ecbf3fa0ac3a29bce8cf2b0d62383aeec8ff167a333fd62cfca9af53fd463e11b0e554e5af06\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"6190ae6c31f2191e779264f2bf1f8ecfab59b7ff253f6d13489db088c9086746db2541514d3bd7c8d210d01177828a0f1cc8bd76b106ed241e095a70391e6e07\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":9,\"assinatura\":\"8e87f3a6d1c55af22a2b23d68417e6ffc3bcfba3c092879995c1ed8db26e089a77150dfd2355e578672c72ddf5af4f274506c2f97972408e2266c2c015ee0d07\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"837ace5f86d09da540853202f01334a20f25af6b18a7fca5b182781303525c82\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 58,
+        "_id": "241ca87fc4529f67f94701ac763d7a58600f906fab31b01c1c4348d6422ba5fcd5fd38b4d2d43bb73f67e1bce412f49abd70060ce6dfbcdb9c4bbb391759160c"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 188,
+        "_id": "46a2c18823e87dbf3e73ded72bbca7aef3d1b29c66cb633c4439ecbf3fa0ac3a29bce8cf2b0d62383aeec8ff167a333fd62cfca9af53fd463e11b0e554e5af06"
+      }
+    ],
+    "merkletree_leaf_index": 214,
+    "merkletree_leaf": "e5e7e54f20e20536b05acb70fd0a7a185688483779d47267f146bcaf37b1fc85",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951c7",
+    "id": 215,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 217,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150508\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":217}],\"carga\":{\"numeroInternoUrna\":2043286,\"numeroSerieFC\":\"6ec3501c\",\"dataHoraCarga\":\"20220925T115300\",\"codigoCarga\":\"024901044775106912991459\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"366421f8\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1694,\"secao\":217},\"dataHoraEmissao\":\"20221030T150441\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150211\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":256,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":330,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":258,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":75,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"b5cf57ff1b544e9fd3b6d8151a9599a4ea94a71f3f20ca3d171ff856a3e1760c606f8f63f9f8a8bdfd81aa0914df0fc0c5259ba6dd1b65fe017ee1740dc1390e\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":179,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"3fee6eb6e95971a504392b9eb602f0a97de433d41f5fefd7df56eef9ab12df9857f17f212e7934e3c9edab0c8f5fd2110f826f5a795e88ba62849be692a95b00\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"9becfd238f957cfee7d7b9eaee1f6d4fe015bcea9ae1b64fff790ded465f1b4be3b035c56b7a0618a3953089e6b176d677c39b23854cfd92b3b3636187854208\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"bc052cd6df3aa775ba5f3230f2da7e193b1e0a6ddf55776369fdd521d6815a6a\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 75,
+        "_id": "b5cf57ff1b544e9fd3b6d8151a9599a4ea94a71f3f20ca3d171ff856a3e1760c606f8f63f9f8a8bdfd81aa0914df0fc0c5259ba6dd1b65fe017ee1740dc1390e"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 179,
+        "_id": "3fee6eb6e95971a504392b9eb602f0a97de433d41f5fefd7df56eef9ab12df9857f17f212e7934e3c9edab0c8f5fd2110f826f5a795e88ba62849be692a95b00"
+      }
+    ],
+    "merkletree_leaf_index": 215,
+    "merkletree_leaf": "81c124046aafdfa6accc89c82f4abd7585c4164f0b51099d748a4d8c6dce12a0",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951c9",
+    "id": 216,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 66,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150305\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":66}],\"carga\":{\"numeroInternoUrna\":2045962,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20221029T094300\",\"codigoCarga\":\"327931408674562082257939\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"72ffe467\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1139,\"secao\":66},\"dataHoraEmissao\":\"20221030T150239\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150010\"}],\"qtdEleitoresLibCodigo\":17,\"qtdEleitoresCompBiometrico\":265,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":341,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":265,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":75,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"0d9b0ce69d591d9516b57f740485481337ef0f5aa00b9a5d13c0c6b2c657627db393f0dc06365274b1f894921c6269384ecc01102a978088fe482bbf1f59fd06\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":184,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"882ef6f296722ab80368238f892de52bf4eafab9e713fdac8fdba83081495205294c5838d212583219e9b5e74bc3ff7cdb375f4716b8e9be4d9ba7df9e4f2302\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"fd311dff422e12e8d6efc31f9968d31cd72f5e74e103513a4bf82af2d9c74a2ef01e7cac0ba0318d05806b67c76a9b0801b0cf125a68fc7aefc9c100d9e6f70f\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"bc232cc7cdf16e29c44509150eb7b51af5ba467996b9c278563492c6746b1735018ffa95e4e6e0d40225df3231b1267e66be7f0679fcbf5447eaceaddda47408\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"446a958bb29434fa8bf5bb8aa1ff1cff7d13714140f292a313f891af692a5d7b\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 75,
+        "_id": "0d9b0ce69d591d9516b57f740485481337ef0f5aa00b9a5d13c0c6b2c657627db393f0dc06365274b1f894921c6269384ecc01102a978088fe482bbf1f59fd06"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 184,
+        "_id": "882ef6f296722ab80368238f892de52bf4eafab9e713fdac8fdba83081495205294c5838d212583219e9b5e74bc3ff7cdb375f4716b8e9be4d9ba7df9e4f2302"
+      }
+    ],
+    "merkletree_leaf_index": 216,
+    "merkletree_leaf": "78e87644ebb86a9a9247d2fec4e6307749f07281ccfad83311d0591e2af173e9",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951cb",
+    "id": 217,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 428,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150413\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":428}],\"carga\":{\"numeroInternoUrna\":2046895,\"numeroSerieFC\":\"7466e4fa\",\"dataHoraCarga\":\"20220925T093100\",\"codigoCarga\":\"802779189610373566038478\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"8b6cc5fc\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2356,\"secao\":428},\"dataHoraEmissao\":\"20221030T150327\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150137\"}],\"qtdEleitoresLibCodigo\":0,\"qtdEleitoresCompBiometrico\":48,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":96,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":76,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":22,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"a0b7b6f87d93abff476bd2b31a42c3535a6641b390d72afe9507ad39c5cdbbc44b4b6fc8b8925e8f0e6a04c26617b53e04c121d63b3417d8654a52cb628ab405\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":48,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"dd235e926ef4ffa6543ed709087758e608329b9ff07143f8c590e65b2dfad82ac208e9c24dce8097fd624ec1ab6525e16a0222b852b8113387a0cfdd6615c60b\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":3,\"assinatura\":\"dc90067f05e93caa27c66cb00da2d77e56a77c401c24b3ca1147cfb16ee02bed2cd1a4f677242b1f36750eeaa92d408ed2b260c8efa88cc5e3ead3008bc84105\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":3,\"assinatura\":\"84a64fdc81558ac7d2b7e2c87167acdea4888a5d944cc963b112f801275a781bab23653792bbcce4bd841341c07dea46c65fa0b7a467551e3098820e85749e0a\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"6d7a4aeacc09de43ea4fbaf1a64e7cbf432d406ec9965c41d710acb1d3e67990\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 22,
+        "_id": "a0b7b6f87d93abff476bd2b31a42c3535a6641b390d72afe9507ad39c5cdbbc44b4b6fc8b8925e8f0e6a04c26617b53e04c121d63b3417d8654a52cb628ab405"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 48,
+        "_id": "dd235e926ef4ffa6543ed709087758e608329b9ff07143f8c590e65b2dfad82ac208e9c24dce8097fd624ec1ab6525e16a0222b852b8113387a0cfdd6615c60b"
+      }
+    ],
+    "merkletree_leaf_index": 217,
+    "merkletree_leaf": "b4f0983ff8438f262bf2c523dde02ba8e66dbce06998cd354d18ebc7411b2c96",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951cd",
+    "id": 218,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 258,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150515\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":258}],\"carga\":{\"numeroInternoUrna\":2046856,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220925T090700\",\"codigoCarga\":\"903789317174620189061545\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"6b0c58fd\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1201,\"secao\":258},\"dataHoraEmissao\":\"20221030T150455\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T062446\",\"dataHoraEncerramento\":\"20221030T150218\"}],\"qtdEleitoresLibCodigo\":6,\"qtdEleitoresCompBiometrico\":225,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":332,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":229,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":61,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"6354e4383ba8c0c2558b8ef382279f1022a203537203cbe98d3d10faf4f2efc0c2eca60ffb8862c887f1c2a7e8885d34d7e8237e71cea695d8adad477e4cc904\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":161,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"d9d288459db2183c8a1229057254ac50d0fb805ad94f4ce06e3b9526d631e3ee9f27d75a529234d42fe6b612148302dca925d17bf37e95784eff9101f11b920f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"bf96355971eed74ae9f114e055ed6cf1544530b8657ea22a85e12356986b9a331a9ebda79df3f694942d6d91f1f64a51c3258da619b27332408333cc76ab0b0c\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"9a3a0b764c2ccb714d475ae63922723746ccbc9ec098a9b9db3c5344c4f1362473ca9dac30f3e1cc50a3f33d221ea7ee41346c83a11a185ea68fe4825c0ab309\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"0642f97e2c39596c3bcb538c81b23b7cd81120d87457b1b31f846bc6c304d2aa\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 61,
+        "_id": "6354e4383ba8c0c2558b8ef382279f1022a203537203cbe98d3d10faf4f2efc0c2eca60ffb8862c887f1c2a7e8885d34d7e8237e71cea695d8adad477e4cc904"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 161,
+        "_id": "d9d288459db2183c8a1229057254ac50d0fb805ad94f4ce06e3b9526d631e3ee9f27d75a529234d42fe6b612148302dca925d17bf37e95784eff9101f11b920f"
+      }
+    ],
+    "merkletree_leaf_index": 218,
+    "merkletree_leaf": "13b7b6fdcd3ae78b2654d193ea9c960fdf8a0fd89aa0758338c1283d65fa6922",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951cf",
+    "id": 219,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 97,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150657\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":97}],\"carga\":{\"numeroInternoUrna\":2041943,\"numeroSerieFC\":\"f623c16b\",\"dataHoraCarga\":\"20220925T120100\",\"codigoCarga\":\"964395360142561569988280\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"cb47b4e6\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2356,\"secao\":97},\"dataHoraEmissao\":\"20221030T150621\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060120\",\"dataHoraEncerramento\":\"20221030T150415\"}],\"qtdEleitoresLibCodigo\":6,\"qtdEleitoresCompBiometrico\":255,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":305,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":255,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":63,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"c6a8fad09c76ee7701ae6b8ca02285d289af817eb5b53adc6b16f5599351bca5da9c4fc31a23f9593d97bc11283b1ddaf5b3b1416c8258f993ab8f7b224e690e\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":190,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"6ee9449cdf33d908e4471fe7000483507cd6c0244d8bbf9d9ce110c2a8489ec61c5137ed12bcab9ce902daefca2485f532c8eda3c097e5c0bbc68d8ec9e70f02\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"0c26894049c51b25dae755f203ebb12702d9d30a2b472457a7103a12683c1699ec26630ab86244f7795e644dfd1a5ee29cebe132de95d2c41ea6be3f59a22101\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":1,\"assinatura\":\"40fdb381b60af818724f266771794d3366965c24f89c167e081844f32430bdbc93e9fe57a5b0e556357983b25fbea34c89cc261adf11cc66f790924789339e08\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"3a4551122081ac15f72bfe4604c1e7711c0d85a6f4636f0a1dedc8aedba885b0\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 63,
+        "_id": "c6a8fad09c76ee7701ae6b8ca02285d289af817eb5b53adc6b16f5599351bca5da9c4fc31a23f9593d97bc11283b1ddaf5b3b1416c8258f993ab8f7b224e690e"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 190,
+        "_id": "6ee9449cdf33d908e4471fe7000483507cd6c0244d8bbf9d9ce110c2a8489ec61c5137ed12bcab9ce902daefca2485f532c8eda3c097e5c0bbc68d8ec9e70f02"
+      }
+    ],
+    "merkletree_leaf_index": 219,
+    "merkletree_leaf": "ed1bc5f722cb0ac2dfbb4fb8e9da30d52f85c939103d2d48c2d7fcf294492f6f",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951d1",
+    "id": 220,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 70,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150311\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":70}],\"carga\":{\"numeroInternoUrna\":2046018,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20220925T134500\",\"codigoCarga\":\"570456065699924918051741\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"0bbf989f\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1554,\"secao\":70},\"dataHoraEmissao\":\"20221030T150257\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150112\"}],\"qtdEleitoresLibCodigo\":5,\"qtdEleitoresCompBiometrico\":221,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":287,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":221,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":44,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"d50e36287751f9b1d5421b710b237b2ff783cad70f4a85876985dc76cfe5a7a948cd537db6223bb4f177a21483b9c08f4fe14e7046381490e41a9b84019e650c\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":170,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"0533a37155b1919516fd586c2750edfa74d36a7418c2715f1cab635651aa49c991da60e5b95c482375fef29163b526ae5776882b433a80512984dee741572c0f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":6,\"assinatura\":\"280cb5cc58e95874748ef90b0cfdb9923e7c197c46b952d8df40e5f8e5c685df9c8339611ed480c01a0a1e0efe332eb4cfc7b28c690b20f9697aee4c95cb7f0b\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":1,\"assinatura\":\"047cf1c5482449f41c83a1844928b1915bfbb22933d3f14738fbf8d84765bf04cdcebf8f23c3e9fca841d7ccbb940b2d28eaccdb1c82cfffdfade94d61f4d909\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"952da5da454c475a4e3d7b0e46b46d2d8f6ac5e5cdd13460b6115d345d886dc0\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 44,
+        "_id": "d50e36287751f9b1d5421b710b237b2ff783cad70f4a85876985dc76cfe5a7a948cd537db6223bb4f177a21483b9c08f4fe14e7046381490e41a9b84019e650c"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 170,
+        "_id": "0533a37155b1919516fd586c2750edfa74d36a7418c2715f1cab635651aa49c991da60e5b95c482375fef29163b526ae5776882b433a80512984dee741572c0f"
+      }
+    ],
+    "merkletree_leaf_index": 220,
+    "merkletree_leaf": "4d5c482f2aee4a672afb716fd430dd217b504a104dee88bf224ebb61c6fa854f",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951d3",
+    "id": 221,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 324,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150413\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":324}],\"carga\":{\"numeroInternoUrna\":2046883,\"numeroSerieFC\":\"afb90189\",\"dataHoraCarga\":\"20220925T125900\",\"codigoCarga\":\"782577636575391941292993\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"6b5f23dd\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2089,\"secao\":324},\"dataHoraEmissao\":\"20221030T150354\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150144\"}],\"qtdEleitoresLibCodigo\":10,\"qtdEleitoresCompBiometrico\":260,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":324,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":267,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":73,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"45909173ca193ed7c77e5e1f063ab1cb786825f4755f3cdf3cf7f449326bafce1fb483c539b34e8c05baebca3a36589c1850c4c7bbb7b829088447e4f1ecf208\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":183,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"8396ada9ebbf51784d84215eac851b5372984535eee8297459462f595ee672678328ba4af43340c26a598ff7f804287a95e26947018876b87dbf15dd8034d30f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":5,\"assinatura\":\"ea4b01ee6e010f10c0621631fed998c82e3e2f9063403d40861f787fe0c644f20977c7421bddbb79fa673d44a2378fa3685b640d1de2c863e05c11c90a22de09\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"b8a7abfee9bd735f54138f8009841696e2b07052097610259185839c057d8d2285bf918424cbc529034c86ac72fb968387322c0d4b494504f80d7ac3cb7ad704\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"85f88624bc51716fc9145f840db23c4b64b4dd6cdd4c0fb0160a8c2fdabf6e21\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 73,
+        "_id": "45909173ca193ed7c77e5e1f063ab1cb786825f4755f3cdf3cf7f449326bafce1fb483c539b34e8c05baebca3a36589c1850c4c7bbb7b829088447e4f1ecf208"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 183,
+        "_id": "8396ada9ebbf51784d84215eac851b5372984535eee8297459462f595ee672678328ba4af43340c26a598ff7f804287a95e26947018876b87dbf15dd8034d30f"
+      }
+    ],
+    "merkletree_leaf_index": 221,
+    "merkletree_leaf": "e7ce6160d4b9242ab7fcd7569faab95ed4bd04a5ba8d1d3a7a24e4a45d4d9848",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951d5",
+    "id": 222,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 100,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150458\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":100}],\"carga\":{\"numeroInternoUrna\":2047980,\"numeroSerieFC\":\"f623c16b\",\"dataHoraCarga\":\"20220925T122600\",\"codigoCarga\":\"499648582595620937248404\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"47957274\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1252,\"secao\":100},\"dataHoraEmissao\":\"20221030T150429\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150219\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":257,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":328,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":257,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":64,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"328b1e3d842657bbdef05ab69a5198757a5b4b17874bcbd6fe01e2ce8bbeec3316ae52d58a57985bd53f149e92a21b06c13f5c3e8a5bc5f7299790bbdc169e0a\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":185,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"95aa2a437aa0937d8a0c0198e5cdb74817fc6da1195f9bb77576ac96a6d30da09ee7b7d7071c1c951c7b9bd547e64e7dc8ee3bb02b3e275ac1f156cce3369a0a\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"fcee8a31243d9fa97cc410964f058624a684a46788fc11e625c0516d1964442005ec67f7e07c260d019504c18ad02edd30554d8edebde3cfc98241032aae3509\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"446e936e8d6ae60771d168035f441063ec615805502f8543b32211594fc67d302c26a3424b4a02d4ceb4b50c8b3d66a6eed84570d44e62ebaa0547a23e62a10f\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"70dcaee1bf14b559448f4d6998f1d8e366461587f2f78670b2c8b1cb1d445fa2\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 64,
+        "_id": "328b1e3d842657bbdef05ab69a5198757a5b4b17874bcbd6fe01e2ce8bbeec3316ae52d58a57985bd53f149e92a21b06c13f5c3e8a5bc5f7299790bbdc169e0a"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 185,
+        "_id": "95aa2a437aa0937d8a0c0198e5cdb74817fc6da1195f9bb77576ac96a6d30da09ee7b7d7071c1c951c7b9bd547e64e7dc8ee3bb02b3e275ac1f156cce3369a0a"
+      }
+    ],
+    "merkletree_leaf_index": 222,
+    "merkletree_leaf": "f7f2943553f8905e780b4ec721c8afe933c20ec857e1583063f658d64ab70851",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951d7",
+    "id": 223,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 427,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T151626\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":427}],\"carga\":{\"numeroInternoUrna\":2030489,\"numeroSerieFC\":\"7466e4fa\",\"dataHoraCarga\":\"20220925T091800\",\"codigoCarga\":\"893688163719770012950153\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"a5e4e629\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1600,\"secao\":427},\"dataHoraEmissao\":\"20221030T151559\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T151413\"}],\"qtdEleitoresLibCodigo\":16,\"qtdEleitoresCompBiometrico\":160,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":337,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":240,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":79,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"682c9f5dd2fdf21f1be1da91a8ca8bf8ac2f32d0ea6c80b0f3f0685c68d7547db3d810bb44011d66bb941dcc307df92ecd9dddbb43c6da74fbdb77c497d6df0d\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":153,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"e7c3ec9bacdbe86eea002e9ec71a7106b157602607525d117ad115e62efac0a29a5efd18c21c8b4c1bc797ec7c286bea44ceabf5581df87f95934fe2106b310a\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"86d3edb0ef6c0a111396d9d627bbe2d15e66151766544c9fe3462688e771e23cf607a913eaba07f08381d4715721ca33839aa230ec0cd144b9955eb0e18c9d04\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":7,\"assinatura\":\"40b13b66fa1729c5e16c0fd18926f9548ab61d6bdd1b16e34b8ce9d9795d74eab8b924290b3d5c470a9415d842ddbc1bce677c18e52f1e335c1746703fbebe02\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"e0a3e55582c84694817238b446db80c37b62444068f71f6382061123e8315c69\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 79,
+        "_id": "682c9f5dd2fdf21f1be1da91a8ca8bf8ac2f32d0ea6c80b0f3f0685c68d7547db3d810bb44011d66bb941dcc307df92ecd9dddbb43c6da74fbdb77c497d6df0d"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 153,
+        "_id": "e7c3ec9bacdbe86eea002e9ec71a7106b157602607525d117ad115e62efac0a29a5efd18c21c8b4c1bc797ec7c286bea44ceabf5581df87f95934fe2106b310a"
+      }
+    ],
+    "merkletree_leaf_index": 223,
+    "merkletree_leaf": "7e61d76b5eb0551e335da02e4e76aaf763034e62789566283baab1b812165296",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951d9",
+    "id": 224,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 129,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150543\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":129}],\"carga\":{\"numeroInternoUrna\":2045026,\"numeroSerieFC\":\"c2dac5be\",\"dataHoraCarga\":\"20220925T090700\",\"codigoCarga\":\"418840632482136208269682\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"0e6a6150\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1198,\"secao\":129},\"dataHoraEmissao\":\"20221030T150439\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150058\"}],\"qtdEleitoresLibCodigo\":4,\"qtdEleitoresCompBiometrico\":286,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":366,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":291,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":80,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"e79dc19c9cdd58482012d8ab32298e0c276824f6bf89c55568205124c135514ea4f1512aa56b175ae2b011252f7532e1431e87e2a397181eea2dd5a1ef24380b\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":200,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"595bc04c1beeee30dda6c054ebf3901c9290906d3978f2ee5055fa2a30b4e6132b023b6706a0be2770a3a5d4bdb3fc3cd601ceaf69dbe4182d09b22c3486b903\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":6,\"assinatura\":\"04ad347b7fb3ca57b8e377e33cd022b03274cce1e917df713285a130140233f72da35fbcc3a59026569fa0f64f3ca2fd25afb13c03eaecfc461c37d464adb50c\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"a56c3386136b519a2cb9fcc0225af696f0739584d756487f848cb981f5d4902b7ba875eb881d44f2e0a052c85a30657da0994a994e2f0c265956f3f8c3c39d00\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"a2c1ce7e699c4a64a57cf1a1a1051c540aa1e049edefe9606c0f2b8302dfd58d\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 80,
+        "_id": "e79dc19c9cdd58482012d8ab32298e0c276824f6bf89c55568205124c135514ea4f1512aa56b175ae2b011252f7532e1431e87e2a397181eea2dd5a1ef24380b"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 200,
+        "_id": "595bc04c1beeee30dda6c054ebf3901c9290906d3978f2ee5055fa2a30b4e6132b023b6706a0be2770a3a5d4bdb3fc3cd601ceaf69dbe4182d09b22c3486b903"
+      }
+    ],
+    "merkletree_leaf_index": 224,
+    "merkletree_leaf": "8b57c533a755a5dbb1e3c8e4bc8f719582885102b0cf4bdc1152ee60b4a0e81b",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951db",
+    "id": 225,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 87,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150444\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":87}],\"carga\":{\"numeroInternoUrna\":2045070,\"numeroSerieFC\":\"f623c16b\",\"dataHoraCarga\":\"20220924T185800\",\"codigoCarga\":\"792678126325904580461504\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"04b38ac3\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1201,\"secao\":87},\"dataHoraEmissao\":\"20221030T150423\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150112\"}],\"qtdEleitoresLibCodigo\":9,\"qtdEleitoresCompBiometrico\":262,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":344,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":262,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":59,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"c1cb9e6b617c9fb6dc57ba5c506a9bf7c3aac2fb10ee7ad75755e840e3df8d2317bee07a93db39ca56914dbfd18368c0fc6e4f0503c1b9fe2645e65146859d07\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":199,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"e298193af80f61503f05d3746909f06b3e999ce9aba8cd7b84b7ecc90b0933a4f428bb53cae2e310abb1afd0e4b364d67f914620c578440d11629bc99ae97100\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"62755ddf745c96b2e696584b89c5b5bc40631aba11faa5524131952fdfe2b1a5efcde00287b2473198ef9b5caca9c501890b30b684d6257d3417840e37ead105\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"e535b41fee73751a5f5ad6dacc05779a726dc0c9807ab34d9df2f6238fe459b0bd8c58236e77f868380be23281a0d9ffadd0ef40a9e8fd3af3d0bfef52f13704\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"0505a6dbd3045e9925d92fa9b944538f0b5e93f074cccdca08c834790d1f4172\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 59,
+        "_id": "c1cb9e6b617c9fb6dc57ba5c506a9bf7c3aac2fb10ee7ad75755e840e3df8d2317bee07a93db39ca56914dbfd18368c0fc6e4f0503c1b9fe2645e65146859d07"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 199,
+        "_id": "e298193af80f61503f05d3746909f06b3e999ce9aba8cd7b84b7ecc90b0933a4f428bb53cae2e310abb1afd0e4b364d67f914620c578440d11629bc99ae97100"
+      }
+    ],
+    "merkletree_leaf_index": 225,
+    "merkletree_leaf": "8661abb6e4ae5943972e6716ff774d131109a3b6b79b88d090b66df7cfb2cd53",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951dd",
+    "id": 226,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 26,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150410\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":26}],\"carga\":{\"numeroInternoUrna\":2048075,\"numeroSerieFC\":\"f2a650e9\",\"dataHoraCarga\":\"20220925T101900\",\"codigoCarga\":\"903789704689932572159105\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"9d2f7bd4\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1058,\"secao\":26},\"dataHoraEmissao\":\"20221030T150346\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150126\"}],\"qtdEleitoresLibCodigo\":13,\"qtdEleitoresCompBiometrico\":263,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":334,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":263,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":62,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"12419f8d1b8236f6cd7c1a03688f709b3b3d939a76537427697cb2c212efdb1c8af9f670fad0313d6b7bb51ba25b66d9d493f50a757974a3d7da03830f95700c\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":195,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"8e593956389f43a48fff6da598a9f658281cfcd92689e8103cf20a66d22c05554c55c285110264d7d4e1ca3823d83d04d2220e1c5bc4f94da62bd0b60a54d30a\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"cafb2ae48bcf53a264f8c498a9fa416ef12958df507da9bee38f432539a692e59a20bc65277d79394281da921323bed4e071cb284bc00f779cbd69d86ebc330c\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"b65d72a9fd10f1a5c2d9ad5cbb8a9a8ffcaa18f4f237909c3715745ba865b399568f03242ae015ab5546b2c7163064220b82b3c3e666e1dd56bb1fd54f3eb90b\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"9aba2c433ef690427f05453145afdae826f8005bf77382c79153be86a1ab8b60\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 62,
+        "_id": "12419f8d1b8236f6cd7c1a03688f709b3b3d939a76537427697cb2c212efdb1c8af9f670fad0313d6b7bb51ba25b66d9d493f50a757974a3d7da03830f95700c"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 195,
+        "_id": "8e593956389f43a48fff6da598a9f658281cfcd92689e8103cf20a66d22c05554c55c285110264d7d4e1ca3823d83d04d2220e1c5bc4f94da62bd0b60a54d30a"
+      }
+    ],
+    "merkletree_leaf_index": 226,
+    "merkletree_leaf": "f56200e8db4f2d59ea29abb78c605de77a30a33c0f4d97ac94e6d864741df487",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951df",
+    "id": 227,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 56,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150401\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":56}],\"carga\":{\"numeroInternoUrna\":2046509,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20220925T091800\",\"codigoCarga\":\"641163659606521378321988\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"7ea4eb7f\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1112,\"secao\":56},\"dataHoraEmissao\":\"20221030T150341\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150102\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":245,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":335,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":262,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":66,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"e801b825576b625f2d75c273ef0a9a05689751d3c55d5cc0c40a0983e8936210847ceeccbb3c8f9b33cb3b599a93919c492f4c6e8eb08175728cebe2d49c8b0e\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":188,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"dafa76b5ffbeb06f1c44fe9ffeabb9eda91918fc1b96a8f8a0600802ab13d7208fe35b099dde22ba6d94f98ab7541db8fa5fb985dd490fc00df6a889a64b9b00\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"8f2a5b8556ee3f4e336945233f61990205c72fc99c6f90c20f47f2cd513f893a7dc1aa39fe8a92c9ffc6a2651942e21039b1cfae69a0806d2cff571fba429903\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"2056a92403b55a41bddf774878da10a69ed392ac8fc85c222550d708a436ce3a1dc720b90ebe71e79e4bcc17d91d069ecd6aabc24b6dde75bca2015de9216a0d\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"e4a6998064a1c3e88fb515a60ad87bc72c65956c2bb6a994af54082cef7fb273\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 66,
+        "_id": "e801b825576b625f2d75c273ef0a9a05689751d3c55d5cc0c40a0983e8936210847ceeccbb3c8f9b33cb3b599a93919c492f4c6e8eb08175728cebe2d49c8b0e"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 188,
+        "_id": "dafa76b5ffbeb06f1c44fe9ffeabb9eda91918fc1b96a8f8a0600802ab13d7208fe35b099dde22ba6d94f98ab7541db8fa5fb985dd490fc00df6a889a64b9b00"
+      }
+    ],
+    "merkletree_leaf_index": 227,
+    "merkletree_leaf": "e31e7ad0edb25d19686c5776be3b698de5ca43de4d3c78da864b6ea4bdb08314",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951e1",
+    "id": 228,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 250,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150420\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":250}],\"carga\":{\"numeroInternoUrna\":2046444,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220924T180500\",\"codigoCarga\":\"984597512282432905903799\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c6f766ab\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1104,\"secao\":250},\"dataHoraEmissao\":\"20221030T150318\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150036\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":224,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":310,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":238,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":55,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"5aff6bc0a2183c6159315e586e71f5547c1a90ce81f7844f52c84bd7780e4cc1d0b85c1a5b4f56a2662464a628d829cf13c0fb8bbf3b0cbca80541f9256f1406\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":175,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"f57cc122cd0d68bc0686d9380073c428c5d17a55501b4b73008b983bb2a1fac6841f77f6e16feee9716df5596f755fe0dd6a42c268a3083eea54ae303dc5370d\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":5,\"assinatura\":\"2cb494cf57e3ac82e17b74b38f4896f7c2e1659eb84b5535651a75bd2bfb213e2bedef4d362baec21adf26971b0429b2b1ef6461fda8ba4c890815d0b23e6a06\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":3,\"assinatura\":\"6d6d7df4a0a095f8f2603862dc9f793fc2aa6af1fec78914acdae4951c4c95fed1cf972b86a74df07b78991cf21409403ec9d09ab33a5c1cd8fdb3a525554a0e\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"9db659883b6339c1d2f9343d18e1a98cd10644d65568ea3f84bd94e8ef1f10ca\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 55,
+        "_id": "5aff6bc0a2183c6159315e586e71f5547c1a90ce81f7844f52c84bd7780e4cc1d0b85c1a5b4f56a2662464a628d829cf13c0fb8bbf3b0cbca80541f9256f1406"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 175,
+        "_id": "f57cc122cd0d68bc0686d9380073c428c5d17a55501b4b73008b983bb2a1fac6841f77f6e16feee9716df5596f755fe0dd6a42c268a3083eea54ae303dc5370d"
+      }
+    ],
+    "merkletree_leaf_index": 228,
+    "merkletree_leaf": "f82bcdd17e7134a9934c25f8d10f8f5b641356b2bd4546f423864b447953e874",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951e3",
+    "id": 229,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 390,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150622\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":390}],\"carga\":{\"numeroInternoUrna\":2048054,\"numeroSerieFC\":\"6fa081f3\",\"dataHoraCarga\":\"20220925T100100\",\"codigoCarga\":\"428941326784807317540296\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c116da86\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2313,\"secao\":390},\"dataHoraEmissao\":\"20221030T150527\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150219\"}],\"qtdEleitoresLibCodigo\":16,\"qtdEleitoresCompBiometrico\":260,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":337,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":276,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":96,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"24f30f14cd7ac71f78a9f00bf1c21d1a011584b632e6d26f3121229f146d4380071a37deaa66e0d2c66a964821b52eb6c729ffe13778c129ed26130d20634a0f\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":169,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"38859609f3648eaa9f4f14bd821fbac8b18a4a961819696ae416eeeffed71abe869e95ffd118b17cd86796d7bebe7205f5d135ad09891a689bffe3684538d20e\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":5,\"assinatura\":\"29eb3329af84246a1e32ec66e4d0dcc7be457e7dddda925878d9ec5181532747b515a81edd0c5dcb3cfd0fdafe3f48ef996b23f1a4f99501aa2fad8ef3b1f100\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"da8797e83f88c7e883c797b542679622f1273ecc1a1ed35f0e32964406ad2b82f537b32b57e715ef3f065bc31024fb8e1b67db799f00e437148ebe94fb227606\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"02a483d93c5a6f5fb1ec1e874b538d0c5f196520c18e92020174b8b4161935ad\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 96,
+        "_id": "24f30f14cd7ac71f78a9f00bf1c21d1a011584b632e6d26f3121229f146d4380071a37deaa66e0d2c66a964821b52eb6c729ffe13778c129ed26130d20634a0f"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 169,
+        "_id": "38859609f3648eaa9f4f14bd821fbac8b18a4a961819696ae416eeeffed71abe869e95ffd118b17cd86796d7bebe7205f5d135ad09891a689bffe3684538d20e"
+      }
+    ],
+    "merkletree_leaf_index": 229,
+    "merkletree_leaf": "f1293c0a34f830123595b00dca94305076f6bfd61a82b7bf14c4556112e3d7d3",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951e5",
+    "id": 230,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 151,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150231\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":151}],\"carga\":{\"numeroInternoUrna\":2046231,\"numeroSerieFC\":\"c2dac5be\",\"dataHoraCarga\":\"20220925T145000\",\"codigoCarga\":\"934092486534130162789936\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"d7f0666b\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1384,\"secao\":151},\"dataHoraEmissao\":\"20221030T150206\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150104\"}],\"qtdEleitoresLibCodigo\":17,\"qtdEleitoresCompBiometrico\":289,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":338,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":289,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":54,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"71bd75bb92fae77a0a00c7d609d100eef7f9227d67c63c6fab11cd6a368c05dd88189ad6319453d5740cd0f824ed4dfef9572f241dc5ef89ddeaa95341369207\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":229,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"ba7a678415cc4d599d5d25211c1f23fc5416c5ea8160c54ff0f4a99cdf0d769e86a8ab53cdaacc45a36be59c71dd900837acb0877f1873a3b2ee841e731de400\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"8902287b987427458ca6472bfb80f1ce18011630dfc31bd532243a1fd8eb8889ea540129be3c0027237e609c382613dbeff4ee9e27a1c0604a861f499d478309\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"cd8b083993b45bfc971933296d910d98b06ae17c5693cd8dba4eda655510b069\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 54,
+        "_id": "71bd75bb92fae77a0a00c7d609d100eef7f9227d67c63c6fab11cd6a368c05dd88189ad6319453d5740cd0f824ed4dfef9572f241dc5ef89ddeaa95341369207"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 229,
+        "_id": "ba7a678415cc4d599d5d25211c1f23fc5416c5ea8160c54ff0f4a99cdf0d769e86a8ab53cdaacc45a36be59c71dd900837acb0877f1873a3b2ee841e731de400"
+      }
+    ],
+    "merkletree_leaf_index": 230,
+    "merkletree_leaf": "0ca909ef8a37386e82de1887a5cf02fcb2fc3e9f2858128a8c7cb4154c1b570e",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951e7",
+    "id": 231,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 38,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150210\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":38}],\"carga\":{\"numeroInternoUrna\":2043928,\"numeroSerieFC\":\"f2a650e9\",\"dataHoraCarga\":\"20220925T150100\",\"codigoCarga\":\"469345559245397525048236\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"9baaa867\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1074,\"secao\":38},\"dataHoraEmissao\":\"20221030T150155\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150023\"}],\"qtdEleitoresLibCodigo\":17,\"qtdEleitoresCompBiometrico\":258,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":337,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":269,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":67,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"98f40e8b9c46194fa21be9fe70a4dfd7d1b8985346d4833acb28edfe42afe0eb926db3cbc029abbe6d319d85d1c7d481bd7d9883b9874630cbb58622e63e5a0b\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":194,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"59e8c3b4a439f35fb524bdc507265cb25a187e6ecf2337703c513f8828bd7588eaeadd5ce6a6b447019e03c0aa172ca0807cf3f15e14deaed3b67d51f156310c\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"cbfb7fb86fed2b32493824d200a79c56b2fce9bef5830ee750541b360fba3e720ffae63ee5015d68ffc0ea18a764145e32303d177734177eb3a3596089746303\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"7edfdc34e1871f090e2cff0833c76e57c1c36001beff7c03a420a485bba7b739199afa43841b7059a8520a4c843c994f4757a899ac1465a736eacc648609f808\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"744aba0706288ae6418284ba3581b8e33e136a3826137ecb2d7ef4ea1e212616\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 67,
+        "_id": "98f40e8b9c46194fa21be9fe70a4dfd7d1b8985346d4833acb28edfe42afe0eb926db3cbc029abbe6d319d85d1c7d481bd7d9883b9874630cbb58622e63e5a0b"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 194,
+        "_id": "59e8c3b4a439f35fb524bdc507265cb25a187e6ecf2337703c513f8828bd7588eaeadd5ce6a6b447019e03c0aa172ca0807cf3f15e14deaed3b67d51f156310c"
+      }
+    ],
+    "merkletree_leaf_index": 231,
+    "merkletree_leaf": "31de9159310d33dbdccdbe4a54c66a4c404b3fc6e970019d281af9571883d3b9",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951e9",
+    "id": 232,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 148,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150357\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":148}],\"carga\":{\"numeroInternoUrna\":2048096,\"numeroSerieFC\":\"c2dac5be\",\"dataHoraCarga\":\"20220925T132900\",\"codigoCarga\":\"641163895105090956892213\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"8cf13081\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1449,\"secao\":148},\"dataHoraEmissao\":\"20221030T150342\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060336\",\"dataHoraEncerramento\":\"20221030T150211\"}],\"qtdEleitoresLibCodigo\":6,\"qtdEleitoresCompBiometrico\":281,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":344,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":282,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":56,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"5d696519ec0553011f1a1318ac17660ce6fdbb15a3471de07a6904436c770fbfadeef5feef34243453e5e6a097ae4949bc998398d9058c1f43e5c8366c0c2605\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":220,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"a0742457f427d0cb6f560dc4b654eb21a5202d1f4aaa51dd710181a3a9ee121ed8a62514bfdd28e35f9b8c25f960ad6cec662b8a1b38203fe8143568185b5601\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"d2595d9e4cc3d2082e2cc06e1abe0b03a635338f4581d38867c186cf111bbd9b0ebfe6dd8e04a148621f08d5b8107fc6c56b670e160eb716cfa9d94b46871a07\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"d65ae696664372e7d903b211cd295307722652235a43f3af5769a4bc5c6f31099c8ddd4d729aac2f1c877b52d62f923ecaf2bbfb8583ff6f9453d111806fa609\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"e9388673b170592af1d6dafa45f1f9cf478a856a98f8520dadcd9cb6068ca7ae\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 56,
+        "_id": "5d696519ec0553011f1a1318ac17660ce6fdbb15a3471de07a6904436c770fbfadeef5feef34243453e5e6a097ae4949bc998398d9058c1f43e5c8366c0c2605"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 220,
+        "_id": "a0742457f427d0cb6f560dc4b654eb21a5202d1f4aaa51dd710181a3a9ee121ed8a62514bfdd28e35f9b8c25f960ad6cec662b8a1b38203fe8143568185b5601"
+      }
+    ],
+    "merkletree_leaf_index": 232,
+    "merkletree_leaf": "de80c3d500abf883fb451a88cda290cb1aca01ed7d934fa9664051eb6e65d5a4",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951eb",
+    "id": 233,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 255,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150343\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":255}],\"carga\":{\"numeroInternoUrna\":2046108,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220925T081400\",\"codigoCarga\":\"035002119887527562142174\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"5f66f6a1\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1708,\"secao\":255},\"dataHoraEmissao\":\"20221030T150315\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150118\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":290,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":362,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":290,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":73,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"7abe71f79cc4ae8cd5b3e314a1c01f7fc4d0892de3a819b32741ef745d9eef0fe4ee637b81f382bb0518c4c982ad6f33515eb5d6810d1e5e7d6eabec1afc5301\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":207,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"44629f9e29af808560c5ac07715033ba4f707dd6bcdffbea3f237e1b8fd48ec1dd2274152e03c782c4447561132880b7fd65c10ceff8d70c866ed9dcb981260e\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"d6a4902ced7b780a5e43d4a4779c9bf1665baf10394d646251ef2505f5127688873f521b07968d83c5f8280b1607b8b23bb1457d24fdfd5192322ba1801ce708\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"14c01c109555a2bc436d5fd356dbff0a3639cd5bc6d066caae3fc816ed5e4cfe8268147e1e045f413e3c26fd9f5bc6ecc0e8eac4a072485534035c0f1da3f509\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"ae7723b9cde070596d0f3ac944fafea1330927e374a25693c3d3f5799667e887\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 73,
+        "_id": "7abe71f79cc4ae8cd5b3e314a1c01f7fc4d0892de3a819b32741ef745d9eef0fe4ee637b81f382bb0518c4c982ad6f33515eb5d6810d1e5e7d6eabec1afc5301"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 207,
+        "_id": "44629f9e29af808560c5ac07715033ba4f707dd6bcdffbea3f237e1b8fd48ec1dd2274152e03c782c4447561132880b7fd65c10ceff8d70c866ed9dcb981260e"
+      }
+    ],
+    "merkletree_leaf_index": 233,
+    "merkletree_leaf": "442c76c783c05b167c527bce549b021596815589326b5862ca93ebfe45ec37bb",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951ed",
+    "id": 234,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 161,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150516\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":161}],\"carga\":{\"numeroInternoUrna\":2045164,\"numeroSerieFC\":\"639e8ae5\",\"dataHoraCarga\":\"20220924T184400\",\"codigoCarga\":\"934092550944674336788041\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c6c73594\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1252,\"secao\":161},\"dataHoraEmissao\":\"20221030T150410\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150137\"}],\"qtdEleitoresLibCodigo\":5,\"qtdEleitoresCompBiometrico\":241,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":336,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":244,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":58,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"c47c14a118143754e94012a58b65ec76e43a8d9af766f60336e141e48746adfc1e2c8a6847ccbf55e359d6b5a754d957250a8fbcbca46dfcaf0e4c1a498bca07\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":178,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"6f2ba31f4a6ad060d2d6f9d85f70a7bb904cd01a55bc6a969e98937de4430395116714e9fcd10392d2317e869b8e7b767b1ed67488f37f276e2c3c8616e8b40f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"e2d1118c1b5af6d875886fc2508fd2230fdd3c55151f2ceeeba2f63c7ec38598ce8c35807990b77efa3a7f7f0ae55e792f9af6cba11574a7c634162ebb8da907\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"acebb72b080631ccf8c9d96a53dd5ac6ae6bb511e146f5c966069e9114be75b762b72f0e357ebf4a2f34a1b89b7d27a750fbdffe53ac8709d048f14813223202\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"176b6f0f5aa53d49bcefa635c273d99122dda8a1803b19bcf53a63b7ebeb647d\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 58,
+        "_id": "c47c14a118143754e94012a58b65ec76e43a8d9af766f60336e141e48746adfc1e2c8a6847ccbf55e359d6b5a754d957250a8fbcbca46dfcaf0e4c1a498bca07"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 178,
+        "_id": "6f2ba31f4a6ad060d2d6f9d85f70a7bb904cd01a55bc6a969e98937de4430395116714e9fcd10392d2317e869b8e7b767b1ed67488f37f276e2c3c8616e8b40f"
+      }
+    ],
+    "merkletree_leaf_index": 234,
+    "merkletree_leaf": "41e5b921d84801a1a420ee89b81026f03593936c0680873b8a7daf9fc0e5f7a8",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951ef",
+    "id": 235,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 91,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150755\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":91}],\"carga\":{\"numeroInternoUrna\":2047923,\"numeroSerieFC\":\"f623c16b\",\"dataHoraCarga\":\"20220925T082900\",\"codigoCarga\":\"166315905362096763625659\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"fd5481d3\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1210,\"secao\":91},\"dataHoraEmissao\":\"20221030T150726\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150135\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":292,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":351,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":292,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":70,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"bda47be8e7c350b0b60050f30306d030737b11526c1121fcad2b9c6160180ef608ec14f7c2f18829754b6e66a84d39a1d6c485408a2f2fca2d12f1e7234d3c04\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":212,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"3fd0f0e5d0fc440ed19cad519fdc7f69e30872d0889e4a4f163470236b05f7c6ba766e8ef71794635da3e72218f0b2a9707e381addd938937c44135431f62106\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":6,\"assinatura\":\"55022b958a39f3ccfe39c2fad89bf53d38a2110388804a029d4bd2e301663440cc1e40395542c5ac768525f8063402b80c1a32a762534f5be7da66f0df4f0a0b\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"d1977c9459540222ce62a03cd0e27653b2ce9b1cde11724f03f14705178cc0b7270e569cbe815fc359c866ea298592d1959c0dc35765a63f92dc0f2a2159c80b\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"07611780a4d5692f4e71080689d3be7245de7cb75f9ce8971338777bb26a124a\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 70,
+        "_id": "bda47be8e7c350b0b60050f30306d030737b11526c1121fcad2b9c6160180ef608ec14f7c2f18829754b6e66a84d39a1d6c485408a2f2fca2d12f1e7234d3c04"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 212,
+        "_id": "3fd0f0e5d0fc440ed19cad519fdc7f69e30872d0889e4a4f163470236b05f7c6ba766e8ef71794635da3e72218f0b2a9707e381addd938937c44135431f62106"
+      }
+    ],
+    "merkletree_leaf_index": 235,
+    "merkletree_leaf": "7d5dafeebec986d100798367957ea0ab0317399817fda0cb96b88d53f4ef5737",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951f1",
+    "id": 236,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 346,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150543\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":346}],\"carga\":{\"numeroInternoUrna\":2046455,\"numeroSerieFC\":\"7776be57\",\"dataHoraCarga\":\"20220925T084900\",\"codigoCarga\":\"499648709319606438454966\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"52d63e90\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2151,\"secao\":346},\"dataHoraEmissao\":\"20221030T150509\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150249\"}],\"qtdEleitoresLibCodigo\":13,\"qtdEleitoresCompBiometrico\":257,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":328,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":263,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":63,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"91758d99c798628214cfb18b9c5145a77625a829b842dfa8ba7156784d298b471a09d7c77eba44d86bd34cb7b513bd4e411f8facbf75b960deebf51789a1e809\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":193,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"08c8ee91192dabc538f506ae500f2c61be9539bb49911883305d9c5b1abccae5c1426bc31070f6e41dc3f196f0beaa5023735df83438e8fd26a2fd0fce48a004\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":3,\"assinatura\":\"2689657094043590d1f55f7b4ca5390429d5a0a00fce7fe58269c1faf5f904961376265b9eef78f19512217b9245a56b7f163d9f018bf5956412f3af4bffe904\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"6305974504cd016dba4f38f626f81f530b1cd249c2aa9a68c4313df92c71adc5543f18f93c12c14644ab659ac4546b11842ac3275d84e7940b0a8d68dcf8590f\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"41172f0a0511867eb8b941012cd35457608efbe9b345d297eb44f0e40e7acbac\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 63,
+        "_id": "91758d99c798628214cfb18b9c5145a77625a829b842dfa8ba7156784d298b471a09d7c77eba44d86bd34cb7b513bd4e411f8facbf75b960deebf51789a1e809"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 193,
+        "_id": "08c8ee91192dabc538f506ae500f2c61be9539bb49911883305d9c5b1abccae5c1426bc31070f6e41dc3f196f0beaa5023735df83438e8fd26a2fd0fce48a004"
+      }
+    ],
+    "merkletree_leaf_index": 236,
+    "merkletree_leaf": "8d657c76b54859bdd0a360d168431857ff5f8d4d3d715f2ba6df2e43ac779db8",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951f3",
+    "id": 237,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 76,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150232\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":76}],\"carga\":{\"numeroInternoUrna\":2046153,\"numeroSerieFC\":\"52ae9a28\",\"dataHoraCarga\":\"20220925T152300\",\"codigoCarga\":\"540153695996791184164232\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"090dbe52\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1163,\"secao\":76},\"dataHoraEmissao\":\"20221030T150213\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060017\",\"dataHoraEncerramento\":\"20221030T150019\"}],\"qtdEleitoresLibCodigo\":12,\"qtdEleitoresCompBiometrico\":257,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":337,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":268,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":71,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"fdb4d990778834165626543c4d9f0569d61fbdf816edabd9002c73241937f0ce9e56ed6128565d435cbdb9f734c5a8d01aacf05f3177d14fe301ab3220bd9e09\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":187,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"b53abfd8634e8592557f2a8ea963f7e7c98e38206aa2720e07263496e6d3a893a06413dc7db8b66d15d5b7af2b706c5b8fdb94aaf90e84639b3388c272daca05\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":4,\"assinatura\":\"789a1a84797f2939ac16cb0db7d6eef290ec8c56c454b8c5862addce276a6a70e48275c40f01bd7f41b9184294cc2cbc47f010e12460387425575a190175210a\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"35efb5a3d5640f6526bdf55360b4f7a3211846976de0a942df4e2cc817ef3f8cd3f6a147e8d86a873cd11552eef605600b3bb14a49fe9353ff188f88cc370f04\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"1ebf0953bc487ae0f382f4a2bf74d73968ae9828fd0015262dd7a35e025a52d4\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 71,
+        "_id": "fdb4d990778834165626543c4d9f0569d61fbdf816edabd9002c73241937f0ce9e56ed6128565d435cbdb9f734c5a8d01aacf05f3177d14fe301ab3220bd9e09"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 187,
+        "_id": "b53abfd8634e8592557f2a8ea963f7e7c98e38206aa2720e07263496e6d3a893a06413dc7db8b66d15d5b7af2b706c5b8fdb94aaf90e84639b3388c272daca05"
+      }
+    ],
+    "merkletree_leaf_index": 237,
+    "merkletree_leaf": "862bf127f92cd07c1e3f2e029657db5bf695047a46ae9676de5d0169a4429465",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951f5",
+    "id": 238,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 144,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150302\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":144}],\"carga\":{\"numeroInternoUrna\":2046426,\"numeroSerieFC\":\"c2dac5be\",\"dataHoraCarga\":\"20220925T105400\",\"codigoCarga\":\"802779610021848458877053\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"4036b5f0\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1589,\"secao\":144},\"dataHoraEmissao\":\"20221030T150243\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150050\"}],\"qtdEleitoresLibCodigo\":15,\"qtdEleitoresCompBiometrico\":281,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":355,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":282,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":54,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"3c803bf1b563cb8a30c279f60f27afc90ce8051fcac2e50740fcb3f1788f5385785292311a688254a4a2f8d08e0841416360f10d9b25757313f4c652e9ba0c02\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":220,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"027ff2148de6e61c0e0953e48a313112b94bbd9c6dccad2246dbafede7fb4faaf2e979e537759d482e167e637dda1140ac832bec92d9e8bff75c3ad193fdc605\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":3,\"assinatura\":\"545ab1bd994a3d9fd72de48e3d67a9a97159605659909ffa3dfa34f37db81a4b58869114075d1682c993df320b04a57c2fa882014539d8f0e64064f7ea264b09\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"29d0d7a7f9f0a25c1d95b0993b1bb633ff365170b720391d40c4d98aad027bc12e5440f5288eafa9e8dafa6790a7ebf81d14a180619621ea7e8f6d729ae12804\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"eba5549616487630b09cb64404e40134c6343db5d6129febb99d881f63370462\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 54,
+        "_id": "3c803bf1b563cb8a30c279f60f27afc90ce8051fcac2e50740fcb3f1788f5385785292311a688254a4a2f8d08e0841416360f10d9b25757313f4c652e9ba0c02"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 220,
+        "_id": "027ff2148de6e61c0e0953e48a313112b94bbd9c6dccad2246dbafede7fb4faaf2e979e537759d482e167e637dda1140ac832bec92d9e8bff75c3ad193fdc605"
+      }
+    ],
+    "merkletree_leaf_index": 238,
+    "merkletree_leaf": "287f15f77ab4168152a14b798498c4e36b24c212e042b88be9314c56f8c8dd61",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b263c19aea2cc951f7",
+    "id": 239,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 335,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150511\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":335}],\"carga\":{\"numeroInternoUrna\":2046365,\"numeroSerieFC\":\"7776be57\",\"dataHoraCarga\":\"20220924T185100\",\"codigoCarga\":\"075406105577691631768699\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"601fbacb\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2119,\"secao\":335},\"dataHoraEmissao\":\"20221030T150421\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150107\"}],\"qtdEleitoresLibCodigo\":13,\"qtdEleitoresCompBiometrico\":263,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":333,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":272,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":76,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"fcccb9ee19eb6db3f83190953fc1b5e1a9e4a2c1c19d6e5d86d34c1946fa221924b4431a10030b8bfa7cd5d160cde07a7d0d3e4ba69aa5d19f18f7e390cf520f\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":184,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"2b54c96db719121bc71bfdaff7a9115b04839c12b5889f283d4a5bf8da65493425d3de30ec5b9d7d03e56b4b9af881bd3adcca2146fa881133f4b4de6d4cd50f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":7,\"assinatura\":\"6de906f534e157c9090e5e026451d54ef8d89389d35d5e8e1c6cbd55907bd7a6ad7e28e2b6ddffc918aa2af58ff3e9bb2fe74e4f2f781f33971089fcf4ff710d\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"a3860405acbf01cf93832a9cbe01952fc8914cb2258e8d3e422ec61256078d1eff984797539ba3ea4c716c421b5c9d928ca4eecbfcedc46a6200a3d09b04520e\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"abdeddb9dd83dfee26cc62cfffaad05fdfb6befca0b1649483eb38cb9293bc64\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 76,
+        "_id": "fcccb9ee19eb6db3f83190953fc1b5e1a9e4a2c1c19d6e5d86d34c1946fa221924b4431a10030b8bfa7cd5d160cde07a7d0d3e4ba69aa5d19f18f7e390cf520f"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 184,
+        "_id": "2b54c96db719121bc71bfdaff7a9115b04839c12b5889f283d4a5bf8da65493425d3de30ec5b9d7d03e56b4b9af881bd3adcca2146fa881133f4b4de6d4cd50f"
+      }
+    ],
+    "merkletree_leaf_index": 239,
+    "merkletree_leaf": "c0540c87e0da4bbf7b926b5a22add965b705e0cbc2616089cdc30323020fc59a",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc951f9",
+    "id": 240,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 204,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150300\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":204}],\"carga\":{\"numeroInternoUrna\":2046346,\"numeroSerieFC\":\"6ec3501c\",\"dataHoraCarga\":\"20220924T183000\",\"codigoCarga\":\"499648118422869097750777\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"490393e3\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1678,\"secao\":204},\"dataHoraEmissao\":\"20221030T150235\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150105\"}],\"qtdEleitoresLibCodigo\":14,\"qtdEleitoresCompBiometrico\":251,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":336,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":263,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":82,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"13508cbaaae05315cf9628c015884b98b6654b395d0d74d8a7ade05fee47bd155846be1441bc5169f3ca792855d271ba5f12d6d6b14958a535e020573bb5e00f\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":166,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"023d9c7a535e060c92b0cff4edb486ed08179d9dc36955e3e204983fd00d72987460439af0182b08ccdd2a78494af768924c0a4e1d5726cc6828ff6b978e420f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":9,\"assinatura\":\"4295153ec9ed4efe5a10e6a951968019002ddcbbc34fa44bd2630c630789e5b2486dcd9400c730cbde9d2607796fb9c257690b1575960a000d820f62fbc6f00f\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"5469ce30ecb36b90794273fd24ead0c3fc905f1cc58fa6c90041ee9e99c79700a8368648592071f69e816d658dbae6a4639b321ae9a481de70d3566bd31b2308\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"fb772c2dcd0b9ab7d454f599d33461be4d2e1cd253979e42f63f0742732e1b03\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 82,
+        "_id": "13508cbaaae05315cf9628c015884b98b6654b395d0d74d8a7ade05fee47bd155846be1441bc5169f3ca792855d271ba5f12d6d6b14958a535e020573bb5e00f"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 166,
+        "_id": "023d9c7a535e060c92b0cff4edb486ed08179d9dc36955e3e204983fd00d72987460439af0182b08ccdd2a78494af768924c0a4e1d5726cc6828ff6b978e420f"
+      }
+    ],
+    "merkletree_leaf_index": 240,
+    "merkletree_leaf": "032752fc94a873c6940d9f304c1371f1ad679a2f6dc0ba54c04acd32beaf9449",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc951fb",
+    "id": 241,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 408,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150223\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":408}],\"carga\":{\"numeroInternoUrna\":2044818,\"numeroSerieFC\":\"7466e4fa\",\"dataHoraCarga\":\"20220924T190600\",\"codigoCarga\":\"742173981104371327242729\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"c298c98b\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1031,\"secao\":408},\"dataHoraEmissao\":\"20221030T150203\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060204\",\"dataHoraEncerramento\":\"20221030T150032\"}],\"qtdEleitoresLibCodigo\":12,\"qtdEleitoresCompBiometrico\":229,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":334,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":245,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":76,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"fceb35982be3fd5fbe8f29e56dfc4967503a5aff118c62168677b1fb1b6c77a8fc44c83db202ce7c8ee90659c443350b65fe54cb8e6016ad7ece144953b9bf07\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":162,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"d1f9831555f4853967ea910ab1428a3b41bccd35adfe3bcb88bd4ddd368c87a0718183a3befa2d482593292db32d43a11c8ec93363a9af0f74e3dd11851d1809\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":3,\"assinatura\":\"e334ed2e02fc5aead3f2cbcf348d711ac6d70a3ecbf7f8cf2fcc867cffbfb8b4caff0fc9c7efac7952349b2042f2e4614cc717368a4260928f5fa27e1ebaa007\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"e2be41c096ddeb5516665266cb712aed9949d5f048a5e6cbb5cec4f6a2dacd77e0f4b11ebe6ff95b59c30fcb1b1e6899dc07471eac5dde74a814a33b793e170c\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"75f8016b8cedf01423aa30bbda9e91f374c91be76beb67f4368ddbec9a838e95\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 76,
+        "_id": "fceb35982be3fd5fbe8f29e56dfc4967503a5aff118c62168677b1fb1b6c77a8fc44c83db202ce7c8ee90659c443350b65fe54cb8e6016ad7ece144953b9bf07"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 162,
+        "_id": "d1f9831555f4853967ea910ab1428a3b41bccd35adfe3bcb88bd4ddd368c87a0718183a3befa2d482593292db32d43a11c8ec93363a9af0f74e3dd11851d1809"
+      }
+    ],
+    "merkletree_leaf_index": 241,
+    "merkletree_leaf": "e5f9723db712f0ea68383e38287e1e5b6d681f99bbf7d3fafdb2f1e1960737ec",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc951fd",
+    "id": 242,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 196,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150635\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":196}],\"carga\":{\"numeroInternoUrna\":2014613,\"numeroSerieFC\":\"639e8ae5\",\"dataHoraCarga\":\"20220925T183800\",\"codigoCarga\":\"035002414854051996659574\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"605350b3\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1619,\"secao\":196},\"dataHoraEmissao\":\"20221030T150535\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150120\"}],\"qtdEleitoresLibCodigo\":11,\"qtdEleitoresCompBiometrico\":231,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":328,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":238,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":54,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"72807d279a4f6e5abfdfbd1e7f35e360d2507eab77b21227c56865a1d9d2edd3198f6fa973a3d10481386331c73605ea1775bee396cc918bd71e7e92f42af90d\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":180,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"fb46286452fd5e948da2e247c1928b19e5de0f7d65c57aa47b5b226b838c7eb071f3b88c24e1a966fc5767bc83070a9fb9bda8cad4b89353b45ea2f2e334ad0e\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"c26f21698b94875e059ac2401bd9f5b89bbc24dadb7e01c02902b815f20455268bddc60b0ec713a7394c74080ebeb9ee132813419c528a6470b0d7eeaccbae09\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"32037aeb28a509abfab9ba65cb4394b3859afa0dcdb48438da9a7ac04a9f6deed0dd845049f7f5706617e5429e6a0fa09c232c77c22889c4c11b36bf667d1d05\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"210f4a83f2f63c9624992639b297447126c733c727466baf8f6e2155249901df\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 54,
+        "_id": "72807d279a4f6e5abfdfbd1e7f35e360d2507eab77b21227c56865a1d9d2edd3198f6fa973a3d10481386331c73605ea1775bee396cc918bd71e7e92f42af90d"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 180,
+        "_id": "fb46286452fd5e948da2e247c1928b19e5de0f7d65c57aa47b5b226b838c7eb071f3b88c24e1a966fc5767bc83070a9fb9bda8cad4b89353b45ea2f2e334ad0e"
+      }
+    ],
+    "merkletree_leaf_index": 242,
+    "merkletree_leaf": "64bc8270db84718d35346992629d8e2d082fbeec0665da92d52d9cd688147e21",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc951ff",
+    "id": 243,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 261,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150445\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":261}],\"carga\":{\"numeroInternoUrna\":2047090,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220925T093300\",\"codigoCarga\":\"529951237636236019437241\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"98447ee2\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1937,\"secao\":261},\"dataHoraEmissao\":\"20221030T150419\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150205\"}],\"qtdEleitoresLibCodigo\":8,\"qtdEleitoresCompBiometrico\":193,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":298,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":214,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":50,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"a041c09b59aa2555f304fea6ec06cc29ea0c6b8073c3503b2aa9e3ce6263bd80e74671bdcb230933eae875a253adaac2550feab7d5eaacb87ca34a0ed6395503\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":161,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"75fd1b78541a915566670dc6891df1f4e97377b5dccbee6dc19fa361438a0bd4ebd223bee189a3fd35336949c3a455ef89dfc0fc1132bc68e4af8f9698e71c01\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"8e088f80a458fe87dd396ea02eff10df735576d40a33ee467f8912c3058f32913fb9a928ecd49386d9237336762c893de7cccdc9ccaf7ee8b14827fe04ba9d04\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":2,\"assinatura\":\"9293c6de2a30e4d72400130075a8f6d6818548c0014de23a2b71bbcc930797598067b975737dabfc7662ca73780fda667dd4a52246f9b5cbdd1783bc5a96bf05\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"430db99f4f52edbc378ce377bb70ceaaf5fffe142c34b96dbb37a2c2d70a2650\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 50,
+        "_id": "a041c09b59aa2555f304fea6ec06cc29ea0c6b8073c3503b2aa9e3ce6263bd80e74671bdcb230933eae875a253adaac2550feab7d5eaacb87ca34a0ed6395503"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 161,
+        "_id": "75fd1b78541a915566670dc6891df1f4e97377b5dccbee6dc19fa361438a0bd4ebd223bee189a3fd35336949c3a455ef89dfc0fc1132bc68e4af8f9698e71c01"
+      }
+    ],
+    "merkletree_leaf_index": 243,
+    "merkletree_leaf": "447a05d7eba81a99f4dd9e78c7d5b6130f912228f2aff6b9e4324497f77e7c4b",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc95201",
+    "id": 244,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 357,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150323\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":357}],\"carga\":{\"numeroInternoUrna\":2046456,\"numeroSerieFC\":\"7776be57\",\"dataHoraCarga\":\"20220925T101500\",\"codigoCarga\":\"620961011532374665203118\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"229e4f29\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2186,\"secao\":357},\"dataHoraEmissao\":\"20221030T150224\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150100\"}],\"qtdEleitoresLibCodigo\":5,\"qtdEleitoresCompBiometrico\":256,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":326,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":256,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":60,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"c75854eef7ded350c093ba895d6a176e97dac4f0d61aebaa7624a10c4c6259a809ee5745ca081132ff5b84a7b945ffe24843caad932269261de126c89d2f5d01\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":191,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"399cdf6184a199dda60ba820231dfb7c022ce82ad51fe423362ddcb00c83d7c6323cd27f1fc213323439100550c1a0f8b11596dfd6c2d5075a6bd9b22391490f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"d407bc8f125b659e3552be1e5e4fded3ddd4c78c18738b28fd2b2333a9920e57d7e6fb41c5b90d575ef8494241812a1d95b1a740cab39f083077e71510034b0b\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":4,\"assinatura\":\"d28300307c062e12b63af96206a03bd40f1cfab4b834a4e21bdb8a8f19f68f1bd099f8b5128507bd022ad36a67d0dc80f38ee8449801bd30ae09a3cf3c14cd09\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"deb32c2b190c76e2bb8f02b3259e65984805c3c109b8694940ca2525d8df91d6\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 60,
+        "_id": "c75854eef7ded350c093ba895d6a176e97dac4f0d61aebaa7624a10c4c6259a809ee5745ca081132ff5b84a7b945ffe24843caad932269261de126c89d2f5d01"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 191,
+        "_id": "399cdf6184a199dda60ba820231dfb7c022ce82ad51fe423362ddcb00c83d7c6323cd27f1fc213323439100550c1a0f8b11596dfd6c2d5075a6bd9b22391490f"
+      }
+    ],
+    "merkletree_leaf_index": 244,
+    "merkletree_leaf": "1211d8a7497b36d696c97f74b299a2000cf93b4e139a4803bd9517fd637a09e9",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc95203",
+    "id": 245,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 273,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150415\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":273}],\"carga\":{\"numeroInternoUrna\":2046893,\"numeroSerieFC\":\"d934afff\",\"dataHoraCarga\":\"20220925T133200\",\"codigoCarga\":\"125911121096170642413228\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"007fbffd\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1643,\"secao\":273},\"dataHoraEmissao\":\"20221030T150330\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150047\"}],\"qtdEleitoresLibCodigo\":7,\"qtdEleitoresCompBiometrico\":145,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":227,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":162,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":53,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"40856fec54d5213d2a105a5d2cd0be9f10d5b6f97e0c267430f72a5a8494fe879f62715f3e87191001f6b5b7fe12c586c24e1b3b236019ae8e5918664fb0e80f\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":103,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"90f509522a8ddbec299342df090c11ce8b97a45a3c270c0a1f74f7e63a846e9ed12b8f7f716219c35c20e8d63b5edf253c9c2d3a6ed0e644708a61062ecfee0c\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"7ce8a31b28032ec54af22660ab2e81a29919d234eced6e864ba14bf8d9e4975add020ef3ca9ff2506493fd0ccd5925ca23488d4d34642cf9a15012ce652ac10f\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":5,\"assinatura\":\"59a84342d3b904890ff08b616b3e516c0dcddf65ef6cb7a35aa52c8e1ddc04e4abbf4f12f1d361deca31513b62d0c0a262e033105f84d0975a7d9eb0bb01a001\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"28f2192ba07e1d3caed1a6681b2704fe8a4f7353fc3ba583300c4fd4a83e9cfb\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 53,
+        "_id": "40856fec54d5213d2a105a5d2cd0be9f10d5b6f97e0c267430f72a5a8494fe879f62715f3e87191001f6b5b7fe12c586c24e1b3b236019ae8e5918664fb0e80f"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 103,
+        "_id": "90f509522a8ddbec299342df090c11ce8b97a45a3c270c0a1f74f7e63a846e9ed12b8f7f716219c35c20e8d63b5edf253c9c2d3a6ed0e644708a61062ecfee0c"
+      }
+    ],
+    "merkletree_leaf_index": 245,
+    "merkletree_leaf": "081aed030133d12d6e66dc7e75cd2ffc932f0540b4782a6cf6d55d440490eacb",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc95205",
+    "id": 246,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 293,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150349\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":293}],\"carga\":{\"numeroInternoUrna\":2044891,\"numeroSerieFC\":\"afb90189\",\"dataHoraCarga\":\"20220925T081500\",\"codigoCarga\":\"893688035186455608205789\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"28f8ac27\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1554,\"secao\":293},\"dataHoraEmissao\":\"20221030T150335\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150059\"}],\"qtdEleitoresLibCodigo\":6,\"qtdEleitoresCompBiometrico\":159,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":265,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":197,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":60,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"4a81ce1f6d07509781fe5d1d0a4aa9b0793e9117f07d29b560b93d9bc1cdb8e5556f0360be73e26b0e65a758216b7190f4cb1de0bed68c70649d698be3848a0d\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":128,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"a89a558eaf0325d2ee993e9c3b8e0795a4cf1ec6ea3080a66f3d7feedc1e6cd89ea87067f1bec9172e0152e040280071cabfdb609f873cb8b1605229c76a0e09\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"d8e8bd82d1c2289cac658f62e4ca19f7b9534f2867948a45601639e9615f7650a10584fe1a794179766112bfde4883c943ec35e3cdacb1606c59da196f16cd0a\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":7,\"assinatura\":\"9bc104b9b96a4e3155cef8527b31d09b38e625fef145008d546a282a0a73632bb80116726c2dc7f511d6c61ae8183e08986852fd64ed687647daed11f56e3004\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"434059950876a394ac3be977975969c966b313437b564494957d3e3dea7cfd17\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 60,
+        "_id": "4a81ce1f6d07509781fe5d1d0a4aa9b0793e9117f07d29b560b93d9bc1cdb8e5556f0360be73e26b0e65a758216b7190f4cb1de0bed68c70649d698be3848a0d"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 128,
+        "_id": "a89a558eaf0325d2ee993e9c3b8e0795a4cf1ec6ea3080a66f3d7feedc1e6cd89ea87067f1bec9172e0152e040280071cabfdb609f873cb8b1605229c76a0e09"
+      }
+    ],
+    "merkletree_leaf_index": 246,
+    "merkletree_leaf": "e74624f1f7d048af33730c49bfb58ada5472a5cd6d66c1b9d21230754e300593",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc95207",
+    "id": 247,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 93,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T151025\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":93}],\"carga\":{\"numeroInternoUrna\":2046899,\"numeroSerieFC\":\"f623c16b\",\"dataHoraCarga\":\"20220925T091800\",\"codigoCarga\":\"408739369286282682978629\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"30178caf\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1236,\"secao\":93},\"dataHoraEmissao\":\"20221030T151004\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060805\",\"dataHoraEncerramento\":\"20221030T150532\"}],\"qtdEleitoresLibCodigo\":11,\"qtdEleitoresCompBiometrico\":255,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":337,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":262,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":59,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"cc099c5b4db7517f83ff6c22f8bb078d3265c457429a89ee91f6535d3d9755c923660b510d6222332370127e25597b264145b721af1b6e62a9804ad900cb5701\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":195,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"aa7e7739e31ef346d501f4aa5b9fcc90fb3f731dbb440a262f022834e1b4676dd488fdc6a3113076966080d039989b23d48c22ef5bf4e26818d31bcb1d70ca0f\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":2,\"assinatura\":\"17e59022a61d3451bc86c17cd74f056f9751131765a3a078e3b45e1ef20e73b93c609158a6a068c50c65aea15aa3524577a486caa888c7203fa83e937c1d5305\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":6,\"assinatura\":\"f1a31de4001bd0f29058bc82bc3fa254b551b9e178e012b34a407f1990a0a9ed4e77c804bd5eae22ec57e911b3e92e3163325d4fa7796149257b05a74115a403\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"b8679dadc504922ca604fa73665e54535370260d4cccdf8886374e0d33f12503\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 59,
+        "_id": "cc099c5b4db7517f83ff6c22f8bb078d3265c457429a89ee91f6535d3d9755c923660b510d6222332370127e25597b264145b721af1b6e62a9804ad900cb5701"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 195,
+        "_id": "aa7e7739e31ef346d501f4aa5b9fcc90fb3f731dbb440a262f022834e1b4676dd488fdc6a3113076966080d039989b23d48c22ef5bf4e26818d31bcb1d70ca0f"
+      }
+    ],
+    "merkletree_leaf_index": 247,
+    "merkletree_leaf": "b0606d7b2be32fcb0186fe0e9edd81c08b007d1c47171a98591146570d40090e",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc95209",
+    "id": 248,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 309,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150341\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":309}],\"carga\":{\"numeroInternoUrna\":1759008,\"numeroSerieFC\":\"52894e01\",\"dataHoraCarga\":\"20220925T091800\",\"codigoCarga\":\"075406337378954760858097\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"46f8929b\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1791,\"secao\":309},\"dataHoraEmissao\":\"20221030T150317\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060400\",\"dataHoraEncerramento\":\"20221030T150146\"}],\"qtdEleitoresLibCodigo\":3,\"qtdEleitoresCompBiometrico\":74,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":168,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":91,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":11,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"cf46d42ff899ade0932ac437eaa87c90b81429e13fc3a1e4aae244779e1fc4dff9e97b11a11ad2af374ebba39dddb10ce1c00f5423d7d7c0f3aad8510ab56208\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":79,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"ed4b4c5367889998ced52529f17dcf718465502e764ea8d033d6af8060d9b3ff52508d16c8f1fa942e95b49c00f6640251ece4b3a9e3a8c67b9d8b5c4ae9de01\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":1,\"assinatura\":\"1428a981e3c6ece34a702c7d10962d77eab988c0ca9d585b76f59f604c82f2f88b183f1555e3324a803ab992318449ea79241d2cbe8653dc058ee63d9abd4b0f\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"b13b67762f716e23ab1fc8b7ddcf972715cb93297eadde3b7a906d25552a1761\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 11,
+        "_id": "cf46d42ff899ade0932ac437eaa87c90b81429e13fc3a1e4aae244779e1fc4dff9e97b11a11ad2af374ebba39dddb10ce1c00f5423d7d7c0f3aad8510ab56208"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 79,
+        "_id": "ed4b4c5367889998ced52529f17dcf718465502e764ea8d033d6af8060d9b3ff52508d16c8f1fa942e95b49c00f6640251ece4b3a9e3a8c67b9d8b5c4ae9de01"
+      }
+    ],
+    "merkletree_leaf_index": 248,
+    "merkletree_leaf": "838e398476132e199e23e868331fbe717b89b1f705f0bd50e59c5f1e720e32e0",
+    "__v": 0
+  },
+  {
+    "_id": "64f8d4b363c19aea2cc9520b",
+    "id": 249,
+    "turno": "1",
+    "UF": "AC",
+    "zona": 9,
+    "secao": 321,
+    "cidade": "Rio branco",
+    "bu_inteiro": "{\"cabecalho\":{\"dataGeracao\":\"20221030T150626\",\"idEleitoral\":[\"idPleito\",407]},\"fase\":\"oficial\",\"urna\":{\"tipoUrna\":\"secao\",\"versaoVotacao\":\"8.26.0.0 - Onça-pintada\",\"correspondenciaResultado\":{\"identificacao\":[\"identificacaoSecaoEleitoral\",{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":1,\"secao\":321}],\"carga\":{\"numeroInternoUrna\":2047917,\"numeroSerieFC\":\"afb90189\",\"dataHoraCarga\":\"20220925T111900\",\"codigoCarga\":\"913890435388056971725519\"}},\"tipoArquivo\":\"votacaoUE\",\"numeroSerieFV\":\"ce5aabef\"},\"identificacaoSecao\":{\"municipioZona\":{\"municipio\":1392,\"zona\":9},\"local\":2070,\"secao\":321},\"dataHoraEmissao\":\"20221030T150521\",\"dadosSecaoSA\":[\"dadosSecao\",{\"dataHoraAbertura\":\"20221030T060001\",\"dataHoraEncerramento\":\"20221030T150332\"}],\"qtdEleitoresLibCodigo\":10,\"qtdEleitoresCompBiometrico\":223,\"resultadosVotacaoPorEleicao\":[{\"idEleicao\":545,\"qtdEleitoresAptos\":324,\"resultadosVotacao\":[{\"tipoCargo\":\"majoritario\",\"qtdComparecimento\":249,\"totaisVotosCargo\":[{\"codigoCargo\":[\"cargoConstitucional\",\"presidente\"],\"ordemImpressao\":1,\"votosVotaveis\":[{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":75,\"identificacaoVotavel\":{\"partido\":13,\"codigo\":13},\"assinatura\":\"ac03b16124454876978f3ab07c14c956e73a058d51ed26693364b3ffed30bd5dd38b9f9a7b76c9148ab7b540ae5bb7e96a74343d345134ecb0661136f3482200\"},{\"tipoVoto\":\"nominal\",\"quantidadeVotos\":156,\"identificacaoVotavel\":{\"partido\":22,\"codigo\":22},\"assinatura\":\"6d0fb3ccf8a4ba6f6cacdca8e38de29964245ba28ef51c45b3468a4b2bac8e541088c6de05268dd3d7965d2aa5ae49526b1a6dd5230f5eebf26d1b5b5a4baa0a\"},{\"tipoVoto\":\"branco\",\"quantidadeVotos\":6,\"assinatura\":\"c5a1e78dc9a4a6e029dad9b60e7167f809b14dbc6b817ac73ebb05314073cfc83f11003b3e861ea7439e559ef033ca7e77842290d732f244209295a221bbf402\"},{\"tipoVoto\":\"nulo\",\"quantidadeVotos\":12,\"assinatura\":\"92ea42d1f4ed78e9d24b391eb171f54427fb5ed4223c57a255828bd538c8be6f0e27262094deaa14b7e90242d89ceb376d9be42ec13f5f097c11f17bc987e80b\"}]}]}]}],\"chaveAssinaturaVotosVotavel\":\"76841202f941ec319d59b8b526c0a39bc76de238fed2e2476b88b8063ced5eac\"}",
+    "votos": [
+      {
+        "cargo": "Presidente",
+        "partido": 13,
+        "codigo": 13,
+        "votos": 75,
+        "_id": "ac03b16124454876978f3ab07c14c956e73a058d51ed26693364b3ffed30bd5dd38b9f9a7b76c9148ab7b540ae5bb7e96a74343d345134ecb0661136f3482200"
+      },
+      {
+        "cargo": "Presidente",
+        "partido": 22,
+        "codigo": 22,
+        "votos": 156,
+        "_id": "6d0fb3ccf8a4ba6f6cacdca8e38de29964245ba28ef51c45b3468a4b2bac8e541088c6de05268dd3d7965d2aa5ae49526b1a6dd5230f5eebf26d1b5b5a4baa0a"
+      }
+    ],
+    "merkletree_leaf_index": 249,
+    "merkletree_leaf": "1e7e642a66f84dc31582678f7e3a421e0f81e265707cb8b5c335db5a0896b938",
+    "__v": 0
+  }
+]
