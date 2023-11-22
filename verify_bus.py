@@ -101,7 +101,7 @@ def build_whole_tree():
         # organize partial results
         partial_result = {
             "tree_length": end_index,
-            "local_tree_root": local_tree_root,
+            "calculated_tree_root": local_tree_root,
             "global_tree_leaf": global_leaf['value']['value']
         }
 
