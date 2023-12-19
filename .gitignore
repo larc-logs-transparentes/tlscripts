@@ -1,6 +1,13 @@
 *venv/
 .vscode/
 __pycache__/
+<<<<<<<<< Temporary merge branch 1
 .idea/
+=========
 results/
 *.json
+>>>>>>>>> Temporary merge branch 2
+
+# tl_sum
+tl_sum/output_graphs
+tl_sum/timeline.csv
