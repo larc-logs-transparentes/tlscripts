@@ -6,7 +6,7 @@ import requests
 
 # Constants
 URL = 'http://localhost:8080/'
-DIR_NAME_BUS = 'bus'
+DIR_NAME_BUS = '../../res/bus'
 
 
 # Get request to URL/path

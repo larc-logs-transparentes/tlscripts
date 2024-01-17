@@ -3,9 +3,9 @@ import requests
 import os
 
 # Constants
-DIR_PATH_BUS = 'bus/'
+DIR_PATH_BUS = '../../res/bus/'
 ERROR_FILE_NAME = "results_bu_verification.json"
-RESULTS_DIR_NAME = "results"
+RESULTS_DIR_NAME = "../../results"
 
 
 # ### Methods to connect to server
@@ -80,22 +80,29 @@ def _get_bus_in_file(bu_file_name):
     return bus
 
 
+# Gets BUs from downloaded BU files,
+# It gets them from id_start to id_end of choice, even if range starts and ends in the middle of files
 def _get_files_containing_bu_ids(id_start, id_end):
     files_of_interest = []
 
+    # Gets all file names
     file_names = _get_filenames_of_bus_in_order()
 
     for file_name in file_names:
+        # Gets range of BU ids in file
         file_id_range = get_ids_start_end_of_file_name(file_name)
         file_start_id = file_id_range.get('id_start')
         file_end_id = file_id_range.get('id_end')
 
+        # if id_start is in file, appends file to files_of_interest
         if file_start_id <= id_start <= file_end_id:
             files_of_interest.append(file_name)
 
+        # if id_start is not in file, but it was in previous file, then this file is also of interest
         if not file_start_id <= id_start <= file_end_id and len(files_of_interest) > 0:
             files_of_interest.append(file_name)
 
+        # if id_end is in file, make sure file is in files_of_interest and returns
         if file_start_id <= id_end <= file_end_id:
             if file_name not in files_of_interest:
                 files_of_interest.append(file_name)

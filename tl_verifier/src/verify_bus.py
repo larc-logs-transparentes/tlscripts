@@ -2,12 +2,12 @@ import datetime
 import json
 import os
 
-from data_access_bu import get_bu_from_to_ids, get_global_tree_leaves_list, get_local_tree_name, get_tree_data
+from utils.data_access_bu import get_bu_from_to_ids, get_global_tree_leaves_list, get_local_tree_name, get_tree_data
 from pymerkle_logsTransparentes import MerkleTree
 
 
 # Constants
-RESULTS_DIR_NAME = "results"
+RESULTS_DIR_NAME = "../results"
 RESULTS_FILE_NAME = "results_bu_verification.json"
 
 

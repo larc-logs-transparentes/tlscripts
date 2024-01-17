@@ -1,11 +1,11 @@
-# venvs & IDEs
+# venvs & IDE`s
 *venv/
 .vscode/
 __pycache__/
 .idea/
 
 # tl_scripts
-results/
+tl_verifier/results/
 *.json
 
 # tl_sum
