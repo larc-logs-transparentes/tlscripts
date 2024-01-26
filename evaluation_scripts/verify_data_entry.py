@@ -8,7 +8,7 @@ if __name__ == "__main__":
     tree_name = 'tree_1000000'
     size = 1000000
 
-    sizes_to_test = [100, 500, 1000]
+    sizes_to_test = [100, 500, 1000, 5000, 10000, 50000]
     samples_per_size = 5
 
     df = pd.DataFrame(index=sizes_to_test, columns=[f'sample_{i}' for i in range(0, samples_per_size)])
