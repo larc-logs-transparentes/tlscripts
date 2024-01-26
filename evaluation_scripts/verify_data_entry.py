@@ -21,7 +21,7 @@ if __name__ == "__main__":
             for i in range(0, size):
                 data_proof = get_data_proof(tree_name, i)
                 result = verify_data_entry(data_proof, trustable_root, str(i))
-                if not result:
+                if not result['success']:
                     print(f'Verification failed at index {i}')
                     break
             end = time.time()
