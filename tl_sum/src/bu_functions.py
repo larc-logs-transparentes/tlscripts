@@ -9,7 +9,7 @@ class Soma:
     soma_por_cargo: dict[str, dict[str, resultado_candidato_type]]
 
 
-def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=None, timeline_freq=None):
+def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=None, timeline_freq=None, verbose=True, _limit_bus=None):
     soma_obj = Soma({})  # Dicionário que armazenará a soma dos votos por cargo
     qtd_bus_somados, qtd_bus_total = 0, 0
 
@@ -22,7 +22,11 @@ def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=
             continue  # Município diferente do município passado como filtro, passa para o próximo BU
 
         qtd_bus_somados += 1
-        _print_progresso(qtd_bus_somados, qtd_bus_total)
+        if _limit_bus is not None and qtd_bus_somados > _limit_bus:
+            return soma_obj
+
+        if verbose:
+            _print_progresso(qtd_bus_somados, qtd_bus_total)
         for eleicao in resultados.eleicoes:
             # Para cada cargo contido nessa eleição desse BU
             for resultado_cargo in eleicao.resultados.keys():
@@ -48,7 +52,8 @@ def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=
         if timeline_freq is not None and qtd_bus_somados % timeline_freq == 0:
             _concatena_no_arquivo_timeline(soma_obj, qtd_bus_somados, timeline_freq)
 
-    _print_progresso(qtd_bus_somados, qtd_bus_total)
+    if verbose:
+        _print_progresso(qtd_bus_somados, qtd_bus_total)
     return soma_obj
 
 
