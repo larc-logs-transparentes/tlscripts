@@ -1,5 +1,5 @@
 from tlverifier.merkle_functions.tl_functions import verify_local_tree_history_consistency
-from evaluation_scripts.tl_manager_adapter import *
+from evaluation_scripts.services.tl_manager_adapter import *
 import time
 import pandas as pd
 

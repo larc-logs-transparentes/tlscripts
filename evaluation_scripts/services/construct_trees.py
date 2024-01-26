@@ -1,4 +1,4 @@
-from evaluation_scripts.tl_manager_adapter import *
+from evaluation_scripts.services.tl_manager_adapter import *
 
 if __name__ == "__main__":
     trees = get_trees()
