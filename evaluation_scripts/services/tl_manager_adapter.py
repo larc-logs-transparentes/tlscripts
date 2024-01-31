@@ -1,6 +1,6 @@
 import requests
 
-TL_MANAGER_URL = 'http://127.0.0.1:8000'
+TL_MANAGER_URL = 'http://192.168.1.197:8000'
 
 
 def get_trees():

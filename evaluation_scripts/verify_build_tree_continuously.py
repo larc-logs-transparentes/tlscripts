@@ -1,8 +1,9 @@
-from verify_bus import _build_tree_continuously
-from evaluation_scripts.services.tl_manager_adapter import *
+from services.tl_manager_adapter import *
 
 import time
+from verify_bus import _build_tree_continuously
 import pandas as pd
+
 
 
 def get_global_tree_leaves_with_tree_name(global_tree_leaves, tree_name):
@@ -16,7 +17,7 @@ def get_global_tree_leaves_with_tree_name(global_tree_leaves, tree_name):
 # Measure the rebuild time of a local tree
 if __name__ == "__main__":
     trees = get_trees()
-    samples_per_tree = 5
+    samples_per_tree = 50
 
     df = pd.DataFrame(index=trees.values(), columns=[f'sample_{i}' for i in range(0, samples_per_tree)])
 
@@ -46,5 +47,5 @@ if __name__ == "__main__":
             end = time.time()
             samples.append(end - start)
         df.loc[size] = samples
-        print(f'Time to build tree {tree_name}: {end - start} seconds')
+        print(f'Mean time to rebuild tree {tree_name}: {df.loc[size].mean()}')
     df.to_csv('rebuild_tree.csv')
