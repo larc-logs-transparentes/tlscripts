@@ -1,27 +1,41 @@
 import requests
-# Será que a gente consegue fazer esse import de maneira mais fácil?
-from tlverifier.merkle_functions.tl_functions import verify_single_data
+import tlverifier
 import json
 import utils
 from config import TLMANAGER_URL as URL
-
 
 DATA = "leaf" 
 TREE = "tree1"
 
 def main():
-    leaf = insert_leaf(DATA, TREE)
-    commit_tree(TREE)
+    leaf = setup()
+    
+    data_proof = utils.get_data_proof(leaf["index"], TREE)
+    root = utils.get_global_root()
 
-    data_proof = get_data_proof(leaf["index"], TREE)
-    root = utils.get_trusted_root()
+    result = tlverifier.verify_data_entry(data_proof, root["value"], DATA)
 
-    result = verify_single_data(data_proof, root["value"], DATA)
     if(result["success"] == True):
         print(f"Verify integrity of data '{DATA}' on {TREE}: ok")
     else:
         print(f"Verify integrity of data '{DATA}' on {TREE}: Failed")
 
+
+
+def setup():
+    create_tree(TREE)
+    leaf = insert_leaf(DATA, TREE)
+    commit_tree(TREE)
+    return leaf
+
+def create_tree(tree_name):
+    payload = {
+        "tree_name": tree_name,
+        "commitment_size": 2
+    }
+    response = requests.post(URL + "/tree-create", json=payload)
+    json.loads(response.text)
+    return
 
 def insert_leaf(data, tree_name):
     payload = {
@@ -35,13 +49,7 @@ def insert_leaf(data, tree_name):
 def commit_tree(tree_name):
     requests.post(URL + "/tree/commit", json={"tree_name": tree_name})
 
-def get_data_proof(index, tree_name):
-    proof_response = requests.get(URL + "/data-proof", params={
-        "tree_name": tree_name,
-        "index": index
-    })
-    proof = json.loads(proof_response.text)
-    return proof
+
 
 if __name__ == "__main__":
     main()
