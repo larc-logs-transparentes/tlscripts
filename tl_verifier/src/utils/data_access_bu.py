@@ -3,7 +3,7 @@ import requests
 import os
 
 # Constants
-DIR_PATH_BUS = '../../res/bus/'
+DIR_PATH_BUS = './tl_verifier/res/bus/'
 ERROR_FILE_NAME = "results_bu_verification.json"
 RESULTS_DIR_NAME = "../../results"
 
@@ -23,8 +23,13 @@ def generic_get_request(path):
 
 
 # ### Methods to get tree data ###
-def get_local_tree_name():
-    return 'bu_tree'
+def get_all_local_tree_names():
+    path = 'tree'
+    response = generic_get_request(path)
+    trees = response.get('trees')
+    trees.remove('global_tree')
+    trees.sort()
+    return trees
 
 
 def get_tree_data(tree_name):
@@ -34,7 +39,7 @@ def get_tree_data(tree_name):
 
 
 def get_global_tree_leaves_list():
-    path = "global_tree/all-leaf-data"
+    path = "tree/all-leaf-data-global-tree"
     response = generic_get_request(path)
     return response.get('leaves')
 # ###  --- end of -- Methods to get tree data ###
@@ -45,8 +50,8 @@ def get_leaf_index_range(index_start, index_end):
     return {'start': index_start, 'end': index_end}
 
 
-def get_bu_from_to_ids(id_start, id_end):   # Must download BUs (download_bus.py) before running this
-    file_names = _get_files_containing_bu_ids(id_start, id_end)
+def get_bu_from_to_ids(id_start, id_end, tree_name):   # Must download BUs (download_bus.py) before running this
+    file_names = _get_files_containing_bu_ids(id_start, id_end, tree_name)
 
     if file_names is None:
         exception_text = f'Not all files with BUs within ids {id_start} and {id_end} were found'
@@ -59,20 +64,21 @@ def get_bu_from_to_ids(id_start, id_end):   # Must download BUs (download_bus.py
 
     bus_in_range = []
     for file in file_names:
-        bus = _get_bus_in_file(file)
+        bus = _get_bus_in_file(file, tree_name)
         bus_of_interest = [bu for bu in bus if id_start <= bu.get('merkletree_leaf_index') <= id_end]
         bus_in_range += bus_of_interest
     return bus_in_range
 
 
-def _get_filenames_of_bus_in_order():
-    files_names = os.listdir(DIR_PATH_BUS)
+def _get_filenames_of_bus_in_order(tree_name_dir):
+    dir_path_bus_complete = f'{DIR_PATH_BUS}{tree_name_dir}/'
+    files_names = os.listdir(dir_path_bus_complete)
     files_names.sort()
     return files_names
 
 
-def _get_bus_in_file(bu_file_name):
-    file_path = DIR_PATH_BUS + bu_file_name
+def _get_bus_in_file(bu_file_name, tree_name):
+    file_path = DIR_PATH_BUS + tree_name + '/' + bu_file_name
     file = open(file_path, 'r')  # open file
     json_file = json.loads(file.read())
     file.close()
@@ -82,11 +88,11 @@ def _get_bus_in_file(bu_file_name):
 
 # Gets BUs from downloaded BU files,
 # It gets them from id_start to id_end of choice, even if range starts and ends in the middle of files
-def _get_files_containing_bu_ids(id_start, id_end):
+def _get_files_containing_bu_ids(id_start, id_end, id_election):
     files_of_interest = []
 
     # Gets all file names
-    file_names = _get_filenames_of_bus_in_order()
+    file_names = _get_filenames_of_bus_in_order(id_election)
 
     for file_name in file_names:
         # Gets range of BU ids in file
