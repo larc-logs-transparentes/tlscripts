@@ -2,15 +2,17 @@ import json
 import requests
 import os
 
+from config import BACKEND_URL
+
 # Constants
-DIR_PATH_BUS = './tl_verifier/res/bus/'
+DIR_PATH_BUS = 'bu_downloader/res/bus/'
 ERROR_FILE_NAME = "results_bu_verification.json"
-RESULTS_DIR_NAME = "../../results"
+RESULTS_DIR_NAME = "../tl_verifier/results"
 
 
 # ### Methods to connect to server
 def generic_get_request(path):
-    url = "http://localhost:8080/" + path
+    url = BACKEND_URL + path
     try:
         response = requests.get(url)
         if response.status_code == 200:

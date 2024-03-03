@@ -33,7 +33,7 @@ def create_tree(tree_name):
         "tree_name": tree_name,
         "commitment_size": 2
     }
-    response = requests.post(URL + "/tree-create", json=payload)
+    response = requests.post(URL + "tree-create", json=payload)
     json.loads(response.text)
     return
 
@@ -42,12 +42,12 @@ def insert_leaf(data, tree_name):
         "tree_name": tree_name,
         "data": data
     }
-    response = requests.post(URL + "/insert-leaf", json=payload)
+    response = requests.post(URL + "insert-leaf", json=payload)
     insert_leaf_response = json.loads(response.text)
     return insert_leaf_response
 
 def commit_tree(tree_name):
-    requests.post(URL + "/tree/commit", json={"tree_name": tree_name})
+    requests.post(URL + "tree/commit", json={"tree_name": tree_name})
 
 
 

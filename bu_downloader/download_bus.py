@@ -3,17 +3,17 @@ import json
 import os
 import requests
 
-from tl_verifier.src.utils.data_access_bu import get_all_local_tree_names
+from utils.data_access_bu import get_all_local_tree_names
+from config import BACKEND_URL
 
 # Constants
-URL = 'http://localhost:8080/'
-DIR_DL_PATH_BUS = '../../res/bus/'
+DIR_DL_PATH_BUS = 'res/bus/'
 
 
 # Get request to URL/path
 def generic_get_request(path):
     try:
-        response = requests.get(URL + path)
+        response = requests.get(BACKEND_URL + path)
         if response.status_code == 200:
             return response.json()
         else:
