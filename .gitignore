@@ -6,7 +6,7 @@ __pycache__/
 
 # tl_scripts
 tl_verifier/results/
-*.json
+bu**.json
 
 # tl_sum
 tl_sum/output_graphs
