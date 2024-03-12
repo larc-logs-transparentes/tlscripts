@@ -12,13 +12,15 @@ class Soma:
 def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=None, timeline_freq=None, verbose=True, _limit_bus=None):
     soma_obj = Soma({})  # Dicionário que armazenará a soma dos votos por cargo
     qtd_bus_somados, qtd_bus_total = 0, 0
+    filtro_aplicado = cargo_filtro is not None or estado_filtro is not None or municipio_filtro is not None
 
     for bu in bu_file:
         resultados = BU(bu).get_resultados_por_eleicao()
 
         qtd_bus_total += 1
         if not verificar_municipio_bu(bu, municipio_filtro) or not verificar_estado_bu(bu, estado_filtro):
-            _print_progresso(qtd_bus_somados, qtd_bus_total)
+            if verbose:
+                _print_progresso(qtd_bus_somados, qtd_bus_total, filtro_aplicado)
             continue  # Município diferente do município passado como filtro, passa para o próximo BU
 
         qtd_bus_somados += 1
@@ -26,7 +28,7 @@ def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=
             return soma_obj
 
         if verbose:
-            _print_progresso(qtd_bus_somados, qtd_bus_total)
+            _print_progresso(qtd_bus_somados, qtd_bus_total, filtro_aplicado)
         for eleicao in resultados.eleicoes:
             # Para cada cargo contido nessa eleição desse BU
             for resultado_cargo in eleicao.resultados.keys():
@@ -53,7 +55,7 @@ def soma_votos(bu_file, cargo_filtro=None, estado_filtro=None, municipio_filtro=
             _concatena_no_arquivo_timeline(soma_obj, qtd_bus_somados, timeline_freq)
 
     if verbose:
-        _print_progresso(qtd_bus_somados, qtd_bus_total)
+        _print_progresso(qtd_bus_somados, qtd_bus_total, filtro_aplicado)
     return soma_obj
 
 
@@ -109,12 +111,12 @@ def _concatena_no_arquivo_timeline(soma_obj, qtd_bus, timeline_freq):
                 f.write(f"{qtd_bus},{cargo},{codigo_candidato},{resultado_candidato.quantidade_votos}\n")
 
 
-def _print_progresso(qtd_bus_somados, qtd_bus_total):
+def _print_progresso(qtd_bus_somados, qtd_bus_total, _filtro_aplicado=False):
     """
     Imprime o progresso da quantidade de BU somados e a quantidade de BU iterados.
     """
 
-    if qtd_bus_somados != qtd_bus_total:  # Filtro aplicado
+    if _filtro_aplicado:
         print(f"Quantidade de BU somados: {qtd_bus_somados}     "
               f"Quantidade de BU analisados: {qtd_bus_total}", end="\r")
     else:

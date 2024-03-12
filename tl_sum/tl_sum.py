@@ -23,5 +23,6 @@ if __name__ == "__main__":
         exit(1)
 
     print_dict(resultado, args.output)
-    
+
+    print()
     print(f"Tempo de execução: {int(timer() - timer_start)} segundos")
