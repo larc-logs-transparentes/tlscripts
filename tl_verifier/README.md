@@ -10,20 +10,7 @@ This script rebuilds trees to verify if given tree is valid in the following ste
 - Builds local trees
 - Compare with remote trees
 - Creates a file with result (success or fail with point of failure)
-
-
-## Utilitary Script: download_bus.py
-Downloads BUs from server for further usage in "verify_bus.py"
-
-- Retrieves BU data from server
-- Combine data in "commitment_size" chunks and save it as JSON files
--- It is able to stop downloading and restart from last one retrieved
-- Save JSON files to res/bus directory
-
-## Utilitary Script: data_access_bu.py
-Accesses BU data from JSON files created by "download_bus.py" (above)
-
-- To get BUs data from a BU with id "id_start" to BU with id "id_end", call function:
 ```sh
-get_bu_from_to_ids(id_start, id_end)
+# Run in terminal:
+python -m tl_verifier.src.verify_bus
 ```

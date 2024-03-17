@@ -7,7 +7,7 @@ from utils.data_access_bu import get_all_local_tree_names
 from config import BACKEND_URL
 
 # Constants
-DIR_DL_PATH_BUS = 'res/bus/'
+DIR_DL_PATH_BUS = '../res/bus/'
 
 
 # Get request to URL/path
