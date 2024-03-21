@@ -1,5 +1,13 @@
-venv/
+# venvs & IDE`s
+*venv/
 .vscode/
 __pycache__/
-results/
-*.json
+.idea/
+
+# tl_scripts
+tl_verifier/results/
+bu**.json
+
+# tl_sum
+tl_sum/output_graphs
+tl_sum/timeline.csv
