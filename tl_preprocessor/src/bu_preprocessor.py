@@ -2,9 +2,11 @@ import asn1tools
 import glob
 import os
 import base64
-import datetime
+import time
 import json
 from utils.json_utils import get_json_data_from_file
+from timeit import default_timer as timer
+from .args_parser import parser
 
 ASN1_SPECS_BU = "tl_preprocessor/gov_codes/specification_files/bu.asn1"
 RAW_BUS_PATH = "res/trees/eleicao_545/"
@@ -40,7 +42,6 @@ def create_preprocessed_bu_file(bu_object_file, bu_jsons):
                 preprocessed_bu_file.write(',')
             preprocessed_bu_file.write(json.dumps(bu_json, cls=DictWithBytesToJsonEncoder, indent=4))
         preprocessed_bu_file.write(']')
-    print(f"Preprocessed BU file {preprocessed_bu_file_name} created")
     preprocessed_bu_file.close()
 
 
@@ -78,16 +79,18 @@ def preprocess_bus(all_bus_path):
     if not os.path.exists(RESULT_FOLDER):
         os.makedirs(RESULT_FOLDER)
 
+    counter = 0
     for bu_object_file in bu_object_files:
         bu_jsons = get_bu_jsons(bu_object_file)
-
         create_preprocessed_bu_file(bu_object_file, bu_jsons)
+        counter += 1
+        print(f"Preprocessando arquivos BU... {counter}/{len(bu_object_files)}", end="\r")
         
 
         
 if __name__ == '__main__':
-    start_time = datetime.datetime.now()
-    preprocess_bus(RAW_BUS_PATH)
-    print("Preprocessing finished")
-    end_time = datetime.datetime.now()
-    print(end_time - start_time)
+    args = parser.parse_args()
+    print("Iniciando Preprocessamento...")
+    preprocess_bus(args.bu_path)
+    print("Preprocessing Terminado. Os arquivos estão disponíveis em", RESULT_FOLDER)
+ 
