@@ -12,7 +12,7 @@ Downloads BUs from server for further usage in "verify_bus.py"
 - Save JSON files to res/bus directory
 ```sh
 # Run in terminal from /tlscripts :
-python -m bu_downloader.src.download_bus
+python -m tl_downloader.src.download_bu
 ```
 
 ## Utilitary Script: data_access_bu.py

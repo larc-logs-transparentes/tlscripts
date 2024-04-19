@@ -6,6 +6,7 @@ __pycache__/
 
 # bu_downloader
 bu_downloader/res/leaves/*
+res/*
 
 # tl_scripts
 tl_verifier/results/
