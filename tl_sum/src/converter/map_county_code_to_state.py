@@ -2,7 +2,7 @@ import json
 import os
 
 
-county_codes = json.load(open(os.path.join(os.path.dirname(__file__), 'county_codes_hash.json'), 'r'))
+county_codes = json.load(open(os.path.join(os.path.dirname(__file__), 'country_codes_hash.json'), 'r', encoding='utf-8'))
 
 
 def get_state_from_code(code):
