@@ -11,7 +11,7 @@ Downloads BUs from server for further usage in "verify_bus.py"
 -- It is able to stop downloading and restart from last one retrieved
 - Save JSON files to res/bus directory
 ```sh
-# Run in terminal:
+# Run in terminal from /tlscripts :
 python -m bu_downloader.src.download_bus
 ```
 

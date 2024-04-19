@@ -5,7 +5,7 @@ import os
 from config import BACKEND_URL
 
 # Constants
-DIR_PATH_BUS = 'bu_downloader/res/bus/'
+DIR_PATH_BUS = 'bu_downloader/res/leaves/'
 ERROR_FILE_NAME = "results_bu_verification.json"
 RESULTS_DIR_NAME = "../tl_verifier/results"
 
@@ -67,8 +67,9 @@ def get_bu_from_to_ids(id_start, id_end, tree_name):   # Must download BUs (down
     bus_in_range = []
     for file in file_names:
         bus = _get_bus_in_file(file, tree_name)
-        bus_of_interest = [bu for bu in bus if id_start <= bu.get('merkletree_leaf_index') <= id_end]
-        bus_in_range += bus_of_interest
+        # bus_of_interest = [bu for bu in bus if id_start <= bu.get('merkletree_leaf_index') <= id_end]
+        bus_of_interest = [bu for bu in bus if id_start <= bu.get('merkletree_info').get('545').get('index') <= id_end]
+        bus_in_range += bus
     return bus_in_range
 
 
@@ -121,8 +122,8 @@ def _get_files_containing_bu_ids(id_start, id_end, id_election):
 
 def get_ids_start_end_of_file_name(file_name):
     split_dot = file_name.split('.')[0].split('_')
-    id_start = int(split_dot[1])
-    id_end = int(split_dot[2])
+    id_start = int(split_dot[0])
+    id_end = int(split_dot[1])
     return {'id_start': id_start, 'id_end': id_end}
 
 # ###  --- end of -- Methods to get BUs ###

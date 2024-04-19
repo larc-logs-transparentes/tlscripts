@@ -4,6 +4,9 @@
 __pycache__/
 .idea/
 
+# bu_downloader
+bu_downloader/res/leaves/*
+
 # tl_scripts
 tl_verifier/results/
 bu**.json

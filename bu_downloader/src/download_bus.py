@@ -7,7 +7,7 @@ from utils.data_access_bu import get_all_local_tree_names
 from config import BACKEND_URL
 
 # Constants
-DIR_DL_PATH_BUS = '../res/bus/'
+DIR_DL_PATH_BUS = './bu_downloader/res/leaves/'
 
 
 # Get request to URL/path
@@ -85,8 +85,8 @@ def create_files_from_bus(tree_name, tree_length, step):
         # For each chunk (size "step")
         for i in range(id_start, tree_length, step):
             data = get_bus_election_in_range(election_id, id_start_local, id_end_local)  # download BUs of chunk
-            last_bu_in_file = data[-1].get('merkletree_leaf_index')     # get id of last element to name file
-            file_name = f'{tree_download_path}/bus_{str(id_start_local).zfill(7)}_{str(last_bu_in_file).zfill(7)}.json'  # create file
+            last_bu_in_file = len(data) + id_start_local - 1   # get id of last element to name file
+            file_name = f'{tree_download_path}/{str(id_start_local).zfill(7)}_{str(last_bu_in_file).zfill(7)}.json'  # create file
 
             # Write BUs to file
             with open(file_name, 'a') as file:

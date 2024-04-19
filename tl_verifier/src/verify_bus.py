@@ -1,3 +1,4 @@
+import base64
 import datetime
 import json
 import os
@@ -52,7 +53,9 @@ def get_bu_inteiro_list_between_ids(id_start, id_end, id_election):
     bus = get_bu_from_to_ids(id_start, id_end, id_election)
 
     # get all bu_string only
-    bu_string_list = [bu.get('bu_inteiro') for bu in bus]
+    bu_string_list = [base64.b64decode(bu.get('bu').encode('ascii')) for bu in bus]
+    # buse64_encoded = bu_string_list[0].encode('ascii')
+    # buse64 = base64.b64decode(buse64_encoded)
     return bu_string_list
 # ###  --- end of -- Methods to get BUs ###
 

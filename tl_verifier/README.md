@@ -11,6 +11,6 @@ This script rebuilds trees to verify if given tree is valid in the following ste
 - Compare with remote trees
 - Creates a file with result (success or fail with point of failure)
 ```sh
-# Run in terminal:
+# Run in terminal from /tlscripts :
 python -m tl_verifier.src.verify_bus
 ```
