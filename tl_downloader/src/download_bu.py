@@ -7,7 +7,7 @@ from utils.data_access_bu import get_all_local_tree_names
 from config import BACKEND_URL
 
 # Constants
-DIR_DL_PATH_LEAVES = './res/bus/'
+DIR_DL_PATH_TREES = './res/trees/'
 
 
 # Get request to URL/path
@@ -43,7 +43,7 @@ def get_bus_election_in_range(election_id, id_start, id_end):
 
 def get_last_downloaded_bu_id(tree_name):
     # check if directory exists
-    dir_path = f'{DIR_DL_PATH_LEAVES}{tree_name}'
+    dir_path = f'{DIR_DL_PATH_TREES}{tree_name}'
     if os.path.exists(dir_path) and os.path.isdir(dir_path):
         files_names = os.listdir(dir_path)  # list file names in dir
     else:   # if it does not, create it and return last id 0
@@ -65,7 +65,7 @@ def get_last_downloaded_bu_id(tree_name):
 
 # get bus from server by chunks of size "step" and organize it in files
 def create_files_from_bus(tree_name, tree_length, step):
-    tree_download_path = DIR_DL_PATH_LEAVES + tree_name
+    tree_download_path = DIR_DL_PATH_TREES + tree_name
     try:
         # Create dir to store BU files
         if not os.path.exists(tree_download_path):
