@@ -5,7 +5,7 @@ import os
 from config import BACKEND_URL
 
 # Constants
-DIR_PATH_BUS = 'bu_downloader/res/leaves/'
+DIR_PATH_TREES = 'res/trees/'
 ERROR_FILE_NAME = "results_bu_verification.json"
 RESULTS_DIR_NAME = "../tl_verifier/results"
 
@@ -74,14 +74,14 @@ def get_bu_from_to_ids(id_start, id_end, tree_name):   # Must download BUs (down
 
 
 def _get_filenames_of_bus_in_order(tree_name_dir):
-    dir_path_bus_complete = f'{DIR_PATH_BUS}{tree_name_dir}/'
-    files_names = os.listdir(dir_path_bus_complete)
+    dir_path_TREES_complete = f'{DIR_PATH_TREES}{tree_name_dir}/'
+    files_names = os.listdir(dir_path_TREES_complete)
     files_names.sort()
     return files_names
 
 
 def _get_bus_in_file(bu_file_name, tree_name):
-    file_path = DIR_PATH_BUS + tree_name + '/' + bu_file_name
+    file_path = DIR_PATH_TREES + tree_name + '/' + bu_file_name
     file = open(file_path, 'r')  # open file
     json_file = json.loads(file.read())
     file.close()
