@@ -9,7 +9,6 @@ from timeit import default_timer as timer
 from .args_parser import parser
 
 ASN1_SPECS_BU = "tl_preprocessor/gov_codes/specification_files/bu.asn1"
-RESULT_FOLDER = "res/preprocessed_bu_jsons/eleicao_545/"
 
 conv = asn1tools.compile_files(ASN1_SPECS_BU)
 
@@ -27,9 +26,9 @@ class DictWithBytesToJsonEncoder(json.JSONEncoder):
 
 
 
-def create_preprocessed_bu_file(bu_object_file, bu_jsons):
+def create_preprocessed_bu_file(bu_object_file, bu_jsons, results_path):
     preprocessed_bu_file_name = os.path.basename(bu_object_file)
-    preprocessed_bu_file_path = RESULT_FOLDER + preprocessed_bu_file_name
+    preprocessed_bu_file_path = os.path.join(results_path, preprocessed_bu_file_name)
 
     with open(preprocessed_bu_file_path, 'w') as preprocessed_bu_file:
         first = True
@@ -72,16 +71,16 @@ def get_bu_object_files(path):
     return raw_bus_list
 
 
-def preprocess_bus(all_bus_path):
-    bu_object_files = get_bu_object_files(all_bus_path)
+def preprocess_bus(raw_bu_path, results_path):
+    bu_object_files = get_bu_object_files(raw_bu_path)
 
-    if not os.path.exists(RESULT_FOLDER):
-        os.makedirs(RESULT_FOLDER)
+    if not os.path.exists(results_path):
+        os.makedirs(results_path)
 
     counter = 0
     for bu_object_file in bu_object_files:
         bu_jsons = get_bu_jsons(bu_object_file)
-        create_preprocessed_bu_file(bu_object_file, bu_jsons)
+        create_preprocessed_bu_file(bu_object_file, bu_jsons, results_path)
         counter += 1
         print(f"Preprocessando arquivos BU... {counter}/{len(bu_object_files)}", end="\r")
         
@@ -90,6 +89,6 @@ def preprocess_bus(all_bus_path):
 if __name__ == '__main__':
     args = parser.parse_args()
     print("Iniciando Preprocessamento...")
-    preprocess_bus(args.bu_path)
-    print("Preprocessing Terminado. Os arquivos estão disponíveis em", RESULT_FOLDER)
+    preprocess_bus(args.raw_bu_path, args.results_path)
+    print("Preprocessing Terminado!")
  

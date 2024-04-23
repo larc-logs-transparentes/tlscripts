@@ -103,7 +103,7 @@ def create_files_from_bus(tree_name, tree_length, step):
         raise Exception(f'Error creating files: {e}')
 
 
-def create_all_files_from_tree(tree_name):
+def download_bu(tree_name):
     tree_data = get_tree_data(tree_name)
     tree_length = tree_data.get('length')
     tree_commitment_size = tree_data.get('commitment size')
@@ -128,6 +128,6 @@ if __name__ == '__main__':
     user_tree_name = ask_user_which_election()
     if not user_tree_name:  # if election name is invalid, throws error
         raise Exception('Election name does not exist.')
-    create_all_files_from_tree(user_tree_name)
+    download_bu(user_tree_name)
     end_time = datetime.datetime.now()
     print(end_time - start_time)

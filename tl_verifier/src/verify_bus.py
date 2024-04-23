@@ -91,13 +91,10 @@ def create_results_file(results, tree_name):
 
 
 #  ## Core of the verify bus script
-def verify_tree():
-    # ask user which election (aka: tree name)
-    tree_name = ask_user_which_election()
-    if not tree_name:   # if election name is invalid, throws error
-        raise Exception('Election name does not exist.')
+def verify_tree(tree_name):
 
-    print('\nReconstruindo a árvore...')
+
+    print('Reconstruindo a árvore...')
 
     # get starting id of BUs
     bus_index_range = get_leaf_index_range(tree_name)
@@ -114,7 +111,7 @@ def verify_tree():
     local_tree = _build_tree_continuously(bus)              # build tree
     local_tree_root = local_tree.root.decode('utf-8')       # get root of tree just built
 
-    print(f'\nVerificação realizada. Resultado: {local_tree_root == local_tree_last_root}')
+    print(f'Verificação realizada. Resultado: {local_tree_root == local_tree_last_root}')
 
     # make result of
     final_result = {
@@ -129,7 +126,12 @@ def verify_tree():
 
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
-    m_logs = verify_tree()
+    # ask user which election (aka: tree name)
+    tree_name = ask_user_which_election()
+    if not tree_name:   # if election name is invalid, throws error
+        raise Exception('Election name does not exist.')
+    
+    m_logs = verify_tree(tree_name)
     print(json.dumps(m_logs, indent=4))
     end_time = datetime.datetime.now()
     print(end_time - start_time)
