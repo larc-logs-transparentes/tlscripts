@@ -9,7 +9,6 @@ from timeit import default_timer as timer
 from .args_parser import parser
 
 ASN1_SPECS_BU = "tl_preprocessor/gov_codes/specification_files/bu.asn1"
-RAW_BUS_PATH = "res/trees/eleicao_545/"
 RESULT_FOLDER = "res/preprocessed_bu_jsons/eleicao_545/"
 
 conv = asn1tools.compile_files(ASN1_SPECS_BU)
