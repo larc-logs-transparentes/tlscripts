@@ -26,6 +26,7 @@ download_bu(tree_name)
 end_time = datetime.datetime.now()
 print('Download finalizado')
 print(end_time - start_time)
+input("Pressione Enter para continuar...")
 
 
 
@@ -35,6 +36,10 @@ result = verify_tree(tree_name)
 end_time = datetime.datetime.now()
 print(json.dumps(result, indent=4))
 print(end_time - start_time)
+if(result['verification_result']==False):
+    print("A verificação falhou. O script será encerrado.")
+    exit()
+input("Pressione Enter para continuar...")
 
 
 
@@ -45,6 +50,7 @@ preprocess_bus('./res/trees/' + tree_name, './res/preprocessed_bu_jsons/' + tree
 end_time = datetime.datetime.now()
 cprint('\nPreprocessamento finalizado')
 print(end_time - start_time)
+input("Pressione Enter para continuar...")
 
 
 

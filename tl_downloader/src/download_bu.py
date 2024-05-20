@@ -107,7 +107,8 @@ def download_bu(tree_name):
     tree_data = get_tree_data(tree_name)
     tree_length = tree_data.get('length')
     tree_commitment_size = tree_data.get('commitment size')
-    create_files_from_bus(tree_name, tree_length, tree_commitment_size)
+    batch_size = 2048
+    create_files_from_bus(tree_name, tree_length, batch_size)
 
 
 def ask_user_which_election():

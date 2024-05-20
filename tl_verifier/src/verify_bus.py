@@ -92,8 +92,6 @@ def create_results_file(results, tree_name):
 
 #  ## Core of the verify bus script
 def verify_tree(tree_name):
-
-
     print('Reconstruindo a árvore...')
 
     # get starting id of BUs
