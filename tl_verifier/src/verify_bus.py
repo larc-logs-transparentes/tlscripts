@@ -13,7 +13,7 @@ RESULTS_FILE_NAME = "results_bu_verification.json"
 
 
 # ### Methods to get local trees hashes in the global tree leaves ###
-def get_global_tree_leaves_with_tree_name(tree_name):
+def get_local_tree_roots_from_global_tree(tree_name):
     leaves_list = get_global_tree_leaves_list()
     leaves_with_tree_name = []
     for leave in leaves_list:
@@ -91,37 +91,46 @@ def create_results_file(results, tree_name):
 
 
 #  ## Core of the verify bus script
-def verify_tree():
-    # ask user which election (aka: tree name)
-    tree_name = ask_user_which_election()
-    if not tree_name:   # if election name is invalid, throws error
-        raise Exception('Election name does not exist.')
+def verify_tree(tree_name):
+    print('Reconstruindo a árvore...')
 
     # get starting id of BUs
     bus_index_range = get_leaf_index_range(tree_name)
     bus_id_start = bus_index_range.get('start')
 
     # get tree information from server
-    global_tree_leaves = get_global_tree_leaves_with_tree_name(tree_name)       # get global tree leave (from local tree roots) with name
-    global_tree_last_leaf = global_tree_leaves[-1].get('value').get('value')    # last hash of tree in remote server
+    local_tree_roots = get_local_tree_roots_from_global_tree(tree_name)       # get global tree leave (from local tree roots) with name
+    local_tree_last_root = local_tree_roots[-1].get('value').get('value')    # last hash of tree in remote server
 
     # build local trees with BUs
     start_index = bus_id_start
-    end_index = global_tree_leaves[-1].get('value').get('tree_size') - 1
+    end_index = local_tree_roots[-1].get('value').get('tree_size') - 1
     bus = get_bu_inteiro_list_between_ids(start_index, end_index, tree_name)    # all BUs of interest
     local_tree = _build_tree_continuously(bus)              # build tree
     local_tree_root = local_tree.root.decode('utf-8')       # get root of tree just built
 
+    print(f'Verificação realizada. Resultado: {local_tree_root == local_tree_last_root}')
+
     # make result of
-    final_result = {"election": tree_name, "result": local_tree_root == global_tree_last_leaf}  # build final result dict
+    final_result = {
+        "tree_name": tree_name, 
+        "verification_result": local_tree_root == local_tree_last_root,
+        "calculated_root": local_tree_root,
+        "expected_root": local_tree_last_root
+        }  
     create_results_file(final_result, tree_name)            # write it to file as JSON
     return final_result                                     # return dict
 
 
 if __name__ == '__main__':
     start_time = datetime.datetime.now()
-    m_logs = verify_tree()
-    print(m_logs)
+    # ask user which election (aka: tree name)
+    tree_name = ask_user_which_election()
+    if not tree_name:   # if election name is invalid, throws error
+        raise Exception('Election name does not exist.')
+    
+    m_logs = verify_tree(tree_name)
+    print(json.dumps(m_logs, indent=4))
     end_time = datetime.datetime.now()
     print(end_time - start_time)
 

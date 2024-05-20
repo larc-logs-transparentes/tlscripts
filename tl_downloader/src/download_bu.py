@@ -7,7 +7,7 @@ from utils.data_access_bu import get_all_local_tree_names
 from config import BACKEND_URL
 
 # Constants
-DIR_DL_PATH_BUS = './bu_downloader/res/leaves/'
+DIR_DL_PATH_TREES = './res/trees/'
 
 
 # Get request to URL/path
@@ -43,7 +43,7 @@ def get_bus_election_in_range(election_id, id_start, id_end):
 
 def get_last_downloaded_bu_id(tree_name):
     # check if directory exists
-    dir_path = f'{DIR_DL_PATH_BUS}{tree_name}'
+    dir_path = f'{DIR_DL_PATH_TREES}{tree_name}'
     if os.path.exists(dir_path) and os.path.isdir(dir_path):
         files_names = os.listdir(dir_path)  # list file names in dir
     else:   # if it does not, create it and return last id 0
@@ -65,7 +65,7 @@ def get_last_downloaded_bu_id(tree_name):
 
 # get bus from server by chunks of size "step" and organize it in files
 def create_files_from_bus(tree_name, tree_length, step):
-    tree_download_path = DIR_DL_PATH_BUS + tree_name
+    tree_download_path = DIR_DL_PATH_TREES + tree_name
     try:
         # Create dir to store BU files
         if not os.path.exists(tree_download_path):
@@ -103,11 +103,12 @@ def create_files_from_bus(tree_name, tree_length, step):
         raise Exception(f'Error creating files: {e}')
 
 
-def create_all_files_from_tree(tree_name):
+def download_bu(tree_name):
     tree_data = get_tree_data(tree_name)
     tree_length = tree_data.get('length')
     tree_commitment_size = tree_data.get('commitment size')
-    create_files_from_bus(tree_name, tree_length, tree_commitment_size)
+    batch_size = 2048
+    create_files_from_bus(tree_name, tree_length, batch_size)
 
 
 def ask_user_which_election():
@@ -128,6 +129,6 @@ if __name__ == '__main__':
     user_tree_name = ask_user_which_election()
     if not user_tree_name:  # if election name is invalid, throws error
         raise Exception('Election name does not exist.')
-    create_all_files_from_tree(user_tree_name)
+    download_bu(user_tree_name)
     end_time = datetime.datetime.now()
     print(end_time - start_time)
