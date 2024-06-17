@@ -1,7 +1,6 @@
 import requests
 import tlverifier
 import json
-import utils
 from config import TLMANAGER_URL as URL
 
 def main():
