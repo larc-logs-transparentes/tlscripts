@@ -29,39 +29,38 @@ def main():
 
 
 def get_all_global_roots():
-    response = requests.get(URL + "global-tree/all-roots")
-    root_list = json.loads(response.text)
+    root_list = get_request(URL + "global-tree/all-roots")
     return root_list
 
 def get_all_consistency_proof(tree_name):
-    proofs_response = requests.get(URL + "all-consistency-proof", params={
+    proofs = get_request(URL + "all-consistency-proof", params={
         "tree_name": tree_name
     })
-    proofs = json.loads(proofs_response.text)
     return proofs
 
 def get_all_global_tree_leaf():
-    all_leaf_response = requests.get(URL + "global-tree/all-leaf-data")
-    all_leaf = json.loads(all_leaf_response.text)
+    all_leaf = get_request(URL + "global-tree/all-leaf-data")
     return all_leaf
 
 def get_local_tree_list():
-    tree_list_response = requests.get(URL)
-    tree_list = json.loads(tree_list_response.text)["trees"]
+    tree_list = get_request(URL)["trees"]
     tree_list.remove('global_tree')
     tree_list = remove_empty_trees(tree_list)
     return tree_list
 
 def remove_empty_trees(tree_list):
     for tree in tree_list:
-        tree_response = requests.get(URL + "tree", params={
+        tree_info = get_request(URL + "tree", params={
             "tree_name": tree
         })
-        tree_info = json.loads(tree_response.text)
-
         if (tree_info["length"] == 0):
             tree_list.remove(tree)
     return tree_list
+
+def get_request(url, params=None):
+    print(f"GET {url} {params}")
+    response = requests.get(url, params=params)
+    return json.loads(response.text)
 
 if __name__ == "__main__":
     main()
