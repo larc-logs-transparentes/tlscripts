@@ -15,7 +15,6 @@ def main():
         print("Verify consistency on global tree: Failed")
         print(result)
 
-   
 
     latest_root = trusted_global_roots["roots"][-1]
     global_tree_data = get_all_global_tree_leaf()
