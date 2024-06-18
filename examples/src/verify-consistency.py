@@ -13,6 +13,8 @@ def main():
         print("Verify consistency on global tree: ok")
     else:
         print("Verify consistency on global tree: Failed")
+        print(result)
+
    
 
     latest_root = trusted_global_roots["roots"][-1]
@@ -26,6 +28,7 @@ def main():
             print(f"Verify consistency on {tree}: ok")
         else:
             print(f"Verify consistency on {tree}: Failed")
+            print(result)
 
 
 def get_all_global_roots():
