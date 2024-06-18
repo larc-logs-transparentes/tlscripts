@@ -1,7 +1,7 @@
 import requests
 import tlverifier
 import json
-from config import TLMANAGER_URL as URL
+from config import BACKEND_URL as URL
 
 def main():
     # get all global roots. Those represents the roots that the monitor has stored locally
@@ -29,21 +29,21 @@ def main():
 
 
 def get_all_global_roots():
-    root_list = get_request(URL + "global-tree/all-roots")
+    root_list = get_request(URL + "tree/all-roots-global-tree")
     return root_list
 
 def get_all_consistency_proof(tree_name):
-    proofs = get_request(URL + "all-consistency-proof", params={
+    proofs = get_request(URL + "tree/all-consistency-proof", params={
         "tree_name": tree_name
     })
     return proofs
 
 def get_all_global_tree_leaf():
-    all_leaf = get_request(URL + "global-tree/all-leaf-data")
+    all_leaf = get_request(URL + "tree/all-leaf-data-global-tree")
     return all_leaf
 
 def get_local_tree_list():
-    tree_list = get_request(URL)["trees"]
+    tree_list = get_request(URL + "tree")["trees"]
     tree_list.remove('global_tree')
     tree_list = remove_empty_trees(tree_list)
     return tree_list
