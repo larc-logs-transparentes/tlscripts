@@ -1,0 +1,2900 @@
+{
+    "soma_por_cargo": {
+        "deputadoEstadual": {
+            "10": {
+                "identificacao_votavel": {
+                    "codigo": 10,
+                    "partido": 10
+                },
+                "quantidade_votos": 1282,
+                "tipo_voto": "legenda"
+            },
+            "10000": {
+                "identificacao_votavel": {
+                    "codigo": 10000,
+                    "partido": 10
+                },
+                "quantidade_votos": 2385,
+                "tipo_voto": "nominal"
+            },
+            "10022": {
+                "identificacao_votavel": {
+                    "codigo": 10022,
+                    "partido": 10
+                },
+                "quantidade_votos": 2671,
+                "tipo_voto": "nominal"
+            },
+            "10100": {
+                "identificacao_votavel": {
+                    "codigo": 10100,
+                    "partido": 10
+                },
+                "quantidade_votos": 2048,
+                "tipo_voto": "nominal"
+            },
+            "10111": {
+                "identificacao_votavel": {
+                    "codigo": 10111,
+                    "partido": 10
+                },
+                "quantidade_votos": 5512,
+                "tipo_voto": "nominal"
+            },
+            "10123": {
+                "identificacao_votavel": {
+                    "codigo": 10123,
+                    "partido": 10
+                },
+                "quantidade_votos": 3136,
+                "tipo_voto": "nominal"
+            },
+            "10190": {
+                "identificacao_votavel": {
+                    "codigo": 10190,
+                    "partido": 10
+                },
+                "quantidade_votos": 73,
+                "tipo_voto": "nominal"
+            },
+            "10222": {
+                "identificacao_votavel": {
+                    "codigo": 10222,
+                    "partido": 10
+                },
+                "quantidade_votos": 393,
+                "tipo_voto": "nominal"
+            },
+            "10333": {
+                "identificacao_votavel": {
+                    "codigo": 10333,
+                    "partido": 10
+                },
+                "quantidade_votos": 346,
+                "tipo_voto": "nominal"
+            },
+            "10345": {
+                "identificacao_votavel": {
+                    "codigo": 10345,
+                    "partido": 10
+                },
+                "quantidade_votos": 3446,
+                "tipo_voto": "nominal"
+            },
+            "10444": {
+                "identificacao_votavel": {
+                    "codigo": 10444,
+                    "partido": 10
+                },
+                "quantidade_votos": 163,
+                "tipo_voto": "nominal"
+            },
+            "10456": {
+                "identificacao_votavel": {
+                    "codigo": 10456,
+                    "partido": 10
+                },
+                "quantidade_votos": 6175,
+                "tipo_voto": "nominal"
+            },
+            "10555": {
+                "identificacao_votavel": {
+                    "codigo": 10555,
+                    "partido": 10
+                },
+                "quantidade_votos": 8227,
+                "tipo_voto": "nominal"
+            },
+            "10567": {
+                "identificacao_votavel": {
+                    "codigo": 10567,
+                    "partido": 10
+                },
+                "quantidade_votos": 4001,
+                "tipo_voto": "nominal"
+            },
+            "10777": {
+                "identificacao_votavel": {
+                    "codigo": 10777,
+                    "partido": 10
+                },
+                "quantidade_votos": 4159,
+                "tipo_voto": "nominal"
+            },
+            "10822": {
+                "identificacao_votavel": {
+                    "codigo": 10822,
+                    "partido": 10
+                },
+                "quantidade_votos": 425,
+                "tipo_voto": "nominal"
+            },
+            "10888": {
+                "identificacao_votavel": {
+                    "codigo": 10888,
+                    "partido": 10
+                },
+                "quantidade_votos": 19,
+                "tipo_voto": "nominal"
+            },
+            "11": {
+                "identificacao_votavel": {
+                    "codigo": 11,
+                    "partido": 11
+                },
+                "quantidade_votos": 2691,
+                "tipo_voto": "legenda"
+            },
+            "11000": {
+                "identificacao_votavel": {
+                    "codigo": 11000,
+                    "partido": 11
+                },
+                "quantidade_votos": 116,
+                "tipo_voto": "nominal"
+            },
+            "11022": {
+                "identificacao_votavel": {
+                    "codigo": 11022,
+                    "partido": 11
+                },
+                "quantidade_votos": 115,
+                "tipo_voto": "nominal"
+            },
+            "11106": {
+                "identificacao_votavel": {
+                    "codigo": 11106,
+                    "partido": 11
+                },
+                "quantidade_votos": 4998,
+                "tipo_voto": "nominal"
+            },
+            "11111": {
+                "identificacao_votavel": {
+                    "codigo": 11111,
+                    "partido": 11
+                },
+                "quantidade_votos": 268,
+                "tipo_voto": "nominal"
+            },
+            "11122": {
+                "identificacao_votavel": {
+                    "codigo": 11122,
+                    "partido": 11
+                },
+                "quantidade_votos": 16636,
+                "tipo_voto": "nominal"
+            },
+            "11123": {
+                "identificacao_votavel": {
+                    "codigo": 11123,
+                    "partido": 11
+                },
+                "quantidade_votos": 196,
+                "tipo_voto": "nominal"
+            },
+            "11133": {
+                "identificacao_votavel": {
+                    "codigo": 11133,
+                    "partido": 11
+                },
+                "quantidade_votos": 10485,
+                "tipo_voto": "nominal"
+            },
+            "11155": {
+                "identificacao_votavel": {
+                    "codigo": 11155,
+                    "partido": 11
+                },
+                "quantidade_votos": 113,
+                "tipo_voto": "nominal"
+            },
+            "11190": {
+                "identificacao_votavel": {
+                    "codigo": 11190,
+                    "partido": 11
+                },
+                "quantidade_votos": 55,
+                "tipo_voto": "nominal"
+            },
+            "11211": {
+                "identificacao_votavel": {
+                    "codigo": 11211,
+                    "partido": 11
+                },
+                "quantidade_votos": 13,
+                "tipo_voto": "nominal"
+            },
+            "11222": {
+                "identificacao_votavel": {
+                    "codigo": 11222,
+                    "partido": 11
+                },
+                "quantidade_votos": 170,
+                "tipo_voto": "nominal"
+            },
+            "11234": {
+                "identificacao_votavel": {
+                    "codigo": 11234,
+                    "partido": 11
+                },
+                "quantidade_votos": 8479,
+                "tipo_voto": "nominal"
+            },
+            "11257": {
+                "identificacao_votavel": {
+                    "codigo": 11257,
+                    "partido": 11
+                },
+                "quantidade_votos": 292,
+                "tipo_voto": "nominal"
+            },
+            "11321": {
+                "identificacao_votavel": {
+                    "codigo": 11321,
+                    "partido": 11
+                },
+                "quantidade_votos": 45,
+                "tipo_voto": "nominal"
+            },
+            "11332": {
+                "identificacao_votavel": {
+                    "codigo": 11332,
+                    "partido": 11
+                },
+                "quantidade_votos": 183,
+                "tipo_voto": "nominal"
+            },
+            "11333": {
+                "identificacao_votavel": {
+                    "codigo": 11333,
+                    "partido": 11
+                },
+                "quantidade_votos": 233,
+                "tipo_voto": "nominal"
+            },
+            "11777": {
+                "identificacao_votavel": {
+                    "codigo": 11777,
+                    "partido": 11
+                },
+                "quantidade_votos": 202,
+                "tipo_voto": "nominal"
+            },
+            "11888": {
+                "identificacao_votavel": {
+                    "codigo": 11888,
+                    "partido": 11
+                },
+                "quantidade_votos": 557,
+                "tipo_voto": "nominal"
+            },
+            "12": {
+                "identificacao_votavel": {
+                    "codigo": 12,
+                    "partido": 12
+                },
+                "quantidade_votos": 1468,
+                "tipo_voto": "legenda"
+            },
+            "12000": {
+                "identificacao_votavel": {
+                    "codigo": 12000,
+                    "partido": 12
+                },
+                "quantidade_votos": 200,
+                "tipo_voto": "nominal"
+            },
+            "12012": {
+                "identificacao_votavel": {
+                    "codigo": 12012,
+                    "partido": 12
+                },
+                "quantidade_votos": 386,
+                "tipo_voto": "nominal"
+            },
+            "12111": {
+                "identificacao_votavel": {
+                    "codigo": 12111,
+                    "partido": 12
+                },
+                "quantidade_votos": 5520,
+                "tipo_voto": "nominal"
+            },
+            "12121": {
+                "identificacao_votavel": {
+                    "codigo": 12121,
+                    "partido": 12
+                },
+                "quantidade_votos": 1245,
+                "tipo_voto": "nominal"
+            },
+            "12123": {
+                "identificacao_votavel": {
+                    "codigo": 12123,
+                    "partido": 12
+                },
+                "quantidade_votos": 7390,
+                "tipo_voto": "nominal"
+            },
+            "12133": {
+                "identificacao_votavel": {
+                    "codigo": 12133,
+                    "partido": 12
+                },
+                "quantidade_votos": 3762,
+                "tipo_voto": "nominal"
+            },
+            "12159": {
+                "identificacao_votavel": {
+                    "codigo": 12159,
+                    "partido": 12
+                },
+                "quantidade_votos": 37,
+                "tipo_voto": "nominal"
+            },
+            "12190": {
+                "identificacao_votavel": {
+                    "codigo": 12190,
+                    "partido": 12
+                },
+                "quantidade_votos": 645,
+                "tipo_voto": "nominal"
+            },
+            "12200": {
+                "identificacao_votavel": {
+                    "codigo": 12200,
+                    "partido": 12
+                },
+                "quantidade_votos": 1721,
+                "tipo_voto": "nominal"
+            },
+            "12212": {
+                "identificacao_votavel": {
+                    "codigo": 12212,
+                    "partido": 12
+                },
+                "quantidade_votos": 23,
+                "tipo_voto": "nominal"
+            },
+            "12222": {
+                "identificacao_votavel": {
+                    "codigo": 12222,
+                    "partido": 12
+                },
+                "quantidade_votos": 3227,
+                "tipo_voto": "nominal"
+            },
+            "12247": {
+                "identificacao_votavel": {
+                    "codigo": 12247,
+                    "partido": 12
+                },
+                "quantidade_votos": 4,
+                "tipo_voto": "nominal"
+            },
+            "12287": {
+                "identificacao_votavel": {
+                    "codigo": 12287,
+                    "partido": 12
+                },
+                "quantidade_votos": 35,
+                "tipo_voto": "nominal"
+            },
+            "12300": {
+                "identificacao_votavel": {
+                    "codigo": 12300,
+                    "partido": 12
+                },
+                "quantidade_votos": 3555,
+                "tipo_voto": "nominal"
+            },
+            "12333": {
+                "identificacao_votavel": {
+                    "codigo": 12333,
+                    "partido": 12
+                },
+                "quantidade_votos": 7732,
+                "tipo_voto": "nominal"
+            },
+            "12345": {
+                "identificacao_votavel": {
+                    "codigo": 12345,
+                    "partido": 12
+                },
+                "quantidade_votos": 1835,
+                "tipo_voto": "nominal"
+            },
+            "12444": {
+                "identificacao_votavel": {
+                    "codigo": 12444,
+                    "partido": 12
+                },
+                "quantidade_votos": 3769,
+                "tipo_voto": "nominal"
+            },
+            "12456": {
+                "identificacao_votavel": {
+                    "codigo": 12456,
+                    "partido": 12
+                },
+                "quantidade_votos": 5601,
+                "tipo_voto": "nominal"
+            },
+            "12555": {
+                "identificacao_votavel": {
+                    "codigo": 12555,
+                    "partido": 12
+                },
+                "quantidade_votos": 5990,
+                "tipo_voto": "nominal"
+            },
+            "12612": {
+                "identificacao_votavel": {
+                    "codigo": 12612,
+                    "partido": 12
+                },
+                "quantidade_votos": 1485,
+                "tipo_voto": "nominal"
+            },
+            "12777": {
+                "identificacao_votavel": {
+                    "codigo": 12777,
+                    "partido": 12
+                },
+                "quantidade_votos": 1942,
+                "tipo_voto": "nominal"
+            },
+            "12888": {
+                "identificacao_votavel": {
+                    "codigo": 12888,
+                    "partido": 12
+                },
+                "quantidade_votos": 108,
+                "tipo_voto": "nominal"
+            },
+            "13": {
+                "identificacao_votavel": {
+                    "codigo": 13,
+                    "partido": 13
+                },
+                "quantidade_votos": 3103,
+                "tipo_voto": "legenda"
+            },
+            "13000": {
+                "identificacao_votavel": {
+                    "codigo": 13000,
+                    "partido": 13
+                },
+                "quantidade_votos": 384,
+                "tipo_voto": "nominal"
+            },
+            "13012": {
+                "identificacao_votavel": {
+                    "codigo": 13012,
+                    "partido": 13
+                },
+                "quantidade_votos": 729,
+                "tipo_voto": "nominal"
+            },
+            "13013": {
+                "identificacao_votavel": {
+                    "codigo": 13013,
+                    "partido": 13
+                },
+                "quantidade_votos": 3244,
+                "tipo_voto": "nominal"
+            },
+            "13111": {
+                "identificacao_votavel": {
+                    "codigo": 13111,
+                    "partido": 13
+                },
+                "quantidade_votos": 554,
+                "tipo_voto": "nominal"
+            },
+            "13122": {
+                "identificacao_votavel": {
+                    "codigo": 13122,
+                    "partido": 13
+                },
+                "quantidade_votos": 170,
+                "tipo_voto": "nominal"
+            },
+            "13123": {
+                "identificacao_votavel": {
+                    "codigo": 13123,
+                    "partido": 13
+                },
+                "quantidade_votos": 4880,
+                "tipo_voto": "nominal"
+            },
+            "13131": {
+                "identificacao_votavel": {
+                    "codigo": 13131,
+                    "partido": 13
+                },
+                "quantidade_votos": 283,
+                "tipo_voto": "nominal"
+            },
+            "13133": {
+                "identificacao_votavel": {
+                    "codigo": 13133,
+                    "partido": 13
+                },
+                "quantidade_votos": 430,
+                "tipo_voto": "nominal"
+            },
+            "13234": {
+                "identificacao_votavel": {
+                    "codigo": 13234,
+                    "partido": 13
+                },
+                "quantidade_votos": 501,
+                "tipo_voto": "nominal"
+            },
+            "13333": {
+                "identificacao_votavel": {
+                    "codigo": 13333,
+                    "partido": 13
+                },
+                "quantidade_votos": 441,
+                "tipo_voto": "nominal"
+            },
+            "13444": {
+                "identificacao_votavel": {
+                    "codigo": 13444,
+                    "partido": 13
+                },
+                "quantidade_votos": 39,
+                "tipo_voto": "nominal"
+            },
+            "13456": {
+                "identificacao_votavel": {
+                    "codigo": 13456,
+                    "partido": 13
+                },
+                "quantidade_votos": 834,
+                "tipo_voto": "nominal"
+            },
+            "13500": {
+                "identificacao_votavel": {
+                    "codigo": 13500,
+                    "partido": 13
+                },
+                "quantidade_votos": 434,
+                "tipo_voto": "nominal"
+            },
+            "13555": {
+                "identificacao_votavel": {
+                    "codigo": 13555,
+                    "partido": 13
+                },
+                "quantidade_votos": 629,
+                "tipo_voto": "nominal"
+            },
+            "13613": {
+                "identificacao_votavel": {
+                    "codigo": 13613,
+                    "partido": 13
+                },
+                "quantidade_votos": 692,
+                "tipo_voto": "nominal"
+            },
+            "13777": {
+                "identificacao_votavel": {
+                    "codigo": 13777,
+                    "partido": 13
+                },
+                "quantidade_votos": 1008,
+                "tipo_voto": "nominal"
+            },
+            "15": {
+                "identificacao_votavel": {
+                    "codigo": 15,
+                    "partido": 15
+                },
+                "quantidade_votos": 1348,
+                "tipo_voto": "legenda"
+            },
+            "15000": {
+                "identificacao_votavel": {
+                    "codigo": 15000,
+                    "partido": 15
+                },
+                "quantidade_votos": 8540,
+                "tipo_voto": "nominal"
+            },
+            "15001": {
+                "identificacao_votavel": {
+                    "codigo": 15001,
+                    "partido": 15
+                },
+                "quantidade_votos": 10,
+                "tipo_voto": "nominal"
+            },
+            "15005": {
+                "identificacao_votavel": {
+                    "codigo": 15005,
+                    "partido": 15
+                },
+                "quantidade_votos": 55,
+                "tipo_voto": "nominal"
+            },
+            "15010": {
+                "identificacao_votavel": {
+                    "codigo": 15010,
+                    "partido": 15
+                },
+                "quantidade_votos": 1157,
+                "tipo_voto": "nominal"
+            },
+            "15015": {
+                "identificacao_votavel": {
+                    "codigo": 15015,
+                    "partido": 15
+                },
+                "quantidade_votos": 333,
+                "tipo_voto": "nominal"
+            },
+            "15023": {
+                "identificacao_votavel": {
+                    "codigo": 15023,
+                    "partido": 15
+                },
+                "quantidade_votos": 47,
+                "tipo_voto": "nominal"
+            },
+            "15111": {
+                "identificacao_votavel": {
+                    "codigo": 15111,
+                    "partido": 15
+                },
+                "quantidade_votos": 452,
+                "tipo_voto": "nominal"
+            },
+            "15120": {
+                "identificacao_votavel": {
+                    "codigo": 15120,
+                    "partido": 15
+                },
+                "quantidade_votos": 302,
+                "tipo_voto": "nominal"
+            },
+            "15122": {
+                "identificacao_votavel": {
+                    "codigo": 15122,
+                    "partido": 15
+                },
+                "quantidade_votos": 5720,
+                "tipo_voto": "nominal"
+            },
+            "15151": {
+                "identificacao_votavel": {
+                    "codigo": 15151,
+                    "partido": 15
+                },
+                "quantidade_votos": 139,
+                "tipo_voto": "nominal"
+            },
+            "15192": {
+                "identificacao_votavel": {
+                    "codigo": 15192,
+                    "partido": 15
+                },
+                "quantidade_votos": 718,
+                "tipo_voto": "nominal"
+            },
+            "15222": {
+                "identificacao_votavel": {
+                    "codigo": 15222,
+                    "partido": 15
+                },
+                "quantidade_votos": 645,
+                "tipo_voto": "nominal"
+            },
+            "15234": {
+                "identificacao_votavel": {
+                    "codigo": 15234,
+                    "partido": 15
+                },
+                "quantidade_votos": 813,
+                "tipo_voto": "nominal"
+            },
+            "15300": {
+                "identificacao_votavel": {
+                    "codigo": 15300,
+                    "partido": 15
+                },
+                "quantidade_votos": 645,
+                "tipo_voto": "nominal"
+            },
+            "15321": {
+                "identificacao_votavel": {
+                    "codigo": 15321,
+                    "partido": 15
+                },
+                "quantidade_votos": 1013,
+                "tipo_voto": "nominal"
+            },
+            "15333": {
+                "identificacao_votavel": {
+                    "codigo": 15333,
+                    "partido": 15
+                },
+                "quantidade_votos": 1505,
+                "tipo_voto": "nominal"
+            },
+            "15444": {
+                "identificacao_votavel": {
+                    "codigo": 15444,
+                    "partido": 15
+                },
+                "quantidade_votos": 293,
+                "tipo_voto": "nominal"
+            },
+            "15456": {
+                "identificacao_votavel": {
+                    "codigo": 15456,
+                    "partido": 15
+                },
+                "quantidade_votos": 86,
+                "tipo_voto": "nominal"
+            },
+            "15555": {
+                "identificacao_votavel": {
+                    "codigo": 15555,
+                    "partido": 15
+                },
+                "quantidade_votos": 5703,
+                "tipo_voto": "nominal"
+            },
+            "15611": {
+                "identificacao_votavel": {
+                    "codigo": 15611,
+                    "partido": 15
+                },
+                "quantidade_votos": 3464,
+                "tipo_voto": "nominal"
+            },
+            "15615": {
+                "identificacao_votavel": {
+                    "codigo": 15615,
+                    "partido": 15
+                },
+                "quantidade_votos": 332,
+                "tipo_voto": "nominal"
+            },
+            "15678": {
+                "identificacao_votavel": {
+                    "codigo": 15678,
+                    "partido": 15
+                },
+                "quantidade_votos": 4046,
+                "tipo_voto": "nominal"
+            },
+            "15700": {
+                "identificacao_votavel": {
+                    "codigo": 15700,
+                    "partido": 15
+                },
+                "quantidade_votos": 236,
+                "tipo_voto": "nominal"
+            },
+            "15777": {
+                "identificacao_votavel": {
+                    "codigo": 15777,
+                    "partido": 15
+                },
+                "quantidade_votos": 682,
+                "tipo_voto": "nominal"
+            },
+            "15888": {
+                "identificacao_votavel": {
+                    "codigo": 15888,
+                    "partido": 15
+                },
+                "quantidade_votos": 1333,
+                "tipo_voto": "nominal"
+            },
+            "18": {
+                "identificacao_votavel": {
+                    "codigo": 18,
+                    "partido": 18
+                },
+                "quantidade_votos": 152,
+                "tipo_voto": "legenda"
+            },
+            "19": {
+                "identificacao_votavel": {
+                    "codigo": 19,
+                    "partido": 19
+                },
+                "quantidade_votos": 2247,
+                "tipo_voto": "legenda"
+            },
+            "19000": {
+                "identificacao_votavel": {
+                    "codigo": 19000,
+                    "partido": 19
+                },
+                "quantidade_votos": 223,
+                "tipo_voto": "nominal"
+            },
+            "19123": {
+                "identificacao_votavel": {
+                    "codigo": 19123,
+                    "partido": 19
+                },
+                "quantidade_votos": 5976,
+                "tipo_voto": "nominal"
+            },
+            "19191": {
+                "identificacao_votavel": {
+                    "codigo": 19191,
+                    "partido": 19
+                },
+                "quantidade_votos": 1390,
+                "tipo_voto": "nominal"
+            },
+            "19192": {
+                "identificacao_votavel": {
+                    "codigo": 19192,
+                    "partido": 19
+                },
+                "quantidade_votos": 53,
+                "tipo_voto": "nominal"
+            },
+            "19222": {
+                "identificacao_votavel": {
+                    "codigo": 19222,
+                    "partido": 19
+                },
+                "quantidade_votos": 77,
+                "tipo_voto": "nominal"
+            },
+            "19223": {
+                "identificacao_votavel": {
+                    "codigo": 19223,
+                    "partido": 19
+                },
+                "quantidade_votos": 117,
+                "tipo_voto": "nominal"
+            },
+            "19444": {
+                "identificacao_votavel": {
+                    "codigo": 19444,
+                    "partido": 19
+                },
+                "quantidade_votos": 8157,
+                "tipo_voto": "nominal"
+            },
+            "19456": {
+                "identificacao_votavel": {
+                    "codigo": 19456,
+                    "partido": 19
+                },
+                "quantidade_votos": 1803,
+                "tipo_voto": "nominal"
+            },
+            "19555": {
+                "identificacao_votavel": {
+                    "codigo": 19555,
+                    "partido": 19
+                },
+                "quantidade_votos": 82,
+                "tipo_voto": "nominal"
+            },
+            "19777": {
+                "identificacao_votavel": {
+                    "codigo": 19777,
+                    "partido": 19
+                },
+                "quantidade_votos": 55,
+                "tipo_voto": "nominal"
+            },
+            "19789": {
+                "identificacao_votavel": {
+                    "codigo": 19789,
+                    "partido": 19
+                },
+                "quantidade_votos": 170,
+                "tipo_voto": "nominal"
+            },
+            "19999": {
+                "identificacao_votavel": {
+                    "codigo": 19999,
+                    "partido": 19
+                },
+                "quantidade_votos": 7112,
+                "tipo_voto": "nominal"
+            },
+            "22": {
+                "identificacao_votavel": {
+                    "codigo": 22,
+                    "partido": 22
+                },
+                "quantidade_votos": 2101,
+                "tipo_voto": "legenda"
+            },
+            "22000": {
+                "identificacao_votavel": {
+                    "codigo": 22000,
+                    "partido": 22
+                },
+                "quantidade_votos": 2989,
+                "tipo_voto": "nominal"
+            },
+            "22001": {
+                "identificacao_votavel": {
+                    "codigo": 22001,
+                    "partido": 22
+                },
+                "quantidade_votos": 114,
+                "tipo_voto": "nominal"
+            },
+            "22002": {
+                "identificacao_votavel": {
+                    "codigo": 22002,
+                    "partido": 22
+                },
+                "quantidade_votos": 58,
+                "tipo_voto": "nominal"
+            },
+            "22007": {
+                "identificacao_votavel": {
+                    "codigo": 22007,
+                    "partido": 22
+                },
+                "quantidade_votos": 41,
+                "tipo_voto": "nominal"
+            },
+            "22022": {
+                "identificacao_votavel": {
+                    "codigo": 22022,
+                    "partido": 22
+                },
+                "quantidade_votos": 2988,
+                "tipo_voto": "nominal"
+            },
+            "22023": {
+                "identificacao_votavel": {
+                    "codigo": 22023,
+                    "partido": 22
+                },
+                "quantidade_votos": 334,
+                "tipo_voto": "nominal"
+            },
+            "22100": {
+                "identificacao_votavel": {
+                    "codigo": 22100,
+                    "partido": 22
+                },
+                "quantidade_votos": 1005,
+                "tipo_voto": "nominal"
+            },
+            "22111": {
+                "identificacao_votavel": {
+                    "codigo": 22111,
+                    "partido": 22
+                },
+                "quantidade_votos": 472,
+                "tipo_voto": "nominal"
+            },
+            "22122": {
+                "identificacao_votavel": {
+                    "codigo": 22122,
+                    "partido": 22
+                },
+                "quantidade_votos": 1592,
+                "tipo_voto": "nominal"
+            },
+            "22123": {
+                "identificacao_votavel": {
+                    "codigo": 22123,
+                    "partido": 22
+                },
+                "quantidade_votos": 3025,
+                "tipo_voto": "nominal"
+            },
+            "22190": {
+                "identificacao_votavel": {
+                    "codigo": 22190,
+                    "partido": 22
+                },
+                "quantidade_votos": 2476,
+                "tipo_voto": "nominal"
+            },
+            "22222": {
+                "identificacao_votavel": {
+                    "codigo": 22222,
+                    "partido": 22
+                },
+                "quantidade_votos": 2206,
+                "tipo_voto": "nominal"
+            },
+            "22223": {
+                "identificacao_votavel": {
+                    "codigo": 22223,
+                    "partido": 22
+                },
+                "quantidade_votos": 5731,
+                "tipo_voto": "nominal"
+            },
+            "22300": {
+                "identificacao_votavel": {
+                    "codigo": 22300,
+                    "partido": 22
+                },
+                "quantidade_votos": 1883,
+                "tipo_voto": "nominal"
+            },
+            "22333": {
+                "identificacao_votavel": {
+                    "codigo": 22333,
+                    "partido": 22
+                },
+                "quantidade_votos": 5471,
+                "tipo_voto": "nominal"
+            },
+            "22345": {
+                "identificacao_votavel": {
+                    "codigo": 22345,
+                    "partido": 22
+                },
+                "quantidade_votos": 2809,
+                "tipo_voto": "nominal"
+            },
+            "22444": {
+                "identificacao_votavel": {
+                    "codigo": 22444,
+                    "partido": 22
+                },
+                "quantidade_votos": 1381,
+                "tipo_voto": "nominal"
+            },
+            "22456": {
+                "identificacao_votavel": {
+                    "codigo": 22456,
+                    "partido": 22
+                },
+                "quantidade_votos": 1635,
+                "tipo_voto": "nominal"
+            },
+            "22500": {
+                "identificacao_votavel": {
+                    "codigo": 22500,
+                    "partido": 22
+                },
+                "quantidade_votos": 2193,
+                "tipo_voto": "nominal"
+            },
+            "22555": {
+                "identificacao_votavel": {
+                    "codigo": 22555,
+                    "partido": 22
+                },
+                "quantidade_votos": 2206,
+                "tipo_voto": "nominal"
+            },
+            "22678": {
+                "identificacao_votavel": {
+                    "codigo": 22678,
+                    "partido": 22
+                },
+                "quantidade_votos": 29,
+                "tipo_voto": "nominal"
+            },
+            "22700": {
+                "identificacao_votavel": {
+                    "codigo": 22700,
+                    "partido": 22
+                },
+                "quantidade_votos": 275,
+                "tipo_voto": "nominal"
+            },
+            "22777": {
+                "identificacao_votavel": {
+                    "codigo": 22777,
+                    "partido": 22
+                },
+                "quantidade_votos": 290,
+                "tipo_voto": "nominal"
+            },
+            "22789": {
+                "identificacao_votavel": {
+                    "codigo": 22789,
+                    "partido": 22
+                },
+                "quantidade_votos": 934,
+                "tipo_voto": "nominal"
+            },
+            "22888": {
+                "identificacao_votavel": {
+                    "codigo": 22888,
+                    "partido": 22
+                },
+                "quantidade_votos": 188,
+                "tipo_voto": "nominal"
+            },
+            "23": {
+                "identificacao_votavel": {
+                    "codigo": 23,
+                    "partido": 23
+                },
+                "quantidade_votos": 87,
+                "tipo_voto": "legenda"
+            },
+            "23007": {
+                "identificacao_votavel": {
+                    "codigo": 23007,
+                    "partido": 23
+                },
+                "quantidade_votos": 25,
+                "tipo_voto": "nominal"
+            },
+            "23033": {
+                "identificacao_votavel": {
+                    "codigo": 23033,
+                    "partido": 23
+                },
+                "quantidade_votos": 71,
+                "tipo_voto": "nominal"
+            },
+            "23111": {
+                "identificacao_votavel": {
+                    "codigo": 23111,
+                    "partido": 23
+                },
+                "quantidade_votos": 1,
+                "tipo_voto": "nominal"
+            },
+            "23123": {
+                "identificacao_votavel": {
+                    "codigo": 23123,
+                    "partido": 23
+                },
+                "quantidade_votos": 75,
+                "tipo_voto": "nominal"
+            },
+            "23233": {
+                "identificacao_votavel": {
+                    "codigo": 23233,
+                    "partido": 23
+                },
+                "quantidade_votos": 185,
+                "tipo_voto": "nominal"
+            },
+            "23300": {
+                "identificacao_votavel": {
+                    "codigo": 23300,
+                    "partido": 23
+                },
+                "quantidade_votos": 59,
+                "tipo_voto": "nominal"
+            },
+            "23333": {
+                "identificacao_votavel": {
+                    "codigo": 23333,
+                    "partido": 23
+                },
+                "quantidade_votos": 204,
+                "tipo_voto": "nominal"
+            },
+            "23456": {
+                "identificacao_votavel": {
+                    "codigo": 23456,
+                    "partido": 23
+                },
+                "quantidade_votos": 30,
+                "tipo_voto": "nominal"
+            },
+            "23777": {
+                "identificacao_votavel": {
+                    "codigo": 23777,
+                    "partido": 23
+                },
+                "quantidade_votos": 243,
+                "tipo_voto": "nominal"
+            },
+            "23789": {
+                "identificacao_votavel": {
+                    "codigo": 23789,
+                    "partido": 23
+                },
+                "quantidade_votos": 83,
+                "tipo_voto": "nominal"
+            },
+            "27": {
+                "identificacao_votavel": {
+                    "codigo": 27,
+                    "partido": 27
+                },
+                "quantidade_votos": 33,
+                "tipo_voto": "legenda"
+            },
+            "27012": {
+                "identificacao_votavel": {
+                    "codigo": 27012,
+                    "partido": 27
+                },
+                "quantidade_votos": 175,
+                "tipo_voto": "nominal"
+            },
+            "27022": {
+                "identificacao_votavel": {
+                    "codigo": 27022,
+                    "partido": 27
+                },
+                "quantidade_votos": 56,
+                "tipo_voto": "nominal"
+            },
+            "27111": {
+                "identificacao_votavel": {
+                    "codigo": 27111,
+                    "partido": 27
+                },
+                "quantidade_votos": 27,
+                "tipo_voto": "nominal"
+            },
+            "27123": {
+                "identificacao_votavel": {
+                    "codigo": 27123,
+                    "partido": 27
+                },
+                "quantidade_votos": 114,
+                "tipo_voto": "nominal"
+            },
+            "27222": {
+                "identificacao_votavel": {
+                    "codigo": 27222,
+                    "partido": 27
+                },
+                "quantidade_votos": 22,
+                "tipo_voto": "nominal"
+            },
+            "27316": {
+                "identificacao_votavel": {
+                    "codigo": 27316,
+                    "partido": 27
+                },
+                "quantidade_votos": 10,
+                "tipo_voto": "nominal"
+            },
+            "27456": {
+                "identificacao_votavel": {
+                    "codigo": 27456,
+                    "partido": 27
+                },
+                "quantidade_votos": 18,
+                "tipo_voto": "nominal"
+            },
+            "27777": {
+                "identificacao_votavel": {
+                    "codigo": 27777,
+                    "partido": 27
+                },
+                "quantidade_votos": 103,
+                "tipo_voto": "nominal"
+            },
+            "27888": {
+                "identificacao_votavel": {
+                    "codigo": 27888,
+                    "partido": 27
+                },
+                "quantidade_votos": 5,
+                "tipo_voto": "nominal"
+            },
+            "33": {
+                "identificacao_votavel": {
+                    "codigo": 33,
+                    "partido": 33
+                },
+                "quantidade_votos": 67,
+                "tipo_voto": "legenda"
+            },
+            "33123": {
+                "identificacao_votavel": {
+                    "codigo": 33123,
+                    "partido": 33
+                },
+                "quantidade_votos": 18,
+                "tipo_voto": "nominal"
+            },
+            "33242": {
+                "identificacao_votavel": {
+                    "codigo": 33242,
+                    "partido": 33
+                },
+                "quantidade_votos": 53,
+                "tipo_voto": "nominal"
+            },
+            "33333": {
+                "identificacao_votavel": {
+                    "codigo": 33333,
+                    "partido": 33
+                },
+                "quantidade_votos": 139,
+                "tipo_voto": "nominal"
+            },
+            "36": {
+                "identificacao_votavel": {
+                    "codigo": 36,
+                    "partido": 36
+                },
+                "quantidade_votos": 45,
+                "tipo_voto": "legenda"
+            },
+            "36000": {
+                "identificacao_votavel": {
+                    "codigo": 36000,
+                    "partido": 36
+                },
+                "quantidade_votos": 30,
+                "tipo_voto": "nominal"
+            },
+            "36001": {
+                "identificacao_votavel": {
+                    "codigo": 36001,
+                    "partido": 36
+                },
+                "quantidade_votos": 51,
+                "tipo_voto": "nominal"
+            },
+            "36007": {
+                "identificacao_votavel": {
+                    "codigo": 36007,
+                    "partido": 36
+                },
+                "quantidade_votos": 11,
+                "tipo_voto": "nominal"
+            },
+            "36008": {
+                "identificacao_votavel": {
+                    "codigo": 36008,
+                    "partido": 36
+                },
+                "quantidade_votos": 21,
+                "tipo_voto": "nominal"
+            },
+            "36036": {
+                "identificacao_votavel": {
+                    "codigo": 36036,
+                    "partido": 36
+                },
+                "quantidade_votos": 37,
+                "tipo_voto": "nominal"
+            },
+            "36100": {
+                "identificacao_votavel": {
+                    "codigo": 36100,
+                    "partido": 36
+                },
+                "quantidade_votos": 37,
+                "tipo_voto": "nominal"
+            },
+            "36116": {
+                "identificacao_votavel": {
+                    "codigo": 36116,
+                    "partido": 36
+                },
+                "quantidade_votos": 25,
+                "tipo_voto": "nominal"
+            },
+            "36198": {
+                "identificacao_votavel": {
+                    "codigo": 36198,
+                    "partido": 36
+                },
+                "quantidade_votos": 27,
+                "tipo_voto": "nominal"
+            },
+            "36300": {
+                "identificacao_votavel": {
+                    "codigo": 36300,
+                    "partido": 36
+                },
+                "quantidade_votos": 33,
+                "tipo_voto": "nominal"
+            },
+            "36333": {
+                "identificacao_votavel": {
+                    "codigo": 36333,
+                    "partido": 36
+                },
+                "quantidade_votos": 74,
+                "tipo_voto": "nominal"
+            },
+            "36398": {
+                "identificacao_votavel": {
+                    "codigo": 36398,
+                    "partido": 36
+                },
+                "quantidade_votos": 12,
+                "tipo_voto": "nominal"
+            },
+            "36400": {
+                "identificacao_votavel": {
+                    "codigo": 36400,
+                    "partido": 36
+                },
+                "quantidade_votos": 7,
+                "tipo_voto": "nominal"
+            },
+            "36461": {
+                "identificacao_votavel": {
+                    "codigo": 36461,
+                    "partido": 36
+                },
+                "quantidade_votos": 11,
+                "tipo_voto": "nominal"
+            },
+            "36500": {
+                "identificacao_votavel": {
+                    "codigo": 36500,
+                    "partido": 36
+                },
+                "quantidade_votos": 14,
+                "tipo_voto": "nominal"
+            },
+            "36555": {
+                "identificacao_votavel": {
+                    "codigo": 36555,
+                    "partido": 36
+                },
+                "quantidade_votos": 30,
+                "tipo_voto": "nominal"
+            },
+            "36666": {
+                "identificacao_votavel": {
+                    "codigo": 36666,
+                    "partido": 36
+                },
+                "quantidade_votos": 20,
+                "tipo_voto": "nominal"
+            },
+            "36789": {
+                "identificacao_votavel": {
+                    "codigo": 36789,
+                    "partido": 36
+                },
+                "quantidade_votos": 53,
+                "tipo_voto": "nominal"
+            },
+            "36946": {
+                "identificacao_votavel": {
+                    "codigo": 36946,
+                    "partido": 36
+                },
+                "quantidade_votos": 90,
+                "tipo_voto": "nominal"
+            },
+            "40": {
+                "identificacao_votavel": {
+                    "codigo": 40,
+                    "partido": 40
+                },
+                "quantidade_votos": 1555,
+                "tipo_voto": "legenda"
+            },
+            "40000": {
+                "identificacao_votavel": {
+                    "codigo": 40000,
+                    "partido": 40
+                },
+                "quantidade_votos": 3236,
+                "tipo_voto": "nominal"
+            },
+            "40003": {
+                "identificacao_votavel": {
+                    "codigo": 40003,
+                    "partido": 40
+                },
+                "quantidade_votos": 66,
+                "tipo_voto": "nominal"
+            },
+            "40004": {
+                "identificacao_votavel": {
+                    "codigo": 40004,
+                    "partido": 40
+                },
+                "quantidade_votos": 47,
+                "tipo_voto": "nominal"
+            },
+            "40007": {
+                "identificacao_votavel": {
+                    "codigo": 40007,
+                    "partido": 40
+                },
+                "quantidade_votos": 31,
+                "tipo_voto": "nominal"
+            },
+            "40043": {
+                "identificacao_votavel": {
+                    "codigo": 40043,
+                    "partido": 40
+                },
+                "quantidade_votos": 176,
+                "tipo_voto": "nominal"
+            },
+            "40111": {
+                "identificacao_votavel": {
+                    "codigo": 40111,
+                    "partido": 40
+                },
+                "quantidade_votos": 87,
+                "tipo_voto": "nominal"
+            },
+            "40123": {
+                "identificacao_votavel": {
+                    "codigo": 40123,
+                    "partido": 40
+                },
+                "quantidade_votos": 653,
+                "tipo_voto": "nominal"
+            },
+            "40222": {
+                "identificacao_votavel": {
+                    "codigo": 40222,
+                    "partido": 40
+                },
+                "quantidade_votos": 6157,
+                "tipo_voto": "nominal"
+            },
+            "40234": {
+                "identificacao_votavel": {
+                    "codigo": 40234,
+                    "partido": 40
+                },
+                "quantidade_votos": 3367,
+                "tipo_voto": "nominal"
+            },
+            "40400": {
+                "identificacao_votavel": {
+                    "codigo": 40400,
+                    "partido": 40
+                },
+                "quantidade_votos": 317,
+                "tipo_voto": "nominal"
+            },
+            "40444": {
+                "identificacao_votavel": {
+                    "codigo": 40444,
+                    "partido": 40
+                },
+                "quantidade_votos": 970,
+                "tipo_voto": "nominal"
+            },
+            "40456": {
+                "identificacao_votavel": {
+                    "codigo": 40456,
+                    "partido": 40
+                },
+                "quantidade_votos": 220,
+                "tipo_voto": "nominal"
+            },
+            "40555": {
+                "identificacao_votavel": {
+                    "codigo": 40555,
+                    "partido": 40
+                },
+                "quantidade_votos": 16,
+                "tipo_voto": "nominal"
+            },
+            "40700": {
+                "identificacao_votavel": {
+                    "codigo": 40700,
+                    "partido": 40
+                },
+                "quantidade_votos": 37,
+                "tipo_voto": "nominal"
+            },
+            "40777": {
+                "identificacao_votavel": {
+                    "codigo": 40777,
+                    "partido": 40
+                },
+                "quantidade_votos": 26,
+                "tipo_voto": "nominal"
+            },
+            "40789": {
+                "identificacao_votavel": {
+                    "codigo": 40789,
+                    "partido": 40
+                },
+                "quantidade_votos": 1438,
+                "tipo_voto": "nominal"
+            },
+            "40800": {
+                "identificacao_votavel": {
+                    "codigo": 40800,
+                    "partido": 40
+                },
+                "quantidade_votos": 144,
+                "tipo_voto": "nominal"
+            },
+            "40900": {
+                "identificacao_votavel": {
+                    "codigo": 40900,
+                    "partido": 40
+                },
+                "quantidade_votos": 120,
+                "tipo_voto": "nominal"
+            },
+            "40999": {
+                "identificacao_votavel": {
+                    "codigo": 40999,
+                    "partido": 40
+                },
+                "quantidade_votos": 375,
+                "tipo_voto": "nominal"
+            },
+            "43": {
+                "identificacao_votavel": {
+                    "codigo": 43,
+                    "partido": 43
+                },
+                "quantidade_votos": 76,
+                "tipo_voto": "legenda"
+            },
+            "43123": {
+                "identificacao_votavel": {
+                    "codigo": 43123,
+                    "partido": 43
+                },
+                "quantidade_votos": 107,
+                "tipo_voto": "nominal"
+            },
+            "43700": {
+                "identificacao_votavel": {
+                    "codigo": 43700,
+                    "partido": 43
+                },
+                "quantidade_votos": 86,
+                "tipo_voto": "nominal"
+            },
+            "44": {
+                "identificacao_votavel": {
+                    "codigo": 44,
+                    "partido": 44
+                },
+                "quantidade_votos": 4257,
+                "tipo_voto": "legenda"
+            },
+            "44000": {
+                "identificacao_votavel": {
+                    "codigo": 44000,
+                    "partido": 44
+                },
+                "quantidade_votos": 203,
+                "tipo_voto": "nominal"
+            },
+            "44004": {
+                "identificacao_votavel": {
+                    "codigo": 44004,
+                    "partido": 44
+                },
+                "quantidade_votos": 4479,
+                "tipo_voto": "nominal"
+            },
+            "44007": {
+                "identificacao_votavel": {
+                    "codigo": 44007,
+                    "partido": 44
+                },
+                "quantidade_votos": 1085,
+                "tipo_voto": "nominal"
+            },
+            "44012": {
+                "identificacao_votavel": {
+                    "codigo": 44012,
+                    "partido": 44
+                },
+                "quantidade_votos": 53,
+                "tipo_voto": "nominal"
+            },
+            "44044": {
+                "identificacao_votavel": {
+                    "codigo": 44044,
+                    "partido": 44
+                },
+                "quantidade_votos": 39,
+                "tipo_voto": "nominal"
+            },
+            "44111": {
+                "identificacao_votavel": {
+                    "codigo": 44111,
+                    "partido": 44
+                },
+                "quantidade_votos": 799,
+                "tipo_voto": "nominal"
+            },
+            "44123": {
+                "identificacao_votavel": {
+                    "codigo": 44123,
+                    "partido": 44
+                },
+                "quantidade_votos": 6004,
+                "tipo_voto": "nominal"
+            },
+            "44144": {
+                "identificacao_votavel": {
+                    "codigo": 44144,
+                    "partido": 44
+                },
+                "quantidade_votos": 208,
+                "tipo_voto": "nominal"
+            },
+            "44190": {
+                "identificacao_votavel": {
+                    "codigo": 44190,
+                    "partido": 44
+                },
+                "quantidade_votos": 578,
+                "tipo_voto": "nominal"
+            },
+            "44200": {
+                "identificacao_votavel": {
+                    "codigo": 44200,
+                    "partido": 44
+                },
+                "quantidade_votos": 58,
+                "tipo_voto": "nominal"
+            },
+            "44222": {
+                "identificacao_votavel": {
+                    "codigo": 44222,
+                    "partido": 44
+                },
+                "quantidade_votos": 343,
+                "tipo_voto": "nominal"
+            },
+            "44234": {
+                "identificacao_votavel": {
+                    "codigo": 44234,
+                    "partido": 44
+                },
+                "quantidade_votos": 121,
+                "tipo_voto": "nominal"
+            },
+            "44333": {
+                "identificacao_votavel": {
+                    "codigo": 44333,
+                    "partido": 44
+                },
+                "quantidade_votos": 981,
+                "tipo_voto": "nominal"
+            },
+            "44444": {
+                "identificacao_votavel": {
+                    "codigo": 44444,
+                    "partido": 44
+                },
+                "quantidade_votos": 8407,
+                "tipo_voto": "nominal"
+            },
+            "44527": {
+                "identificacao_votavel": {
+                    "codigo": 44527,
+                    "partido": 44
+                },
+                "quantidade_votos": 186,
+                "tipo_voto": "nominal"
+            },
+            "44555": {
+                "identificacao_votavel": {
+                    "codigo": 44555,
+                    "partido": 44
+                },
+                "quantidade_votos": 6673,
+                "tipo_voto": "nominal"
+            },
+            "44700": {
+                "identificacao_votavel": {
+                    "codigo": 44700,
+                    "partido": 44
+                },
+                "quantidade_votos": 151,
+                "tipo_voto": "nominal"
+            },
+            "44777": {
+                "identificacao_votavel": {
+                    "codigo": 44777,
+                    "partido": 44
+                },
+                "quantidade_votos": 102,
+                "tipo_voto": "nominal"
+            },
+            "44789": {
+                "identificacao_votavel": {
+                    "codigo": 44789,
+                    "partido": 44
+                },
+                "quantidade_votos": 842,
+                "tipo_voto": "nominal"
+            },
+            "44888": {
+                "identificacao_votavel": {
+                    "codigo": 44888,
+                    "partido": 44
+                },
+                "quantidade_votos": 81,
+                "tipo_voto": "nominal"
+            },
+            "44999": {
+                "identificacao_votavel": {
+                    "codigo": 44999,
+                    "partido": 44
+                },
+                "quantidade_votos": 822,
+                "tipo_voto": "nominal"
+            },
+            "45": {
+                "identificacao_votavel": {
+                    "codigo": 45,
+                    "partido": 45
+                },
+                "quantidade_votos": 1064,
+                "tipo_voto": "legenda"
+            },
+            "45000": {
+                "identificacao_votavel": {
+                    "codigo": 45000,
+                    "partido": 45
+                },
+                "quantidade_votos": 71,
+                "tipo_voto": "nominal"
+            },
+            "45005": {
+                "identificacao_votavel": {
+                    "codigo": 45005,
+                    "partido": 45
+                },
+                "quantidade_votos": 169,
+                "tipo_voto": "nominal"
+            },
+            "45007": {
+                "identificacao_votavel": {
+                    "codigo": 45007,
+                    "partido": 45
+                },
+                "quantidade_votos": 597,
+                "tipo_voto": "nominal"
+            },
+            "45008": {
+                "identificacao_votavel": {
+                    "codigo": 45008,
+                    "partido": 45
+                },
+                "quantidade_votos": 195,
+                "tipo_voto": "nominal"
+            },
+            "45011": {
+                "identificacao_votavel": {
+                    "codigo": 45011,
+                    "partido": 45
+                },
+                "quantidade_votos": 1,
+                "tipo_voto": "nominal"
+            },
+            "45045": {
+                "identificacao_votavel": {
+                    "codigo": 45045,
+                    "partido": 45
+                },
+                "quantidade_votos": 175,
+                "tipo_voto": "nominal"
+            },
+            "45111": {
+                "identificacao_votavel": {
+                    "codigo": 45111,
+                    "partido": 45
+                },
+                "quantidade_votos": 176,
+                "tipo_voto": "nominal"
+            },
+            "45121": {
+                "identificacao_votavel": {
+                    "codigo": 45121,
+                    "partido": 45
+                },
+                "quantidade_votos": 6680,
+                "tipo_voto": "nominal"
+            },
+            "45123": {
+                "identificacao_votavel": {
+                    "codigo": 45123,
+                    "partido": 45
+                },
+                "quantidade_votos": 2061,
+                "tipo_voto": "nominal"
+            },
+            "45190": {
+                "identificacao_votavel": {
+                    "codigo": 45190,
+                    "partido": 45
+                },
+                "quantidade_votos": 5909,
+                "tipo_voto": "nominal"
+            },
+            "45555": {
+                "identificacao_votavel": {
+                    "codigo": 45555,
+                    "partido": 45
+                },
+                "quantidade_votos": 103,
+                "tipo_voto": "nominal"
+            },
+            "45777": {
+                "identificacao_votavel": {
+                    "codigo": 45777,
+                    "partido": 45
+                },
+                "quantidade_votos": 572,
+                "tipo_voto": "nominal"
+            },
+            "45888": {
+                "identificacao_votavel": {
+                    "codigo": 45888,
+                    "partido": 45
+                },
+                "quantidade_votos": 55,
+                "tipo_voto": "nominal"
+            },
+            "50": {
+                "identificacao_votavel": {
+                    "codigo": 50,
+                    "partido": 50
+                },
+                "quantidade_votos": 113,
+                "tipo_voto": "legenda"
+            },
+            "50000": {
+                "identificacao_votavel": {
+                    "codigo": 50000,
+                    "partido": 50
+                },
+                "quantidade_votos": 153,
+                "tipo_voto": "nominal"
+            },
+            "50001": {
+                "identificacao_votavel": {
+                    "codigo": 50001,
+                    "partido": 50
+                },
+                "quantidade_votos": 117,
+                "tipo_voto": "nominal"
+            },
+            "50033": {
+                "identificacao_votavel": {
+                    "codigo": 50033,
+                    "partido": 50
+                },
+                "quantidade_votos": 30,
+                "tipo_voto": "nominal"
+            },
+            "50055": {
+                "identificacao_votavel": {
+                    "codigo": 50055,
+                    "partido": 50
+                },
+                "quantidade_votos": 94,
+                "tipo_voto": "nominal"
+            },
+            "50099": {
+                "identificacao_votavel": {
+                    "codigo": 50099,
+                    "partido": 50
+                },
+                "quantidade_votos": 26,
+                "tipo_voto": "nominal"
+            },
+            "50100": {
+                "identificacao_votavel": {
+                    "codigo": 50100,
+                    "partido": 50
+                },
+                "quantidade_votos": 83,
+                "tipo_voto": "nominal"
+            },
+            "50123": {
+                "identificacao_votavel": {
+                    "codigo": 50123,
+                    "partido": 50
+                },
+                "quantidade_votos": 88,
+                "tipo_voto": "nominal"
+            },
+            "50222": {
+                "identificacao_votavel": {
+                    "codigo": 50222,
+                    "partido": 50
+                },
+                "quantidade_votos": 623,
+                "tipo_voto": "nominal"
+            },
+            "50223": {
+                "identificacao_votavel": {
+                    "codigo": 50223,
+                    "partido": 50
+                },
+                "quantidade_votos": 42,
+                "tipo_voto": "nominal"
+            },
+            "50233": {
+                "identificacao_votavel": {
+                    "codigo": 50233,
+                    "partido": 50
+                },
+                "quantidade_votos": 43,
+                "tipo_voto": "nominal"
+            },
+            "50333": {
+                "identificacao_votavel": {
+                    "codigo": 50333,
+                    "partido": 50
+                },
+                "quantidade_votos": 14,
+                "tipo_voto": "nominal"
+            },
+            "50444": {
+                "identificacao_votavel": {
+                    "codigo": 50444,
+                    "partido": 50
+                },
+                "quantidade_votos": 40,
+                "tipo_voto": "nominal"
+            },
+            "50500": {
+                "identificacao_votavel": {
+                    "codigo": 50500,
+                    "partido": 50
+                },
+                "quantidade_votos": 413,
+                "tipo_voto": "nominal"
+            },
+            "50510": {
+                "identificacao_votavel": {
+                    "codigo": 50510,
+                    "partido": 50
+                },
+                "quantidade_votos": 37,
+                "tipo_voto": "nominal"
+            },
+            "50555": {
+                "identificacao_votavel": {
+                    "codigo": 50555,
+                    "partido": 50
+                },
+                "quantidade_votos": 82,
+                "tipo_voto": "nominal"
+            },
+            "50777": {
+                "identificacao_votavel": {
+                    "codigo": 50777,
+                    "partido": 50
+                },
+                "quantidade_votos": 53,
+                "tipo_voto": "nominal"
+            },
+            "50888": {
+                "identificacao_votavel": {
+                    "codigo": 50888,
+                    "partido": 50
+                },
+                "quantidade_votos": 164,
+                "tipo_voto": "nominal"
+            },
+            "50999": {
+                "identificacao_votavel": {
+                    "codigo": 50999,
+                    "partido": 50
+                },
+                "quantidade_votos": 14,
+                "tipo_voto": "nominal"
+            },
+            "51": {
+                "identificacao_votavel": {
+                    "codigo": 51,
+                    "partido": 51
+                },
+                "quantidade_votos": 120,
+                "tipo_voto": "legenda"
+            },
+            "51000": {
+                "identificacao_votavel": {
+                    "codigo": 51000,
+                    "partido": 51
+                },
+                "quantidade_votos": 1796,
+                "tipo_voto": "nominal"
+            },
+            "51001": {
+                "identificacao_votavel": {
+                    "codigo": 51001,
+                    "partido": 51
+                },
+                "quantidade_votos": 30,
+                "tipo_voto": "nominal"
+            },
+            "51006": {
+                "identificacao_votavel": {
+                    "codigo": 51006,
+                    "partido": 51
+                },
+                "quantidade_votos": 7,
+                "tipo_voto": "nominal"
+            },
+            "51007": {
+                "identificacao_votavel": {
+                    "codigo": 51007,
+                    "partido": 51
+                },
+                "quantidade_votos": 36,
+                "tipo_voto": "nominal"
+            },
+            "51008": {
+                "identificacao_votavel": {
+                    "codigo": 51008,
+                    "partido": 51
+                },
+                "quantidade_votos": 4,
+                "tipo_voto": "nominal"
+            },
+            "51100": {
+                "identificacao_votavel": {
+                    "codigo": 51100,
+                    "partido": 51
+                },
+                "quantidade_votos": 1287,
+                "tipo_voto": "nominal"
+            },
+            "51111": {
+                "identificacao_votavel": {
+                    "codigo": 51111,
+                    "partido": 51
+                },
+                "quantidade_votos": 357,
+                "tipo_voto": "nominal"
+            },
+            "51123": {
+                "identificacao_votavel": {
+                    "codigo": 51123,
+                    "partido": 51
+                },
+                "quantidade_votos": 29,
+                "tipo_voto": "nominal"
+            },
+            "51190": {
+                "identificacao_votavel": {
+                    "codigo": 51190,
+                    "partido": 51
+                },
+                "quantidade_votos": 697,
+                "tipo_voto": "nominal"
+            },
+            "51200": {
+                "identificacao_votavel": {
+                    "codigo": 51200,
+                    "partido": 51
+                },
+                "quantidade_votos": 1152,
+                "tipo_voto": "nominal"
+            },
+            "51222": {
+                "identificacao_votavel": {
+                    "codigo": 51222,
+                    "partido": 51
+                },
+                "quantidade_votos": 140,
+                "tipo_voto": "nominal"
+            },
+            "51234": {
+                "identificacao_votavel": {
+                    "codigo": 51234,
+                    "partido": 51
+                },
+                "quantidade_votos": 216,
+                "tipo_voto": "nominal"
+            },
+            "51333": {
+                "identificacao_votavel": {
+                    "codigo": 51333,
+                    "partido": 51
+                },
+                "quantidade_votos": 264,
+                "tipo_voto": "nominal"
+            },
+            "51444": {
+                "identificacao_votavel": {
+                    "codigo": 51444,
+                    "partido": 51
+                },
+                "quantidade_votos": 2711,
+                "tipo_voto": "nominal"
+            },
+            "51555": {
+                "identificacao_votavel": {
+                    "codigo": 51555,
+                    "partido": 51
+                },
+                "quantidade_votos": 882,
+                "tipo_voto": "nominal"
+            },
+            "51777": {
+                "identificacao_votavel": {
+                    "codigo": 51777,
+                    "partido": 51
+                },
+                "quantidade_votos": 3,
+                "tipo_voto": "nominal"
+            },
+            "51888": {
+                "identificacao_votavel": {
+                    "codigo": 51888,
+                    "partido": 51
+                },
+                "quantidade_votos": 2598,
+                "tipo_voto": "nominal"
+            },
+            "51999": {
+                "identificacao_votavel": {
+                    "codigo": 51999,
+                    "partido": 51
+                },
+                "quantidade_votos": 395,
+                "tipo_voto": "nominal"
+            },
+            "55": {
+                "identificacao_votavel": {
+                    "codigo": 55,
+                    "partido": 55
+                },
+                "quantidade_votos": 913,
+                "tipo_voto": "legenda"
+            },
+            "55000": {
+                "identificacao_votavel": {
+                    "codigo": 55000,
+                    "partido": 55
+                },
+                "quantidade_votos": 2582,
+                "tipo_voto": "nominal"
+            },
+            "55012": {
+                "identificacao_votavel": {
+                    "codigo": 55012,
+                    "partido": 55
+                },
+                "quantidade_votos": 840,
+                "tipo_voto": "nominal"
+            },
+            "55100": {
+                "identificacao_votavel": {
+                    "codigo": 55100,
+                    "partido": 55
+                },
+                "quantidade_votos": 514,
+                "tipo_voto": "nominal"
+            },
+            "55111": {
+                "identificacao_votavel": {
+                    "codigo": 55111,
+                    "partido": 55
+                },
+                "quantidade_votos": 237,
+                "tipo_voto": "nominal"
+            },
+            "55122": {
+                "identificacao_votavel": {
+                    "codigo": 55122,
+                    "partido": 55
+                },
+                "quantidade_votos": 727,
+                "tipo_voto": "nominal"
+            },
+            "55123": {
+                "identificacao_votavel": {
+                    "codigo": 55123,
+                    "partido": 55
+                },
+                "quantidade_votos": 2375,
+                "tipo_voto": "nominal"
+            },
+            "55222": {
+                "identificacao_votavel": {
+                    "codigo": 55222,
+                    "partido": 55
+                },
+                "quantidade_votos": 1705,
+                "tipo_voto": "nominal"
+            },
+            "55223": {
+                "identificacao_votavel": {
+                    "codigo": 55223,
+                    "partido": 55
+                },
+                "quantidade_votos": 503,
+                "tipo_voto": "nominal"
+            },
+            "55236": {
+                "identificacao_votavel": {
+                    "codigo": 55236,
+                    "partido": 55
+                },
+                "quantidade_votos": 3567,
+                "tipo_voto": "nominal"
+            },
+            "55255": {
+                "identificacao_votavel": {
+                    "codigo": 55255,
+                    "partido": 55
+                },
+                "quantidade_votos": 86,
+                "tipo_voto": "nominal"
+            },
+            "55321": {
+                "identificacao_votavel": {
+                    "codigo": 55321,
+                    "partido": 55
+                },
+                "quantidade_votos": 514,
+                "tipo_voto": "nominal"
+            },
+            "55333": {
+                "identificacao_votavel": {
+                    "codigo": 55333,
+                    "partido": 55
+                },
+                "quantidade_votos": 1065,
+                "tipo_voto": "nominal"
+            },
+            "55422": {
+                "identificacao_votavel": {
+                    "codigo": 55422,
+                    "partido": 55
+                },
+                "quantidade_votos": 2350,
+                "tipo_voto": "nominal"
+            },
+            "55444": {
+                "identificacao_votavel": {
+                    "codigo": 55444,
+                    "partido": 55
+                },
+                "quantidade_votos": 524,
+                "tipo_voto": "nominal"
+            },
+            "55456": {
+                "identificacao_votavel": {
+                    "codigo": 55456,
+                    "partido": 55
+                },
+                "quantidade_votos": 1619,
+                "tipo_voto": "nominal"
+            },
+            "55512": {
+                "identificacao_votavel": {
+                    "codigo": 55512,
+                    "partido": 55
+                },
+                "quantidade_votos": 781,
+                "tipo_voto": "nominal"
+            },
+            "55552": {
+                "identificacao_votavel": {
+                    "codigo": 55552,
+                    "partido": 55
+                },
+                "quantidade_votos": 480,
+                "tipo_voto": "nominal"
+            },
+            "55555": {
+                "identificacao_votavel": {
+                    "codigo": 55555,
+                    "partido": 55
+                },
+                "quantidade_votos": 1384,
+                "tipo_voto": "nominal"
+            },
+            "55556": {
+                "identificacao_votavel": {
+                    "codigo": 55556,
+                    "partido": 55
+                },
+                "quantidade_votos": 39,
+                "tipo_voto": "nominal"
+            },
+            "55655": {
+                "identificacao_votavel": {
+                    "codigo": 55655,
+                    "partido": 55
+                },
+                "quantidade_votos": 165,
+                "tipo_voto": "nominal"
+            },
+            "55678": {
+                "identificacao_votavel": {
+                    "codigo": 55678,
+                    "partido": 55
+                },
+                "quantidade_votos": 369,
+                "tipo_voto": "nominal"
+            },
+            "55777": {
+                "identificacao_votavel": {
+                    "codigo": 55777,
+                    "partido": 55
+                },
+                "quantidade_votos": 5386,
+                "tipo_voto": "nominal"
+            },
+            "55789": {
+                "identificacao_votavel": {
+                    "codigo": 55789,
+                    "partido": 55
+                },
+                "quantidade_votos": 803,
+                "tipo_voto": "nominal"
+            },
+            "55888": {
+                "identificacao_votavel": {
+                    "codigo": 55888,
+                    "partido": 55
+                },
+                "quantidade_votos": 4810,
+                "tipo_voto": "nominal"
+            },
+            "55999": {
+                "identificacao_votavel": {
+                    "codigo": 55999,
+                    "partido": 55
+                },
+                "quantidade_votos": 1153,
+                "tipo_voto": "nominal"
+            },
+            "65": {
+                "identificacao_votavel": {
+                    "codigo": 65,
+                    "partido": 65
+                },
+                "quantidade_votos": 422,
+                "tipo_voto": "legenda"
+            },
+            "65123": {
+                "identificacao_votavel": {
+                    "codigo": 65123,
+                    "partido": 65
+                },
+                "quantidade_votos": 5822,
+                "tipo_voto": "nominal"
+            },
+            "65234": {
+                "identificacao_votavel": {
+                    "codigo": 65234,
+                    "partido": 65
+                },
+                "quantidade_votos": 81,
+                "tipo_voto": "nominal"
+            },
+            "65650": {
+                "identificacao_votavel": {
+                    "codigo": 65650,
+                    "partido": 65
+                },
+                "quantidade_votos": 90,
+                "tipo_voto": "nominal"
+            },
+            "65654": {
+                "identificacao_votavel": {
+                    "codigo": 65654,
+                    "partido": 65
+                },
+                "quantidade_votos": 32,
+                "tipo_voto": "nominal"
+            },
+            "77": {
+                "identificacao_votavel": {
+                    "codigo": 77,
+                    "partido": 77
+                },
+                "quantidade_votos": 421,
+                "tipo_voto": "legenda"
+            },
+            "77010": {
+                "identificacao_votavel": {
+                    "codigo": 77010,
+                    "partido": 77
+                },
+                "quantidade_votos": 37,
+                "tipo_voto": "nominal"
+            },
+            "77070": {
+                "identificacao_votavel": {
+                    "codigo": 77070,
+                    "partido": 77
+                },
+                "quantidade_votos": 145,
+                "tipo_voto": "nominal"
+            },
+            "77121": {
+                "identificacao_votavel": {
+                    "codigo": 77121,
+                    "partido": 77
+                },
+                "quantidade_votos": 288,
+                "tipo_voto": "nominal"
+            },
+            "77122": {
+                "identificacao_votavel": {
+                    "codigo": 77122,
+                    "partido": 77
+                },
+                "quantidade_votos": 63,
+                "tipo_voto": "nominal"
+            },
+            "77123": {
+                "identificacao_votavel": {
+                    "codigo": 77123,
+                    "partido": 77
+                },
+                "quantidade_votos": 589,
+                "tipo_voto": "nominal"
+            },
+            "77200": {
+                "identificacao_votavel": {
+                    "codigo": 77200,
+                    "partido": 77
+                },
+                "quantidade_votos": 620,
+                "tipo_voto": "nominal"
+            },
+            "77234": {
+                "identificacao_votavel": {
+                    "codigo": 77234,
+                    "partido": 77
+                },
+                "quantidade_votos": 480,
+                "tipo_voto": "nominal"
+            },
+            "77252": {
+                "identificacao_votavel": {
+                    "codigo": 77252,
+                    "partido": 77
+                },
+                "quantidade_votos": 279,
+                "tipo_voto": "nominal"
+            },
+            "77321": {
+                "identificacao_votavel": {
+                    "codigo": 77321,
+                    "partido": 77
+                },
+                "quantidade_votos": 321,
+                "tipo_voto": "nominal"
+            },
+            "77355": {
+                "identificacao_votavel": {
+                    "codigo": 77355,
+                    "partido": 77
+                },
+                "quantidade_votos": 119,
+                "tipo_voto": "nominal"
+            },
+            "77456": {
+                "identificacao_votavel": {
+                    "codigo": 77456,
+                    "partido": 77
+                },
+                "quantidade_votos": 232,
+                "tipo_voto": "nominal"
+            },
+            "77468": {
+                "identificacao_votavel": {
+                    "codigo": 77468,
+                    "partido": 77
+                },
+                "quantidade_votos": 529,
+                "tipo_voto": "nominal"
+            },
+            "77526": {
+                "identificacao_votavel": {
+                    "codigo": 77526,
+                    "partido": 77
+                },
+                "quantidade_votos": 150,
+                "tipo_voto": "nominal"
+            },
+            "77567": {
+                "identificacao_votavel": {
+                    "codigo": 77567,
+                    "partido": 77
+                },
+                "quantidade_votos": 509,
+                "tipo_voto": "nominal"
+            },
+            "77777": {
+                "identificacao_votavel": {
+                    "codigo": 77777,
+                    "partido": 77
+                },
+                "quantidade_votos": 653,
+                "tipo_voto": "nominal"
+            },
+            "77789": {
+                "identificacao_votavel": {
+                    "codigo": 77789,
+                    "partido": 77
+                },
+                "quantidade_votos": 1848,
+                "tipo_voto": "nominal"
+            },
+            "77889": {
+                "identificacao_votavel": {
+                    "codigo": 77889,
+                    "partido": 77
+                },
+                "quantidade_votos": 306,
+                "tipo_voto": "nominal"
+            },
+            "77890": {
+                "identificacao_votavel": {
+                    "codigo": 77890,
+                    "partido": 77
+                },
+                "quantidade_votos": 262,
+                "tipo_voto": "nominal"
+            },
+            "77987": {
+                "identificacao_votavel": {
+                    "codigo": 77987,
+                    "partido": 77
+                },
+                "quantidade_votos": 4082,
+                "tipo_voto": "nominal"
+            },
+            "90": {
+                "identificacao_votavel": {
+                    "codigo": 90,
+                    "partido": 90
+                },
+                "quantidade_votos": 1091,
+                "tipo_voto": "legenda"
+            },
+            "90000": {
+                "identificacao_votavel": {
+                    "codigo": 90000,
+                    "partido": 90
+                },
+                "quantidade_votos": 3558,
+                "tipo_voto": "nominal"
+            },
+            "90111": {
+                "identificacao_votavel": {
+                    "codigo": 90111,
+                    "partido": 90
+                },
+                "quantidade_votos": 115,
+                "tipo_voto": "nominal"
+            },
+            "90123": {
+                "identificacao_votavel": {
+                    "codigo": 90123,
+                    "partido": 90
+                },
+                "quantidade_votos": 2372,
+                "tipo_voto": "nominal"
+            },
+            "90142": {
+                "identificacao_votavel": {
+                    "codigo": 90142,
+                    "partido": 90
+                },
+                "quantidade_votos": 376,
+                "tipo_voto": "nominal"
+            },
+            "90147": {
+                "identificacao_votavel": {
+                    "codigo": 90147,
+                    "partido": 90
+                },
+                "quantidade_votos": 979,
+                "tipo_voto": "nominal"
+            },
+            "90222": {
+                "identificacao_votavel": {
+                    "codigo": 90222,
+                    "partido": 90
+                },
+                "quantidade_votos": 1054,
+                "tipo_voto": "nominal"
+            },
+            "90234": {
+                "identificacao_votavel": {
+                    "codigo": 90234,
+                    "partido": 90
+                },
+                "quantidade_votos": 105,
+                "tipo_voto": "nominal"
+            },
+            "90300": {
+                "identificacao_votavel": {
+                    "codigo": 90300,
+                    "partido": 90
+                },
+                "quantidade_votos": 238,
+                "tipo_voto": "nominal"
+            },
+            "90321": {
+                "identificacao_votavel": {
+                    "codigo": 90321,
+                    "partido": 90
+                },
+                "quantidade_votos": 1155,
+                "tipo_voto": "nominal"
+            },
+            "90333": {
+                "identificacao_votavel": {
+                    "codigo": 90333,
+                    "partido": 90
+                },
+                "quantidade_votos": 275,
+                "tipo_voto": "nominal"
+            },
+            "90345": {
+                "identificacao_votavel": {
+                    "codigo": 90345,
+                    "partido": 90
+                },
+                "quantidade_votos": 190,
+                "tipo_voto": "nominal"
+            },
+            "90444": {
+                "identificacao_votavel": {
+                    "codigo": 90444,
+                    "partido": 90
+                },
+                "quantidade_votos": 5,
+                "tipo_voto": "nominal"
+            },
+            "90456": {
+                "identificacao_votavel": {
+                    "codigo": 90456,
+                    "partido": 90
+                },
+                "quantidade_votos": 883,
+                "tipo_voto": "nominal"
+            },
+            "90555": {
+                "identificacao_votavel": {
+                    "codigo": 90555,
+                    "partido": 90
+                },
+                "quantidade_votos": 305,
+                "tipo_voto": "nominal"
+            },
+            "90680": {
+                "identificacao_votavel": {
+                    "codigo": 90680,
+                    "partido": 90
+                },
+                "quantidade_votos": 108,
+                "tipo_voto": "nominal"
+            },
+            "90700": {
+                "identificacao_votavel": {
+                    "codigo": 90700,
+                    "partido": 90
+                },
+                "quantidade_votos": 29,
+                "tipo_voto": "nominal"
+            },
+            "90777": {
+                "identificacao_votavel": {
+                    "codigo": 90777,
+                    "partido": 90
+                },
+                "quantidade_votos": 151,
+                "tipo_voto": "nominal"
+            },
+            "90789": {
+                "identificacao_votavel": {
+                    "codigo": 90789,
+                    "partido": 90
+                },
+                "quantidade_votos": 330,
+                "tipo_voto": "nominal"
+            },
+            "90800": {
+                "identificacao_votavel": {
+                    "codigo": 90800,
+                    "partido": 90
+                },
+                "quantidade_votos": 29,
+                "tipo_voto": "nominal"
+            },
+            "90852": {
+                "identificacao_votavel": {
+                    "codigo": 90852,
+                    "partido": 90
+                },
+                "quantidade_votos": 583,
+                "tipo_voto": "nominal"
+            },
+            "90888": {
+                "identificacao_votavel": {
+                    "codigo": 90888,
+                    "partido": 90
+                },
+                "quantidade_votos": 1485,
+                "tipo_voto": "nominal"
+            },
+            "90899": {
+                "identificacao_votavel": {
+                    "codigo": 90899,
+                    "partido": 90
+                },
+                "quantidade_votos": 65,
+                "tipo_voto": "nominal"
+            },
+            "90900": {
+                "identificacao_votavel": {
+                    "codigo": 90900,
+                    "partido": 90
+                },
+                "quantidade_votos": 260,
+                "tipo_voto": "nominal"
+            },
+            "90987": {
+                "identificacao_votavel": {
+                    "codigo": 90987,
+                    "partido": 90
+                },
+                "quantidade_votos": 24,
+                "tipo_voto": "nominal"
+            },
+            "90999": {
+                "identificacao_votavel": {
+                    "codigo": 90999,
+                    "partido": 90
+                },
+                "quantidade_votos": 776,
+                "tipo_voto": "nominal"
+            },
+            "branco": {
+                "identificacao_votavel": {
+                    "codigo": "branco"
+                },
+                "quantidade_votos": 9533,
+                "tipo_voto": "branco"
+            },
+            "nulo": {
+                "identificacao_votavel": {
+                    "codigo": "nulo"
+                },
+                "quantidade_votos": 6402,
+                "tipo_voto": "nulo"
+            }
+        }
+    }
+}
